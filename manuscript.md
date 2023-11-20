@@ -53,8 +53,8 @@ header-includes: |
   <meta name="dc.date" content="2023-11-20" />
   <meta name="citation_publication_date" content="2023-11-20" />
   <meta property="article:published_time" content="2023-11-20" />
-  <meta name="dc.modified" content="2023-11-20T19:22:37+00:00" />
-  <meta property="article:modified_time" content="2023-11-20T19:22:37+00:00" />
+  <meta name="dc.modified" content="2023-11-20T19:25:40+00:00" />
+  <meta property="article:modified_time" content="2023-11-20T19:25:40+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -146,9 +146,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://biocypher.github.io/biocypher-paper/" />
   <meta name="citation_pdf_url" content="https://biocypher.github.io/biocypher-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://biocypher.github.io/biocypher-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://biocypher.github.io/biocypher-paper/v/0b304c33f5b5eb30c4860c75688e3ffb7828b604/" />
-  <meta name="manubot_html_url_versioned" content="https://biocypher.github.io/biocypher-paper/v/0b304c33f5b5eb30c4860c75688e3ffb7828b604/" />
-  <meta name="manubot_pdf_url_versioned" content="https://biocypher.github.io/biocypher-paper/v/0b304c33f5b5eb30c4860c75688e3ffb7828b604/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://biocypher.github.io/biocypher-paper/v/b547ee0f6a695e93280c3a14c5d95ce20fbcb328/" />
+  <meta name="manubot_html_url_versioned" content="https://biocypher.github.io/biocypher-paper/v/b547ee0f6a695e93280c3a14c5d95ce20fbcb328/" />
+  <meta name="manubot_pdf_url_versioned" content="https://biocypher.github.io/biocypher-paper/v/b547ee0f6a695e93280c3a14c5d95ce20fbcb328/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -170,9 +170,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://biocypher.github.io/biocypher-paper/v/0b304c33f5b5eb30c4860c75688e3ffb7828b604/))
+([permalink](https://biocypher.github.io/biocypher-paper/v/b547ee0f6a695e93280c3a14c5d95ce20fbcb328/))
 was automatically generated
-from [biocypher/biocypher-paper@0b304c3](https://github.com/biocypher/biocypher-paper/tree/0b304c33f5b5eb30c4860c75688e3ffb7828b604)
+from [biocypher/biocypher-paper@b547ee0](https://github.com/biocypher/biocypher-paper/tree/b547ee0f6a695e93280c3a14c5d95ce20fbcb328)
 on November 20, 2023.
 </em></small>
 
@@ -416,9 +416,9 @@ In addition, decisions about how to represent knowledge at each primary resource
 
 The current landscape of biomedical KGs is not easily navigated; neither the KGs themselves, nor the pipelines used to build them, consistently adhere to FAIR (Findable, Accessible, Interoperable, and Reusable) [@doi:10.1038/sdata.2016.18] and TRUST (Transparency, Responsibility, User focus, Sustainability, and Technology) [@doi:10.1038/s41597-020-0486-7] principles.
 Understandably, the overhead required to implement these principles may not be justified when building a one-off task-specific KG for research.
-Thus, many KGs are built manually for specific applications, which leads to issues in their reuse and integration [@doi:@doi:10.1093/bib/bbac404].
-For downstream users, the resulting KGs are too distinct to easily compare or combine [@doi:@doi:10.1146/annurev-biodatasci-010820-091627].
-Maintaining KGs for the community is additional work; once maintenance stops, they quickly deteriorate, leading to reusability and reproducibility issues [@doi:@doi:10.1093/bib/bbac404] (Supplementary Note 1).
+Thus, many KGs are built manually for specific applications, which leads to issues in their reuse and integration [@doi:10.1093/bib/bbac404].
+For downstream users, the resulting KGs are too distinct to easily compare or combine [@doi:10.1146/annurev-biodatasci-010820-091627].
+Maintaining KGs for the community is additional work; once maintenance stops, they quickly deteriorate, leading to reusability and reproducibility issues [@doi:10.1093/bib/bbac404] (Supplementary Note 1).
 
 BioCypher has been built with continuous consideration of the FAIR and TRUST principles, yielding benefits to the entire community in multiple respects:
 

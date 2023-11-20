@@ -18,10 +18,10 @@ Bioconductor
 BioCypher
 BioCypher’s
 BioGRID
-Bioinformatics
+bioinformatics
 Biolink
 biomarkers
-Biomedicine
+biomedicine
 BioPAX
 Bioquant
 Bioregistry
@@ -68,7 +68,7 @@ Dunham
 DZD
 Earlham
 EBI
-embeddings
+Embeddings
 EMBL
 ENSEMBL
 Enum
@@ -157,7 +157,7 @@ PrimeKG
 Probul
 programmatically
 proteome
-proteomics
+Proteomics
 PyPath
 PyPI
 PySpark
