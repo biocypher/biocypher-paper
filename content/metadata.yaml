@@ -1,5 +1,5 @@
 ---
-title: "Manuscript Title"
+title: "Democratizing knowledge representation with BioCypher"
 date: null  # Defaults to date generated, but can specify like '2022-10-31'.
 keywords:
   - markdown
@@ -7,24 +7,122 @@ keywords:
   - manubot
 lang: en-US
 authors:
-  - github: johndoe
-    name: John Doe
-    initials: JD
-    orcid: XXXX-XXXX-XXXX-XXXX
-    twitter: johndoe
-    mastodon: johndoe
-    mastodon-server: mastodon.social
-    email: john.doe@something.com
-    affiliations:
-      - Department of Something, University of Whatever
-    funders:
-      - Grant XXXXXXXX
-  - github: janeroe
-    name: Jane Roe
-    initials: JR
-    orcid: XXXX-XXXX-XXXX-XXXX
-    email: jane.roe@whatever.edu
-    affiliations:
-      - Department of Something, University of Whatever
-      - Department of Whatever, University of Something
-    corresponding: true
+- github: slobentanzer
+  name: Sebastian Lobentanzer
+  initials: SL
+  orcid: 0000-0003-3399-6695
+  twitter: slobentanzer
+  email: sebastian.lobentanzer@gmail.com
+  affiliations:
+    - Heidelberg University, Faculty of Medicine and Heidelberg University Hospital, Institute for Computational Biomedicine, Heidelberg, Germany
+  corresponding: true
+- name: Patrick Aloy
+  affiliations:
+  - Institute for Research in Biomedicine (IRB Barcelona), the Barcelona Institute of Science and Technology, Barcelona, Catalonia, Spain
+  - Institució Catalana de Recerca i Estudis Avançats (ICREA), Barcelona, Catalonia, Spain
+- name: Jan Baumbach
+  affiliations:
+  - Institute for Computational Systems Biology, University of Hamburg, Germany
+- name: Balazs Bohar
+  affiliations:
+  - Earlham Institute, Norwich, UK
+  - Biological Research Centre, Szeged, Hungary
+- name: Vincent J. Carey
+  affiliations:
+  - Channing Division of Network Medicine, Mass General Brigham, Harvard Medical School, Boston, USA
+- name: Pornpimol Charoentong
+  affiliations:
+  - Centre for Quantitative Analysis of Molecular and Cellular Biosystems (Bioquant), Heidelberg University, Im Neuenheimer Feld 267, 69120, Heidelberg, Germany
+  - Department of Medical Oncology, National Centre for Tumour Diseases (NCT), Heidelberg University Hospital (UKHD), Im Neuenheimer Feld 460, 69120, Heidelberg, Germany
+- name: Katharina Danhauser
+  affiliations:
+  - Department of Pediatrics, Dr. von Hauner Children’s Hospital, University Hospital, LMU Munich, Germany
+- name: Tunca Doğan
+  affiliations:
+  - Biological Data Science Lab, Department of Computer Engineering, Hacettepe University, Ankara, Turkey
+  - Department of Bioinformatics, Graduate School of Health Sciences, Hacettepe University, Ankara, Turkey
+- name: Johann Dreo
+  affiliations:
+  - Computational Systems Biomedicine Lab, Department of Computational Biology, Institut Pasteur, Université Paris Cité, Paris, France
+  - Bioinformatics and Biostatistics Hub, Institut Pasteur, Université Paris Cité, Paris, France
+- name: Ian Dunham
+  affiliations:
+  - European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Genome Campus, Hinxton, Cambridgeshire CB10 1SD, UK
+  - Open Targets, Wellcome Genome Campus, Hinxton, Cambridgeshire CB10 1SD, UK
+- name: Elias Farr
+  affiliations:
+  - Heidelberg University, Faculty of Medicine, and Heidelberg University Hospital, Institute for Computational Biomedicine, Bioquant, Heidelberg, Germany
+- name: Adrià Fernandez-Torras
+  affiliations:
+  - Institute for Research in Biomedicine (IRB Barcelona), the Barcelona Institute of Science and Technology, Barcelona, Catalonia, Spain
+- name: Benjamin M. Gyori
+  affiliations:
+  - Laboratory of Systems Pharmacology, Harvard Medical School, Boston, USA
+- name: Michael Hartung
+  affiliations:
+  - Institute for Computational Systems Biology, University of Hamburg, Germany
+- name: Charles Tapley Hoyt
+  affiliations:
+  - Laboratory of Systems Pharmacology, Harvard Medical School, Boston, USA
+- name: Christoph Klein
+  affiliations:
+  - Department of Pediatrics, Dr. von Hauner Children’s Hospital, University Hospital, LMU Munich, Germany
+- name: Tamas Korcsmaros
+  affiliations:
+  - Earlham Institute, Norwich, UK
+  - Quadram Institute Bioscience, Norwich, UK
+- name: Andreas Maier
+  affiliations:
+  - Institute for Computational Systems Biology, University of Hamburg, Germany
+- name: Matthias Mann
+  affiliations:
+  - Proteomics Program, Novo Nordisk Foundation Centre for Protein Research, University of Copenhagen, Copenhagen, Denmark
+  - Department of Proteomics and Signal Transduction, Max Planck Institute of Biochemistry, Martinsried, Germany
+- name: David Ochoa
+  affiliations:
+  - European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Genome Campus, Hinxton, Cambridgeshire CB10 1SD, UK
+  - Open Targets, Wellcome Genome Campus, Hinxton, Cambridgeshire CB10 1SD, UK
+- name: Elena Pareja-Lorente
+  affiliations:
+  - Institute for Research in Biomedicine (IRB Barcelona), the Barcelona Institute of Science and Technology, Barcelona, Catalonia, Spain
+- name: Ferdinand Popp
+  affiliations:
+  - Applied Tumour Immunity Clinical Cooperation Unit, National Centre for Tumour Diseases (NCT), German Cancer Research Centre (DKFZ), Im Neuenheimer Feld 460, 69120, Heidelberg, Germany
+- name: Martin Preusse
+  affiliations:
+  - Centre for Quantitative Analysis of Molecular and Cellular Biosystems (Bioquant), Heidelberg University, Im Neuenheimer Feld 267, 69120, Heidelberg, Germany
+- name: Niklas Probul
+  affiliations:
+  - Institute for Computational Systems Biology, University of Hamburg, Germany
+- name: Benno Schwikowski
+  affiliations:
+  - Computational Systems Biomedicine Lab, Department of Computational Biology, Institut Pasteur, Université Paris Cité, Paris, France
+- name: Bünyamin Sen
+  affiliations:
+  - Biological Data Science Lab, Department of Computer Engineering, Hacettepe University, Ankara, Turkey
+  - Department of Bioinformatics, Graduate School of Health Sciences, Hacettepe University, Ankara, Turkey
+- name: Maximilian T. Strauss
+  affiliations:
+  - Proteomics Program, Novo Nordisk Foundation Centre for Protein Research, University of Copenhagen, Copenhagen, Denmark
+- name: Denes Turei
+  affiliations:
+  - Heidelberg University, Faculty of Medicine, and Heidelberg University Hospital, Institute for Computational Biomedicine, Bioquant, Heidelberg, Germany
+- name: Erva Ulusoy
+  affiliations:
+  - Biological Data Science Lab, Department of Computer Engineering, Hacettepe University, Ankara, Turkey
+  - Department of Bioinformatics, Graduate School of Health Sciences, Hacettepe University, Ankara, Turkey
+- name: Dagmar Waltemath
+  affiliations:
+  - Centre for Quantitative Analysis of Molecular and Cellular Biosystems (Bioquant), Heidelberg University, Im Neuenheimer Feld 267, 69120, Heidelberg, Germany
+- name: Judith A. H. Wodke
+  affiliations:
+  - Centre for Quantitative Analysis of Molecular and Cellular Biosystems (Bioquant), Heidelberg University, Im Neuenheimer Feld 267, 69120, Heidelberg, Germany
+- github: saezrodriguez
+  name: Julio Saez-Rodriguez
+  initials: JSR
+  orcid: 0000-0002-8552-8976
+  twitter: saezlab
+  email: pub.saez@uni-heidelberg.de
+  affiliations:
+    - Heidelberg University, Faculty of Medicine and Heidelberg University Hospital, Institute for Computational Biomedicine, Heidelberg, Germany
+  corresponding: true
