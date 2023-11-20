@@ -1,476 +1,973 @@
 [
   {
-    "publisher": "The Royal Society",
-    "issue": "141",
-    "abstract": "<jats:p>Deep learning describes a class of machine learning algorithms that are capable of combining raw inputs into layers of intermediate features. These algorithms have recently shown impressive results across a variety of domains. Biology and medicine are data-rich disciplines, but the data are complex and often ill-understood. Hence, deep learning techniques may be particularly well suited to solve problems of these fields. We examine applications of deep learning to a variety of biomedical problems—patient classification, fundamental biological processes and treatment of patients—and discuss whether deep learning will be able to transform these tasks or if the biomedical sphere poses unique challenges. Following from an extensive literature review, we find that deep learning has yet to revolutionize biomedicine or definitively resolve any of the most pressing challenges in the field, but promising advances have been made on the prior state of the art. Even though improvements over previous baselines have been modest in general, the recent progress indicates that deep learning methods will provide valuable means for speeding up or aiding human investigation. Though progress has been made linking a specific neural network's prediction to input features, understanding how users should interpret these models to make testable hypotheses about the system under study remains an open challenge. Furthermore, the limited amount of labelled data for training presents problems in some domains, as do legal and privacy constraints on work with sensitive health records. Nonetheless, we foresee deep learning enabling changes at both bench and bedside with the potential to transform several areas of biology and medicine.</jats:p>",
-    "DOI": "10.1098/rsif.2017.0387",
+    "publisher": "Elsevier BV",
+    "DOI": "10.1016/j.artint.2021.103627",
     "type": "article-journal",
-    "page": "20170387",
+    "page": "103627",
     "source": "Crossref",
-    "title": "Opportunities and obstacles for deep learning in biology and medicine",
-    "volume": "15",
+    "title": "Knowledge graphs as tools for explainable machine learning: A survey",
+    "volume": "302",
     "author": [
       {
-        "given": "Travers",
-        "family": "Ching"
+        "given": "Ilaria",
+        "family": "Tiddi"
       },
       {
-        "given": "Daniel S.",
-        "family": "Himmelstein"
-      },
-      {
-        "given": "Brett K.",
-        "family": "Beaulieu-Jones"
-      },
-      {
-        "given": "Alexandr A.",
-        "family": "Kalinin"
-      },
-      {
-        "given": "Brian T.",
-        "family": "Do"
-      },
-      {
-        "given": "Gregory P.",
-        "family": "Way"
-      },
-      {
-        "given": "Enrico",
-        "family": "Ferrero"
-      },
-      {
-        "given": "Paul-Michael",
-        "family": "Agapow"
-      },
-      {
-        "given": "Michael",
-        "family": "Zietz"
-      },
-      {
-        "given": "Michael M.",
-        "family": "Hoffman"
-      },
-      {
-        "given": "Wei",
-        "family": "Xie"
-      },
-      {
-        "given": "Gail L.",
-        "family": "Rosen"
-      },
-      {
-        "given": "Benjamin J.",
-        "family": "Lengerich"
-      },
-      {
-        "given": "Johnny",
-        "family": "Israeli"
-      },
-      {
-        "given": "Jack",
-        "family": "Lanchantin"
-      },
-      {
-        "given": "Stephen",
-        "family": "Woloszynek"
-      },
-      {
-        "given": "Anne E.",
-        "family": "Carpenter"
-      },
-      {
-        "given": "Avanti",
-        "family": "Shrikumar"
-      },
-      {
-        "given": "Jinbo",
-        "family": "Xu"
-      },
-      {
-        "given": "Evan M.",
-        "family": "Cofer"
-      },
-      {
-        "given": "Christopher A.",
-        "family": "Lavender"
-      },
-      {
-        "given": "Srinivas C.",
-        "family": "Turaga"
-      },
-      {
-        "given": "Amr M.",
-        "family": "Alexandari"
-      },
-      {
-        "given": "Zhiyong",
-        "family": "Lu"
-      },
-      {
-        "given": "David J.",
-        "family": "Harris"
-      },
-      {
-        "given": "Dave",
-        "family": "DeCaprio"
-      },
-      {
-        "given": "Yanjun",
-        "family": "Qi"
-      },
-      {
-        "given": "Anshul",
-        "family": "Kundaje"
-      },
-      {
-        "given": "Yifan",
-        "family": "Peng"
-      },
-      {
-        "given": "Laura K.",
-        "family": "Wiley"
-      },
-      {
-        "given": "Marwin H. S.",
-        "family": "Segler"
-      },
-      {
-        "given": "Simina M.",
-        "family": "Boca"
-      },
-      {
-        "given": "S. Joshua",
-        "family": "Swamidass"
-      },
-      {
-        "given": "Austin",
-        "family": "Huang"
-      },
-      {
-        "given": "Anthony",
-        "family": "Gitter"
-      },
-      {
-        "given": "Casey S.",
-        "family": "Greene"
+        "given": "Stefan",
+        "family": "Schlobach"
       }
     ],
-    "container-title": "Journal of The Royal Society Interface",
+    "container-title": "Artificial Intelligence",
     "language": "en",
     "issued": {
       "date-parts": [
         [
-          2018,
-          4
-        ]
-      ]
-    },
-    "URL": "https://doi.org/gddkhn",
-    "container-title-short": "J. R. Soc. Interface.",
-    "PMCID": "PMC5938574",
-    "PMID": "29618526",
-    "id": "PZMP42Ak",
-    "note": "This CSL Item was generated by Manubot v0.5.6 from its persistent identifier (standard_id).\nstandard_id: doi:10.1098/rsif.2017.0387"
-  },
-  {
-    "publisher": "Public Library of Science (PLoS)",
-    "issue": "6",
-    "DOI": "10.1371/journal.pcbi.1007128",
-    "type": "article-journal",
-    "page": "e1007128",
-    "source": "Crossref",
-    "title": "Open collaborative writing with Manubot",
-    "volume": "15",
-    "author": [
-      {
-        "given": "Daniel S.",
-        "family": "Himmelstein"
-      },
-      {
-        "given": "Vincent",
-        "family": "Rubinetti"
-      },
-      {
-        "given": "David R.",
-        "family": "Slochower"
-      },
-      {
-        "given": "Dongbo",
-        "family": "Hu"
-      },
-      {
-        "given": "Venkat S.",
-        "family": "Malladi"
-      },
-      {
-        "given": "Casey S.",
-        "family": "Greene"
-      },
-      {
-        "given": "Anthony",
-        "family": "Gitter"
-      }
-    ],
-    "container-title": "PLOS Computational Biology",
-    "language": "en",
-    "editor": [
-      {
-        "given": "Dina",
-        "family": "Schneidman-Duhovny"
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          2019,
-          6,
-          24
-        ]
-      ]
-    },
-    "URL": "https://doi.org/c7np",
-    "container-title-short": "PLoS Comput Biol",
-    "PMCID": "PMC6611653",
-    "PMID": "31233491",
-    "id": "YuJbg3zO",
-    "note": "This CSL Item was generated by Manubot v0.5.6 from its persistent identifier (standard_id).\nstandard_id: doi:10.1371/journal.pcbi.1007128"
-  },
-  {
-    "publisher": "eLife Sciences Publications, Ltd",
-    "abstract": "<jats:p>The website Sci-Hub enables users to download PDF versions of scholarly articles, including many articles that are paywalled at their journal’s site. Sci-Hub has grown rapidly since its creation in 2011, but the extent of its coverage has been unclear. Here we report that, as of March 2017, Sci-Hub’s database contains 68.9% of the 81.6 million scholarly articles registered with Crossref and 85.1% of articles published in toll access journals. We find that coverage varies by discipline and publisher, and that Sci-Hub preferentially covers popular, paywalled content. For toll access articles, we find that Sci-Hub provides greater coverage than the University of Pennsylvania, a major research university in the United States. Green open access to toll access articles via licit services, on the other hand, remains quite limited. Our interactive browser at https://greenelab.github.io/scihub allows users to explore these findings in more detail. For the first time, nearly all scholarly literature is available gratis to anyone with an Internet connection, suggesting the toll access business model may become unsustainable.</jats:p>",
-    "DOI": "10.7554/elife.32822",
-    "type": "article-journal",
-    "source": "Crossref",
-    "title": "Sci-Hub provides access to nearly all scholarly literature",
-    "volume": "7",
-    "author": [
-      {
-        "given": "Daniel S",
-        "family": "Himmelstein"
-      },
-      {
-        "given": "Ariel Rodriguez",
-        "family": "Romero"
-      },
-      {
-        "given": "Jacob G",
-        "family": "Levernier"
-      },
-      {
-        "given": "Thomas Anthony",
-        "family": "Munro"
-      },
-      {
-        "given": "Stephen Reid",
-        "family": "McLaughlin"
-      },
-      {
-        "given": "Bastian",
-        "family": "Greshake Tzovaras"
-      },
-      {
-        "given": "Casey S",
-        "family": "Greene"
-      }
-    ],
-    "container-title": "eLife",
-    "language": "en",
-    "issued": {
-      "date-parts": [
-        [
-          2018,
-          3,
+          2022,
           1
         ]
       ]
     },
-    "URL": "https://doi.org/ckcj",
-    "PMCID": "PMC5832410",
-    "PMID": "29424689",
-    "id": "IhliSZDo",
-    "note": "This CSL Item was generated by Manubot v0.5.6 from its persistent identifier (standard_id).\nstandard_id: doi:10.7554/elife.32822"
+    "URL": "https://doi.org/gnstxz",
+    "container-title-short": "Artificial Intelligence",
+    "id": "CiGapf55",
+    "note": "This CSL Item was generated by Manubot v0.5.6 from its persistent identifier (standard_id).\nstandard_id: doi:10.1016/j.artint.2021.103627"
   },
   {
-    "id": "zBPP9YKu",
-    "type": "book",
-    "call-number": "Z286.O63 S83 2012",
-    "collection-title": "MIT Press essential knowledge series",
-    "event-place": "Cambridge, Mass",
-    "ISBN": "9780262517638",
-    "note": "OCLC: ocn754518563\nThis CSL Item was generated by Manubot v0.5.6 from its persistent identifier (standard_id).\nstandard_id: isbn:9780262517638",
-    "number-of-pages": "242",
-    "publisher": "MIT Press",
-    "publisher-place": "Cambridge, Mass",
-    "source": "Library of Congress ISBN",
-    "title": "Open access",
+    "publisher": "Elsevier BV",
+    "issue": "1",
+    "DOI": "10.1016/j.jbi.2010.10.003",
+    "type": "article-journal",
+    "page": "137-145",
+    "source": "Crossref",
+    "title": "The Biomedical Resource Ontology (BRO) to enable resource discovery in clinical and translational research",
+    "volume": "44",
     "author": [
       {
-        "family": "Suber",
-        "given": "Peter"
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          "2012"
-        ]
-      ]
-    }
-  },
-  {
-    "source": "PubMed",
-    "accessed": {
-      "date-parts": [
-        [
-          2023,
-          11,
-          20
-        ]
-      ]
-    },
-    "id": "mSMVRkoc",
-    "title": "Reproducibility of computational workflows is automated using continuous analysis",
-    "author": [
-      {
-        "family": "Beaulieu-Jones",
-        "given": "Brett K"
+        "given": "Jessica D.",
+        "family": "Tenenbaum"
       },
       {
-        "family": "Greene",
-        "given": "Casey S"
+        "given": "Patricia L.",
+        "family": "Whetzel"
+      },
+      {
+        "given": "Kent",
+        "family": "Anderson"
+      },
+      {
+        "given": "Charles D.",
+        "family": "Borromeo"
+      },
+      {
+        "given": "Ivo D.",
+        "family": "Dinov"
+      },
+      {
+        "given": "Davera",
+        "family": "Gabriel"
+      },
+      {
+        "given": "Beth",
+        "family": "Kirschner"
+      },
+      {
+        "given": "Barbara",
+        "family": "Mirel"
+      },
+      {
+        "given": "Tim",
+        "family": "Morris"
+      },
+      {
+        "given": "Natasha",
+        "family": "Noy"
+      },
+      {
+        "given": "Csongor",
+        "family": "Nyulas"
+      },
+      {
+        "given": "David",
+        "family": "Rubenson"
+      },
+      {
+        "given": "Paul R.",
+        "family": "Saxman"
+      },
+      {
+        "given": "Harpreet",
+        "family": "Singh"
+      },
+      {
+        "given": "Nancy",
+        "family": "Whelan"
+      },
+      {
+        "given": "Zach",
+        "family": "Wright"
+      },
+      {
+        "given": "Brian D.",
+        "family": "Athey"
+      },
+      {
+        "given": "Michael J.",
+        "family": "Becich"
+      },
+      {
+        "given": "Geoffrey S.",
+        "family": "Ginsburg"
+      },
+      {
+        "given": "Mark A.",
+        "family": "Musen"
+      },
+      {
+        "given": "Kevin A.",
+        "family": "Smith"
+      },
+      {
+        "given": "Alice F.",
+        "family": "Tarantal"
+      },
+      {
+        "given": "Daniel L.",
+        "family": "Rubin"
+      },
+      {
+        "given": "Peter",
+        "family": "Lyster"
       }
     ],
-    "container-title-short": "Nat Biotechnol",
-    "container-title": "Nature biotechnology",
-    "publisher-place": "United States",
-    "ISSN": "1087-0156",
+    "container-title": "Journal of Biomedical Informatics",
+    "language": "en",
     "issued": {
       "date-parts": [
         [
-          2017,
-          4
-        ]
-      ]
-    },
-    "page": "342-346",
-    "volume": "35",
-    "issue": "4",
-    "PMID": "28288103",
-    "PMCID": "PMC6103790",
-    "DOI": "10.1038/nbt.3780",
-    "type": "article-journal",
-    "URL": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6103790/",
-    "note": "This CSL Item was generated by Manubot v0.5.6 from its persistent identifier (standard_id).\nstandard_id: pmc:PMC6103790"
-  },
-  {
-    "title": "Bitcoin for the biological literature.",
-    "volume": "566",
-    "issue": "7742",
-    "page": "141-142",
-    "container-title": "Nature",
-    "container-title-short": "Nature",
-    "ISSN": "1476-4687",
-    "issued": {
-      "date-parts": [
-        [
-          2019,
+          2011,
           2
         ]
       ]
     },
-    "author": [
-      {
-        "given": "Douglas",
-        "family": "Heaven"
-      }
-    ],
-    "PMID": "30718888",
-    "DOI": "10.1038/d41586-019-00447-9",
-    "URL": "https://www.ncbi.nlm.nih.gov/pubmed/30718888",
-    "type": "article-journal",
-    "id": "126Wi5Us4",
-    "note": "This CSL Item was generated by Manubot v0.5.6 from its persistent identifier (standard_id).\nstandard_id: pubmed:30718888"
+    "URL": "https://doi.org/c66d8c",
+    "container-title-short": "Journal of Biomedical Informatics",
+    "PMCID": "PMC3050430",
+    "PMID": "20955817",
+    "id": "1ALlMCWlM",
+    "note": "This CSL Item was generated by Manubot v0.5.6 from its persistent identifier (standard_id).\nstandard_id: doi:10.1016/j.jbi.2010.10.003"
   },
   {
-    "id": "1GGGHdsew",
-    "type": "report",
-    "language": "en-US",
-    "publisher": "Manubot",
-    "source": "greenelab.github.io",
-    "title": "Open collaborative writing with Manubot",
-    "URL": "https://greenelab.github.io/meta-review/",
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "12",
+    "DOI": "10.1038/nmeth.4077",
+    "type": "article-journal",
+    "page": "966-967",
+    "source": "Crossref",
+    "title": "OmniPath: guidelines and gateway for literature-curated signaling pathway resources",
+    "volume": "13",
     "author": [
       {
-        "family": "Himmelstein",
-        "given": "Daniel S."
+        "given": "Dénes",
+        "family": "Türei"
       },
       {
-        "family": "Rubinetti",
-        "given": "Vincent"
+        "given": "Tamás",
+        "family": "Korcsmáros"
       },
       {
-        "family": "Slochower",
-        "given": "David R."
-      },
-      {
-        "family": "Hu",
-        "given": "Dongbo"
-      },
-      {
-        "family": "Malladi",
-        "given": "Venkat S."
-      },
-      {
-        "family": "Greene",
-        "given": "Casey S."
-      },
-      {
-        "family": "Gitter",
-        "given": "Anthony"
+        "given": "Julio",
+        "family": "Saez-Rodriguez"
       }
     ],
-    "accessed": {
+    "container-title": "Nature Methods",
+    "language": "en",
+    "issued": {
       "date-parts": [
         [
-          "2023",
+          2016,
           11,
+          29
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gh29s5",
+    "container-title-short": "Nat Methods",
+    "PMID": "27898060",
+    "id": "BDzI9Y5F",
+    "note": "This CSL Item was generated by Manubot v0.5.6 from its persistent identifier (standard_id).\nstandard_id: doi:10.1038/nmeth.4077"
+  },
+  {
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>Biomedical data is accumulating at a fast pace and integrating it into a unified framework is a major challenge, so that multiple views of a given biological event can be considered simultaneously. Here we present the Bioteque, a resource of unprecedented size and scope that contains pre-calculated biomedical descriptors derived from a gigantic knowledge graph, displaying more than 450 thousand biological entities and 30 million relationships between them. The Bioteque integrates, harmonizes, and formats data collected from over 150 data sources, including 12 biological entities (e.g., genes, diseases, drugs) linked by 67 types of associations (e.g., ‘drug treats disease’, ‘gene interacts with gene’). We show how Bioteque descriptors facilitate the assessment of high-throughput protein-protein interactome data, the prediction of drug response and new repurposing opportunities, and demonstrate that they can be used off-the-shelf in downstream machine learning tasks without loss of performance with respect to using original data. The Bioteque thus offers a thoroughly processed, tractable, and highly optimized assembly of the biomedical knowledge available in the public domain.</jats:p>",
+    "DOI": "10.1038/s41467-022-33026-0",
+    "type": "article-journal",
+    "source": "Crossref",
+    "title": "Integrating and formatting biomedical data as pre-calculated knowledge graph embeddings in the Bioteque",
+    "volume": "13",
+    "author": [
+      {
+        "given": "Adrià",
+        "family": "Fernández-Torras"
+      },
+      {
+        "given": "Miquel",
+        "family": "Duran-Frigola"
+      },
+      {
+        "given": "Martino",
+        "family": "Bertoni"
+      },
+      {
+        "given": "Martina",
+        "family": "Locatelli"
+      },
+      {
+        "given": "Patrick",
+        "family": "Aloy"
+      }
+    ],
+    "container-title": "Nature Communications",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          9,
+          9
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gqtdvj",
+    "container-title-short": "Nat Commun",
+    "PMCID": "PMC9463154",
+    "PMID": "36085310",
+    "id": "vhsYX2y",
+    "note": "This CSL Item was generated by Manubot v0.5.6 from its persistent identifier (standard_id).\nstandard_id: doi:10.1038/s41467-022-33026-0"
+  },
+  {
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "12",
+    "DOI": "10.1038/s41551-022-00942-x",
+    "type": "article-journal",
+    "page": "1353-1369",
+    "source": "Crossref",
+    "title": "Graph representation learning in biomedicine and healthcare",
+    "volume": "6",
+    "author": [
+      {
+        "given": "Michelle M.",
+        "family": "Li"
+      },
+      {
+        "given": "Kexin",
+        "family": "Huang"
+      },
+      {
+        "given": "Marinka",
+        "family": "Zitnik"
+      }
+    ],
+    "container-title": "Nature Biomedical Engineering",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          10,
+          31
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gq533s",
+    "container-title-short": "Nat. Biomed. Eng",
+    "PMID": "36316368",
+    "id": "rf9J6yvQ",
+    "note": "This CSL Item was generated by Manubot v0.5.6 from its persistent identifier (standard_id).\nstandard_id: doi:10.1038/s41551-022-00942-x"
+  },
+  {
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "5",
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>Implementing precision medicine hinges on the integration of omics data, such as proteomics, into the clinical decision-making process, but the quantity and diversity of biomedical data, and the spread of clinically relevant knowledge across multiple biomedical databases and publications, pose a challenge to data integration. Here we present the Clinical Knowledge Graph (CKG), an open-source platform currently comprising close to 20 million nodes and 220 million relationships that represent relevant experimental data, public databases and literature. The graph structure provides a flexible data model that is easily extendable to new nodes and relationships as new databases become available. The CKG incorporates statistical and machine learning algorithms that accelerate the analysis and interpretation of typical proteomics workflows. Using a set of proof-of-concept biomarker studies, we show how the CKG might augment and enrich proteomics data and help inform clinical decision-making.</jats:p>",
+    "DOI": "10.1038/s41587-021-01145-6",
+    "type": "article-journal",
+    "page": "692-702",
+    "source": "Crossref",
+    "title": "A knowledge graph to interpret clinical proteomics data",
+    "volume": "40",
+    "author": [
+      {
+        "given": "Alberto",
+        "family": "Santos"
+      },
+      {
+        "given": "Ana R.",
+        "family": "Colaço"
+      },
+      {
+        "given": "Annelaura B.",
+        "family": "Nielsen"
+      },
+      {
+        "given": "Lili",
+        "family": "Niu"
+      },
+      {
+        "given": "Maximilian",
+        "family": "Strauss"
+      },
+      {
+        "given": "Philipp E.",
+        "family": "Geyer"
+      },
+      {
+        "given": "Fabian",
+        "family": "Coscia"
+      },
+      {
+        "given": "Nicolai J. Wewer",
+        "family": "Albrechtsen"
+      },
+      {
+        "given": "Filip",
+        "family": "Mundt"
+      },
+      {
+        "given": "Lars Juhl",
+        "family": "Jensen"
+      },
+      {
+        "given": "Matthias",
+        "family": "Mann"
+      }
+    ],
+    "container-title": "Nature Biotechnology",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          1,
+          31
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gpbx68",
+    "container-title-short": "Nat Biotechnol",
+    "PMCID": "PMC9110295",
+    "PMID": "35102292",
+    "id": "JxZlpZ1",
+    "note": "This CSL Item was generated by Manubot v0.5.6 from its persistent identifier (standard_id).\nstandard_id: doi:10.1038/s41587-021-01145-6"
+  },
+  {
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "DOI": "10.1038/s41597-020-0486-7",
+    "type": "article-journal",
+    "source": "Crossref",
+    "title": "The TRUST Principles for digital repositories",
+    "volume": "7",
+    "author": [
+      {
+        "given": "Dawei",
+        "family": "Lin"
+      },
+      {
+        "given": "Jonathan",
+        "family": "Crabtree"
+      },
+      {
+        "given": "Ingrid",
+        "family": "Dillo"
+      },
+      {
+        "given": "Robert R.",
+        "family": "Downs"
+      },
+      {
+        "given": "Rorie",
+        "family": "Edmunds"
+      },
+      {
+        "given": "David",
+        "family": "Giaretta"
+      },
+      {
+        "given": "Marisa",
+        "family": "De Giusti"
+      },
+      {
+        "given": "Hervé",
+        "family": "L’Hours"
+      },
+      {
+        "given": "Wim",
+        "family": "Hugo"
+      },
+      {
+        "given": "Reyna",
+        "family": "Jenkyns"
+      },
+      {
+        "given": "Varsha",
+        "family": "Khodiyar"
+      },
+      {
+        "given": "Maryann E.",
+        "family": "Martone"
+      },
+      {
+        "given": "Mustapha",
+        "family": "Mokrane"
+      },
+      {
+        "given": "Vivek",
+        "family": "Navale"
+      },
+      {
+        "given": "Jonathan",
+        "family": "Petters"
+      },
+      {
+        "given": "Barbara",
+        "family": "Sierman"
+      },
+      {
+        "given": "Dina V.",
+        "family": "Sokolova"
+      },
+      {
+        "given": "Martina",
+        "family": "Stockhause"
+      },
+      {
+        "given": "John",
+        "family": "Westbrook"
+      }
+    ],
+    "container-title": "Scientific Data",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          14
+        ]
+      ]
+    },
+    "URL": "https://doi.org/ggwrtj",
+    "container-title-short": "Sci Data",
+    "PMCID": "PMC7224370",
+    "PMID": "32409645",
+    "id": "MMp6cQ1x",
+    "note": "This CSL Item was generated by Manubot v0.5.6 from its persistent identifier (standard_id).\nstandard_id: doi:10.1038/s41597-020-0486-7"
+  },
+  {
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>There is an urgent need to improve the infrastructure supporting the reuse of scholarly data. A diverse set of stakeholders—representing academia, industry, funding agencies, and scholarly publishers—have come together to design and jointly endorse a concise and measureable set of principles that we refer to as the FAIR Data Principles. The intent is that these may act as a guideline for those wishing to enhance the reusability of their data holdings. Distinct from peer initiatives that focus on the human scholar, the FAIR Principles put specific emphasis on enhancing the ability of machines to automatically find and use the data, in addition to supporting its reuse by individuals. This Comment is the first formal publication of the FAIR Principles, and includes the rationale behind them, and some exemplar implementations in the community.</jats:p>",
+    "DOI": "10.1038/sdata.2016.18",
+    "type": "article-journal",
+    "source": "Crossref",
+    "title": "The FAIR Guiding Principles for scientific data management and stewardship",
+    "volume": "3",
+    "author": [
+      {
+        "given": "Mark D.",
+        "family": "Wilkinson"
+      },
+      {
+        "given": "Michel",
+        "family": "Dumontier"
+      },
+      {
+        "given": "IJsbrand Jan",
+        "family": "Aalbersberg"
+      },
+      {
+        "given": "Gabrielle",
+        "family": "Appleton"
+      },
+      {
+        "given": "Myles",
+        "family": "Axton"
+      },
+      {
+        "given": "Arie",
+        "family": "Baak"
+      },
+      {
+        "given": "Niklas",
+        "family": "Blomberg"
+      },
+      {
+        "given": "Jan-Willem",
+        "family": "Boiten"
+      },
+      {
+        "given": "Luiz Bonino",
+        "family": "da Silva Santos"
+      },
+      {
+        "given": "Philip E.",
+        "family": "Bourne"
+      },
+      {
+        "given": "Jildau",
+        "family": "Bouwman"
+      },
+      {
+        "given": "Anthony J.",
+        "family": "Brookes"
+      },
+      {
+        "given": "Tim",
+        "family": "Clark"
+      },
+      {
+        "given": "Mercè",
+        "family": "Crosas"
+      },
+      {
+        "given": "Ingrid",
+        "family": "Dillo"
+      },
+      {
+        "given": "Olivier",
+        "family": "Dumon"
+      },
+      {
+        "given": "Scott",
+        "family": "Edmunds"
+      },
+      {
+        "given": "Chris T.",
+        "family": "Evelo"
+      },
+      {
+        "given": "Richard",
+        "family": "Finkers"
+      },
+      {
+        "given": "Alejandra",
+        "family": "Gonzalez-Beltran"
+      },
+      {
+        "given": "Alasdair J.G.",
+        "family": "Gray"
+      },
+      {
+        "given": "Paul",
+        "family": "Groth"
+      },
+      {
+        "given": "Carole",
+        "family": "Goble"
+      },
+      {
+        "given": "Jeffrey S.",
+        "family": "Grethe"
+      },
+      {
+        "given": "Jaap",
+        "family": "Heringa"
+      },
+      {
+        "given": "Peter A.C",
+        "family": "’t Hoen"
+      },
+      {
+        "given": "Rob",
+        "family": "Hooft"
+      },
+      {
+        "given": "Tobias",
+        "family": "Kuhn"
+      },
+      {
+        "given": "Ruben",
+        "family": "Kok"
+      },
+      {
+        "given": "Joost",
+        "family": "Kok"
+      },
+      {
+        "given": "Scott J.",
+        "family": "Lusher"
+      },
+      {
+        "given": "Maryann E.",
+        "family": "Martone"
+      },
+      {
+        "given": "Albert",
+        "family": "Mons"
+      },
+      {
+        "given": "Abel L.",
+        "family": "Packer"
+      },
+      {
+        "given": "Bengt",
+        "family": "Persson"
+      },
+      {
+        "given": "Philippe",
+        "family": "Rocca-Serra"
+      },
+      {
+        "given": "Marco",
+        "family": "Roos"
+      },
+      {
+        "given": "Rene",
+        "family": "van Schaik"
+      },
+      {
+        "given": "Susanna-Assunta",
+        "family": "Sansone"
+      },
+      {
+        "given": "Erik",
+        "family": "Schultes"
+      },
+      {
+        "given": "Thierry",
+        "family": "Sengstag"
+      },
+      {
+        "given": "Ted",
+        "family": "Slater"
+      },
+      {
+        "given": "George",
+        "family": "Strawn"
+      },
+      {
+        "given": "Morris A.",
+        "family": "Swertz"
+      },
+      {
+        "given": "Mark",
+        "family": "Thompson"
+      },
+      {
+        "given": "Johan",
+        "family": "van der Lei"
+      },
+      {
+        "given": "Erik",
+        "family": "van Mulligen"
+      },
+      {
+        "given": "Jan",
+        "family": "Velterop"
+      },
+      {
+        "given": "Andra",
+        "family": "Waagmeester"
+      },
+      {
+        "given": "Peter",
+        "family": "Wittenburg"
+      },
+      {
+        "given": "Katherine",
+        "family": "Wolstencroft"
+      },
+      {
+        "given": "Jun",
+        "family": "Zhao"
+      },
+      {
+        "given": "Barend",
+        "family": "Mons"
+      }
+    ],
+    "container-title": "Scientific Data",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2016,
+          3,
+          15
+        ]
+      ]
+    },
+    "URL": "https://doi.org/bdd4",
+    "container-title-short": "Sci Data",
+    "PMCID": "PMC4792175",
+    "PMID": "26978244",
+    "id": "6DjakjNS",
+    "note": "This CSL Item was generated by Manubot v0.5.6 from its persistent identifier (standard_id).\nstandard_id: doi:10.1038/sdata.2016.18"
+  },
+  {
+    "publisher": "Oxford University Press (OUP)",
+    "issue": "6",
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>Drug discovery and development is a complex and costly process. Machine learning approaches are being investigated to help improve the effectiveness and speed of multiple stages of the drug discovery pipeline. Of these, those that use Knowledge Graphs (KG) have promise in many tasks, including drug repurposing, drug toxicity prediction and target gene–disease prioritization. In a drug discovery KG, crucial elements including genes, diseases and drugs are represented as entities, while relationships between them indicate an interaction. However, to construct high-quality KGs, suitable data are required. In this review, we detail publicly available sources suitable for use in constructing drug discovery focused KGs. We aim to help guide machine learning and KG practitioners who are interested in applying new techniques to the drug discovery field, but who may be unfamiliar with the relevant data sources. The datasets are selected via strict criteria, categorized according to the primary type of information contained within and are considered based upon what information could be extracted to build a KG. We then present a comparative analysis of existing public drug discovery KGs and an evaluation of selected motivating case studies from the literature. Additionally, we raise numerous and unique challenges and issues associated with the domain and its datasets, while also highlighting key future research directions. We hope this review will motivate KGs use in solving key and emerging questions in the drug discovery domain.</jats:p>",
+    "DOI": "10.1093/bib/bbac404",
+    "type": "article-journal",
+    "source": "Crossref",
+    "title": "A review of biomedical datasets relating to drug discovery: a knowledge graph perspective",
+    "volume": "23",
+    "author": [
+      {
+        "given": "Stephen",
+        "family": "Bonner"
+      },
+      {
+        "given": "Ian P",
+        "family": "Barrett"
+      },
+      {
+        "given": "Cheng",
+        "family": "Ye"
+      },
+      {
+        "given": "Rowan",
+        "family": "Swiers"
+      },
+      {
+        "given": "Ola",
+        "family": "Engkvist"
+      },
+      {
+        "given": "Andreas",
+        "family": "Bender"
+      },
+      {
+        "given": "Charles Tapley",
+        "family": "Hoyt"
+      },
+      {
+        "given": "William L",
+        "family": "Hamilton"
+      }
+    ],
+    "container-title": "Briefings in Bioinformatics",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          9,
+          23
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gqv3s3",
+    "PMID": "36151740",
+    "id": "yqoUY2f9",
+    "note": "This CSL Item was generated by Manubot v0.5.6 from its persistent identifier (standard_id).\nstandard_id: doi:10.1093/bib/bbac404"
+  },
+  {
+    "publisher": "Oxford University Press (OUP)",
+    "issue": "16",
+    "abstract": "<jats:title>Abstract</jats:title>\n               <jats:p>Systemic analysis of available large-scale biological/biomedical data is critical for studying biological mechanisms, and developing novel and effective treatment approaches against diseases. However, different layers of the available data are produced using different technologies and scattered across individual computational resources without any explicit connections to each other, which hinders extensive and integrative multi-omics-based analysis. We aimed to address this issue by developing a new data integration/representation methodology and its application by constructing a biological data resource. CROssBAR is a comprehensive system that integrates large-scale biological/biomedical data from various resources and stores them in a NoSQL database. CROssBAR is enriched with the deep-learning-based prediction of relationships between numerous data entries, which is followed by the rigorous analysis of the enriched data to obtain biologically meaningful modules. These complex sets of entities and relationships are displayed to users via easy-to-interpret, interactive knowledge graphs within an open-access service. CROssBAR knowledge graphs incorporate relevant genes-proteins, molecular interactions, pathways, phenotypes, diseases, as well as known/predicted drugs and bioactive compounds, and they are constructed on-the-fly based on simple non-programmatic user queries. These intensely processed heterogeneous networks are expected to aid systems-level research, especially to infer biological mechanisms in relation to genes, proteins, their ligands, and diseases.</jats:p>",
+    "DOI": "10.1093/nar/gkab543",
+    "type": "article-journal",
+    "page": "e96-e96",
+    "source": "Crossref",
+    "title": "CROssBAR: comprehensive resource of biomedical relations with knowledge graph representations",
+    "volume": "49",
+    "author": [
+      {
+        "given": "Tunca",
+        "family": "Doğan"
+      },
+      {
+        "given": "Heval",
+        "family": "Atas"
+      },
+      {
+        "given": "Vishal",
+        "family": "Joshi"
+      },
+      {
+        "given": "Ahmet",
+        "family": "Atakan"
+      },
+      {
+        "given": "Ahmet Sureyya",
+        "family": "Rifaioglu"
+      },
+      {
+        "given": "Esra",
+        "family": "Nalbat"
+      },
+      {
+        "given": "Andrew",
+        "family": "Nightingale"
+      },
+      {
+        "given": "Rabie",
+        "family": "Saidi"
+      },
+      {
+        "given": "Vladimir",
+        "family": "Volynkin"
+      },
+      {
+        "given": "Hermann",
+        "family": "Zellner"
+      },
+      {
+        "given": "Rengul",
+        "family": "Cetin-Atalay"
+      },
+      {
+        "given": "Maria",
+        "family": "Martin"
+      },
+      {
+        "given": "Volkan",
+        "family": "Atalay"
+      }
+    ],
+    "container-title": "Nucleic Acids Research",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          6,
+          28
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gndrgn",
+    "PMCID": "PMC8450100",
+    "PMID": "34181736",
+    "id": "57ZT8woI",
+    "note": "This CSL Item was generated by Manubot v0.5.6 from its persistent identifier (standard_id).\nstandard_id: doi:10.1093/nar/gkab543"
+  },
+  {
+    "publisher": "Annual Reviews",
+    "issue": "1",
+    "abstract": "<jats:p> Knowledge-based biomedical data science involves the design and implementation of computer systems that act as if they knew about biomedicine. Such systems depend on formally represented knowledge in computer systems, often in the form of knowledge graphs. Here we survey recent progress in systems that use formally represented knowledge to address data science problems in both clinical and biological domains, as well as progress on approaches for creating knowledge graphs. Major themes include the relationships between knowledge graphs and machine learning, the use of natural language processing to construct knowledge graphs, and the expansion of novel knowledge-based approaches to clinical and biological domains. </jats:p>",
+    "DOI": "10.1146/annurev-biodatasci-010820-091627",
+    "type": "article-journal",
+    "page": "23-41",
+    "source": "Crossref",
+    "title": "Knowledge-Based Biomedical Data Science",
+    "volume": "3",
+    "author": [
+      {
+        "given": "Tiffany J.",
+        "family": "Callahan"
+      },
+      {
+        "given": "Ignacio J.",
+        "family": "Tripodi"
+      },
+      {
+        "given": "Harrison",
+        "family": "Pielke-Lombardo"
+      },
+      {
+        "given": "Lawrence E.",
+        "family": "Hunter"
+      }
+    ],
+    "container-title": "Annual Review of Biomedical Data Science",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          7,
           20
         ]
       ]
     },
+    "URL": "https://doi.org/ghtkzt",
+    "container-title-short": "Annu. Rev. Biomed. Data Sci.",
+    "PMCID": "PMC8095730",
+    "PMID": "33954284",
+    "id": "TNqtTxS8",
+    "note": "This CSL Item was generated by Manubot v0.5.6 from its persistent identifier (standard_id).\nstandard_id: doi:10.1146/annurev-biodatasci-010820-091627"
+  },
+  {
+    "publisher": "Association for the Advancement of Artificial Intelligence (AAAI)",
+    "issue": "10",
+    "abstract": "<jats:p>Large transformer-based language models have achieved incredible success at various tasks which require narrative comprehension, including story completion, answering questions about stories, and generating stories ex nihilo. However, due to the limitations of finite context windows, these language models struggle to produce or understand stories longer than several thousand tokens. In order to mitigate the document length limitations that come with finite context windows, we introduce a novel architecture that augments story processing with an external dynamic knowledge graph. In contrast to static commonsense knowledge graphs which hold information about the real world, these dynamic knowledge graphs reflect facts extracted from the story being processed. Our architecture uses these knowledge graphs to create information-rich prompts which better facilitate story comprehension than prompts composed only of story text. We apply our architecture to the tasks of question answering and story completion. To complement this line of research, we introduce two long-form question answering tasks, LF-SQuAD and LF-QUOREF, in which the document length exceeds the size of the language model's context window, and introduce a story completion evaluation method that bypasses the stochastic nature of language model generation. We demonstrate broad improvement over typical prompt formulation methods for both question answering and story completion using GPT-2, GPT-3 and XLNet.</jats:p>",
+    "DOI": "10.1609/aaai.v36i10.21286",
+    "type": "article-journal",
+    "page": "10436-10444",
+    "source": "Crossref",
+    "title": "Enhanced Story Comprehension for Large Language Models through Dynamic Document-Based Knowledge Graphs",
+    "volume": "36",
+    "author": [
+      {
+        "given": "Berkeley R",
+        "family": "Andrus"
+      },
+      {
+        "given": "Yeganeh",
+        "family": "Nasiri"
+      },
+      {
+        "given": "Shilong",
+        "family": "Cui"
+      },
+      {
+        "given": "Benjamin",
+        "family": "Cullen"
+      },
+      {
+        "given": "Nancy",
+        "family": "Fulda"
+      }
+    ],
+    "container-title": "Proceedings of the AAAI Conference on Artificial Intelligence",
     "issued": {
       "date-parts": [
         [
-          "2020",
-          5,
-          25
+          2022,
+          6,
+          28
         ]
       ]
     },
-    "note": "This CSL Item was generated by Manubot v0.5.6 from its persistent identifier (standard_id).\nstandard_id: url:https://greenelab.github.io/meta-review/"
+    "URL": "https://doi.org/gs5th3",
+    "container-title-short": "AAAI",
+    "id": "erUdG5Ur",
+    "note": "This CSL Item was generated by Manubot v0.5.6 from its persistent identifier (standard_id).\nstandard_id: doi:10.1609/aaai.v36i10.21286"
   },
   {
-    "id": "QhC8yJ7V",
-    "type": "document",
-    "note": "QID: Q56458321\nThis CSL Item was generated by Manubot v0.5.6 from its persistent identifier (standard_id).\nstandard_id: wikidata:Q56458321",
-    "source": "Wikidata",
-    "title": "Plan S: Accelerating the transition to full and immediate Open Access to scientific publications",
-    "title-short": "Plan S",
+    "type": "article",
+    "id": "11YmMTmFW",
+    "categories": [
+      "Quantitative Methods (q-bio.QM)",
+      "FOS: Biological sciences",
+      "FOS: Biological sciences"
+    ],
     "author": [
       {
-        "family": "S",
-        "given": "cOAlition"
+        "family": "Lobentanzer",
+        "given": "Sebastian"
+      },
+      {
+        "family": "Saez-Rodriguez",
+        "given": "Julio"
       }
     ],
     "issued": {
       "date-parts": [
         [
-          "2018",
-          9,
-          4
+          2023
         ]
       ]
     },
-    "URL": "https://www.wikidata.org/wiki/Q56458321"
+    "abstract": "The wealth of knowledge we have amassed in the context of biomedical science has grown exponentially in the last decades. Consequently, understanding and contextualising scientific results has become increasingly difficult for any single individual. In contrast, current Large Language Models (LLMs) can remember an enormous amount of information, but have notable shortcomings, such as a lack of generalised awareness, logical deficits, and a propensity to hallucinate. To improve biomedical analyses, we propose to combine human ingenuity and machine memory by means of an open and modular conversational platform, biochatter (https://github.com/biocypher/biochatter), exemplified in the web application ChatGSE (https://chat.biocypher.org). We safeguard against common LLM shortcomings using general and biomedicine-specific measures and allow automated integration of popular bioinformatics methods. Ultimately, we aim to improve the AI-readiness of biomedicine and make LLMs more useful and trustworthy in research applications.",
+    "DOI": "10.48550/arxiv.2305.06488",
+    "publisher": "arXiv",
+    "title": "A Platform for the Biomedical Application of Large Language Models",
+    "URL": "https://doi.org/gs5th4",
+    "version": "3",
+    "note": "This CSL Item was generated by Manubot v0.5.6 from its persistent identifier (standard_id).\nstandard_id: doi:10.48550/arxiv.2305.06488"
   }
 ]
