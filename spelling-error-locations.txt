@@ -153,6 +153,7 @@ content/24.sup.note.4.md:13:BEL
 content/24.sup.note.4.md:13:Biolink
 content/24.sup.note.4.md:13:BioPAX
 content/24.sup.note.4.md:13:SBML
+content/24.sup.note.4.md:14:bioinformatics
 content/24.sup.note.4.md:18:BioCypher
 content/24.sup.note.4.md:18:Biolink
 content/24.sup.note.4.md:19:Biolink
@@ -167,6 +168,7 @@ content/24.sup.note.4.md:25:BioCypher
 content/24.sup.note.4.md:25:PheKnowLator
 content/24.sup.note.4.md:26:bioinformatics
 content/24.sup.note.4.md:27:customisable
+content/24.sup.note.4.md:30:bioinformatics
 content/24.sup.note.4.md:30:BioThings
 content/24.sup.note.4.md:30:KGs
 content/24.sup.note.4.md:30:ROBOKOP
@@ -184,6 +186,7 @@ content/24.sup.note.4.md:37:BioCypher
 content/24.sup.note.4.md:40:KGs
 content/24.sup.note.4.md:41:KGs
 content/24.sup.note.4.md:41:UniHPF
+content/24.sup.note.4.md:42:bioinformatics
 content/24.sup.note.4.md:43:biomedicine
 content/24.sup.note.4.md:43:GPT
 content/24.sup.note.4.md:45:datasets
@@ -416,6 +419,7 @@ content/25.sup.note.5.md:273:ontologies
 content/25.sup.note.5.md:277:dzd
 content/25.sup.note.5.md:277:DZD
 content/25.sup.note.5.md:277:translational
+content/25.sup.note.5.md:278:bioinformatics
 content/25.sup.note.5.md:278:CovidGraph
 content/25.sup.note.5.md:278:healthecco
 content/25.sup.note.5.md:278:HealthECCO
@@ -463,6 +467,7 @@ content/30.sup.table.1.md:6:Bioteque
 content/30.sup.table.1.md:14:GenomicKB
 content/30.sup.table.1.md:16:Covidgraph
 content/30.sup.table.1.md:16:HealthECCO
+content/30.sup.table.1.md:17:bioinformatics
 content/30.sup.table.1.md:18:CogEx
 content/30.sup.table.1.md:20:COVID
 content/30.sup.table.1.md:24:OmniPath

@@ -21,7 +21,7 @@ BioGRID
 bioinformatics
 Biolink
 biomarkers
-biomedicine
+Biomedicine
 BioPAX
 Bioquant
 Bioregistry
@@ -68,7 +68,7 @@ Dunham
 DZD
 Earlham
 EBI
-Embeddings
+embeddings
 EMBL
 ENSEMBL
 Enum
@@ -158,7 +158,7 @@ Probul
 programmatically
 proteome
 Proteomics
-PyPath
+pypath
 PyPI
 PySpark
 Quadram

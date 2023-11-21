@@ -36,7 +36,7 @@
   <meta name="author" content="Dagmar Waltemath" />
   <meta name="author" content="Judith A. H. Wodke" />
   <meta name="author" content="Julio Saez-Rodriguez" />
-  <meta name="dcterms.date" content="2023-11-20" />
+  <meta name="dcterms.date" content="2023-11-21" />
   <meta name="keywords" content="markdown, publishing, manubot" />
   <title>Democratizing knowledge representation with BioCypher</title>
   <style>
@@ -81,11 +81,11 @@
   <meta name="citation_title" content="Democratizing knowledge representation with BioCypher" />
   <meta property="og:title" content="Democratizing knowledge representation with BioCypher" />
   <meta property="twitter:title" content="Democratizing knowledge representation with BioCypher" />
-  <meta name="dc.date" content="2023-11-20" />
-  <meta name="citation_publication_date" content="2023-11-20" />
-  <meta property="article:published_time" content="2023-11-20" />
-  <meta name="dc.modified" content="2023-11-20T19:25:40+00:00" />
-  <meta property="article:modified_time" content="2023-11-20T19:25:40+00:00" />
+  <meta name="dc.date" content="2023-11-21" />
+  <meta name="citation_publication_date" content="2023-11-21" />
+  <meta property="article:published_time" content="2023-11-21" />
+  <meta name="dc.modified" content="2023-11-21T12:17:13+00:00" />
+  <meta property="article:modified_time" content="2023-11-21T12:17:13+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -177,9 +177,9 @@
   <meta name="citation_fulltext_html_url" content="https://biocypher.github.io/biocypher-paper/" />
   <meta name="citation_pdf_url" content="https://biocypher.github.io/biocypher-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://biocypher.github.io/biocypher-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://biocypher.github.io/biocypher-paper/v/b547ee0f6a695e93280c3a14c5d95ce20fbcb328/" />
-  <meta name="manubot_html_url_versioned" content="https://biocypher.github.io/biocypher-paper/v/b547ee0f6a695e93280c3a14c5d95ce20fbcb328/" />
-  <meta name="manubot_pdf_url_versioned" content="https://biocypher.github.io/biocypher-paper/v/b547ee0f6a695e93280c3a14c5d95ce20fbcb328/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://biocypher.github.io/biocypher-paper/v/d534a735adeabd2ebaa7325f6f0ccbd798017cb1/" />
+  <meta name="manubot_html_url_versioned" content="https://biocypher.github.io/biocypher-paper/v/d534a735adeabd2ebaa7325f6f0ccbd798017cb1/" />
+  <meta name="manubot_pdf_url_versioned" content="https://biocypher.github.io/biocypher-paper/v/d534a735adeabd2ebaa7325f6f0ccbd798017cb1/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -196,10 +196,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://biocypher.github.io/biocypher-paper/v/b547ee0f6a695e93280c3a14c5d95ce20fbcb328/">permalink</a>)
+(<a href="https://biocypher.github.io/biocypher-paper/v/d534a735adeabd2ebaa7325f6f0ccbd798017cb1/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/biocypher/biocypher-paper/tree/b547ee0f6a695e93280c3a14c5d95ce20fbcb328">biocypher/biocypher-paper@b547ee0</a>
-on November 20, 2023.
+from <a href="https://github.com/biocypher/biocypher-paper/tree/d534a735adeabd2ebaa7325f6f0ccbd798017cb1">biocypher/biocypher-paper@d534a73</a>
+on November 21, 2023.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -451,11 +451,11 @@ A user interface class (“core”) receives user choices via configuration YAML
 It also manages the mapping of data inputs to ontologies with the help of an ontology module.
 This modular architecture facilitates extension of all modules according to the community’s needs.</p>
 <p>The resulting knowledge graphs (KGs) can be described as “instance-based” realisations of biomedical concepts: using the concept definition from the ontology, each entity in the graph becomes an instance of this concept.
-We recommend the use of a generic “high-level” ontology such as the Biolink model 1, a comprehensive and generic biomedical ontology; where needed, this ontology can be exchanged with or extended by more specific and task-directed ontologies, for instance from the OBO Foundry 2.
+We recommend the use of a generic “high-level” ontology such as the Biolink model <span class="citation" data-cites="vzPcrJo9">[<a href="#ref-vzPcrJo9" role="doc-biblioref">14</a>]</span>, a comprehensive and generic biomedical ontology; where needed, this ontology can be exchanged with or extended by more specific and task-directed ontologies, for instance from the OBO Foundry <span class="citation" data-cites="CNP39tah">[<a href="#ref-CNP39tah" role="doc-biblioref">15</a>]</span>.
 The versions of all used ontologies should be specified by each pipeline, which can most effectively be realised by specifying a persistent URL (PURL) for the versioned ontology file (most commonly in OWL format) in the BioCypher configuration.
-Identifier namespaces are collected from the community-curated and frequently updated Bioregistry service 3, which is important for ensuring continued compatibility among the created KGs.
+Identifier namespaces are collected from the community-curated and frequently updated Bioregistry service <span class="citation" data-cites="fKdMnXba">[<a href="#ref-fKdMnXba" role="doc-biblioref">16</a>]</span>, which is important for ensuring continued compatibility among the created KGs.
 Bioregistry also supplies convenient methods for parsing identifier Compact URIs (CURIEs), which are the preferred method of unambiguously specifying identities of KG entities.
-For identifier mapping, where required, the corresponding facilities of pypath 4 are used and extended.</p>
+For identifier mapping, where required, the corresponding facilities of pypath <span class="citation" data-cites="BDzI9Y5F">[<a href="#ref-BDzI9Y5F" role="doc-biblioref">9</a>]</span> are used and extended.</p>
 <p>The preferred way of entering data into a BioCypher graph attaches scientific provenance to each entry, allowing the aggregation of data with respect to their sources (for instance, the publication an interaction was derived from) and thus avoiding problems such as duplicate counting of the same primary data from different secondary curations.
 For author attribution, the preferred way of entering data into BioCypher also includes the exact provenance of each entry.
 In the same way, all licences of the contents are propagated forward, enabling the users of the framework to easily determine the allowed uses for any given KG.
@@ -468,13 +468,13 @@ More details and a tutorial can be found in the documentation at https://biocyph
 <h2 id="supplementary-note-1---background">Supplementary Note 1 - Background</h2>
 <p>We here give some background and references on the problem of standardising biomedical knowledge representation.
 Biomedical knowledge, although increasingly abundant, is fragmented across hundreds of resources.
-For instance, a clinical researcher may use protein information from UniProtKB 5, genetic variants from COSMIC 6, protein interactions from IntAct 7, and information on clinical trials from ClinicalTrials.gov 8.</p>
-<p>Finding the most suitable KG for a specific task is challenging and time-consuming; they are published in isolation and there is no registry 9,10.
-Few available KG solutions perfectly fit the task the individual researcher wants to perform, but creating custom KGs is only possible for those that can afford years of development time by an individual 11,12 or even entire teams 13.
+For instance, a clinical researcher may use protein information from UniProtKB <span class="citation" data-cites="cvbuQhIz">[<a href="#ref-cvbuQhIz" role="doc-biblioref">17</a>]</span>, genetic variants from COSMIC <span class="citation" data-cites="ezOoICHE">[<a href="#ref-ezOoICHE" role="doc-biblioref">18</a>]</span>, protein interactions from IntAct <span class="citation" data-cites="dGRWxzm4">[<a href="#ref-dGRWxzm4" role="doc-biblioref">19</a>]</span>, and information on clinical trials from ClinicalTrials.gov <span class="citation" data-cites="NQaiGeFN">[<a href="#ref-NQaiGeFN" role="doc-biblioref">20</a>]</span>.</p>
+<p>Finding the most suitable KG for a specific task is challenging and time-consuming; they are published in isolation and there is no registry <span class="citation" data-cites="yqoUY2f9">[<a href="#ref-yqoUY2f9" role="doc-biblioref">4</a>]</span>,<span class="citation" data-cites="TNqtTxS8">[<a href="#ref-TNqtTxS8" role="doc-biblioref">5</a>]</span>.
+Few available KG solutions perfectly fit the task the individual researcher wants to perform, but creating custom KGs is only possible for those that can afford years of development time by an individual <span class="citation" data-cites="1GEdqX9gO">[<a href="#ref-1GEdqX9gO" role="doc-biblioref">21</a>]</span>,<span class="citation" data-cites="vhsYX2y">[<a href="#ref-vhsYX2y" role="doc-biblioref">2</a>]</span> or even entire teams <span class="citation" data-cites="SmbvHVqc">[<a href="#ref-SmbvHVqc" role="doc-biblioref">22</a>]</span>.
 Smaller or non-bioinformatics labs need to choose from publicly available KGs, limiting customisation and the use of non-public data.
-There exist frameworks to build certain kinds of KG from scratch 14,15, but these are difficult to use for researchers outside of the ontology subfield and often have a rigid underlying data model 10,16.
-Even task-specific knowledge graphs sometimes need to be built locally by the user due to licensing or maintenance reasons, which requires significant technical expertise 17.
-Modifying an existing, comprehensive KG for a specific purpose is a non-trivial and often manual process prone to lack of reproducibility 18.</p>
+There exist frameworks to build certain kinds of KG from scratch <span class="citation" data-cites="1H2nqqKV7">[<a href="#ref-1H2nqqKV7" role="doc-biblioref">23</a>]</span>,<span class="citation" data-cites="mZ5zqhmN">[<a href="#ref-mZ5zqhmN" role="doc-biblioref">24</a>]</span>, but these are difficult to use for researchers outside of the ontology subfield and often have a rigid underlying data model 10,<span class="citation" data-cites="1353itlbv">[<a href="#ref-1353itlbv" role="doc-biblioref">25</a>]</span>.
+Even task-specific knowledge graphs sometimes need to be built locally by the user due to licensing or maintenance reasons, which requires significant technical expertise <span class="citation" data-cites="pyC7TREj">[<a href="#ref-pyC7TREj" role="doc-biblioref">26</a>]</span>.
+Modifying an existing, comprehensive KG for a specific purpose is a non-trivial and often manual process prone to lack of reproducibility <span class="citation" data-cites="DeIC0Dgw">[<a href="#ref-DeIC0Dgw" role="doc-biblioref">27</a>]</span>.</p>
 <h2 id="supplementary-note-2---approach">Supplementary Note 2 - Approach</h2>
 <p>We expand here on our section in the main text, detailing the four pillars of our approach.</p>
 <ol type="1">
@@ -492,7 +492,7 @@ Extensive automation reduces development time and file sizes, while additionally
 <li><p>Reusability and accessibility: Our template repository for a BioCypher pipeline with adapters, including a Docker Compose setup, is available on GitHub.
 To enable learning by example, we curate existing pipelines as well as all adapters they use in a GitHub project that is tied to the BioCypher repository.
 With these data, using the GitHub API and a pipeline based on our template, we build a BioCypher “meta-graph” for the simple browsing and analysis of existing BioCypher workflows (https://meta.biocypher.org/).
-To inform the structure of this meta-graph, we have reactivated and now maintain the Biomedical Resource Ontology (BRO 19), which allows the categorisation of pipelines and adapters (now on GitHub).</p></li>
+To inform the structure of this meta-graph, we have reactivated and now maintain the Biomedical Resource Ontology (BRO <span class="citation" data-cites="1ALlMCWlM">[<a href="#ref-1ALlMCWlM" role="doc-biblioref">8</a>]</span>), which allows the categorisation of pipelines and adapters (now on GitHub).</p></li>
 </ol>
 <p>While data FAIRness is a necessary part of open science communication, it is not sufficient for the adoption and sustainability of a software project such as BioCypher.
 As such, we also implement measures based on the TRUST principles, to increase usability, accessibility, and extensibility of our framework.
@@ -522,42 +522,42 @@ In addition, new developments in the field of language models and grounding will
 This allows for rapid prototyping and automated machine learning (ML) pipelines that iterate the KG structure to optimise predictive performance; for instance, building custom task-specific KGs for graph embeddings and ML (see case study “Embeddings”).
 Despite its speed, automated testing of millions of entities and relationships per KG increases trust in the consistency of the data (see Supplementary Methods for details and the case study “Network expansion” for an example).</p>
 <h2 id="supplementary-note-4---prior-art">Supplementary Note 4 - Prior Art</h2>
-<p>There have been numerous attempts at standardising knowledge graphs and making biomedical data stores more interoperable 9,10.
+<p>There have been numerous attempts at standardising knowledge graphs and making biomedical data stores more interoperable <span class="citation" data-cites="yqoUY2f9">[<a href="#ref-yqoUY2f9" role="doc-biblioref">4</a>]</span>,<span class="citation" data-cites="TNqtTxS8">[<a href="#ref-TNqtTxS8" role="doc-biblioref">5</a>]</span>.
 They can be divided into three broad classes representing increasing levels of abstraction of the KG build process:</p>
 <ol type="1">
-<li><p>Centrally maintained databases include task-oriented data collections such as OmniPath 4 or the CKG 20.
+<li><p>Centrally maintained databases include task-oriented data collections such as OmniPath 4 or the CKG <span class="citation" data-cites="JxZlpZ1">[<a href="#ref-JxZlpZ1" role="doc-biblioref">11</a>]</span>.
 They are the least flexible form of knowledge representation, usually bound to a specific research purpose, and are highly dependent on their primary maintainers for continuous functioning.
 BioCypher reduces the development and maintenance overhead that usually goes along with such a resource, making a task-specific KG feasible for smaller and less bioinformatics-focused groups.
 These databases usually do not conform to any standard in their knowledge representation, hindering their integration.
 In contrast, with BioCypher, we migrate OmniPath, CKG, and other popular databases onto an interoperable KG framework.</p></li>
-<li><p>Explicit standard formats or modelling languages include the Biolink model 1, BEL 21, GO-CAM 22, SBML 23, BioPAX 24, and PSI-MI 25.
-There are many more, each a solution to a very specific problem, as reviewed elsewhere 21,26; some are part of the COMBINE standard ecosystem 27.
+<li><p>Explicit standard formats or modelling languages include the Biolink model 1, BEL <span class="citation" data-cites="11W3tHiHT">[<a href="#ref-11W3tHiHT" role="doc-biblioref">28</a>]</span>, GO-CAM <span class="citation" data-cites="akdxNohe">[<a href="#ref-akdxNohe" role="doc-biblioref">29</a>]</span>, SBML <span class="citation" data-cites="mP9wIAFk">[<a href="#ref-mP9wIAFk" role="doc-biblioref">30</a>]</span>, BioPAX <span class="citation" data-cites="1Cn9nrdiq">[<a href="#ref-1Cn9nrdiq" role="doc-biblioref">31</a>]</span>, and PSI-MI <span class="citation" data-cites="KwOAgLE2">[<a href="#ref-KwOAgLE2" role="doc-biblioref">32</a>]</span>.
+There are many more, each a solution to a very specific problem, as reviewed elsewhere <span class="citation" data-cites="11W3tHiHT">[<a href="#ref-11W3tHiHT" role="doc-biblioref">28</a>]</span>,<span class="citation" data-cites="Nxf46J67">[<a href="#ref-Nxf46J67" role="doc-biblioref">33</a>]</span>; some are part of the COMBINE standard ecosystem <span class="citation" data-cites="PqRxavyS">[<a href="#ref-PqRxavyS" role="doc-biblioref">34</a>]</span>.
 Their main shortcoming is the rigidity that follows from their data model definitions: to represent data in one of these languages, the user needs to fully adopt it.
 If the task exceeds the scope of the language, the user needs to either look for alternatives, or introduce new features into the language, which can be a lengthy process.
 In addition, some features may be incompatible, and thus, one centrally maintained language definition is fundamentally limited.
 With BioCypher, each of the above languages can be adopted as the basis for a particular knowledge graph; in fact, we use the Biolink model as a basic ontology.
 Inside our framework, these languages can be freely and transparently exchanged, modified, extended, and hybridised, as we show in several of our case studies (e.g., “Tumour board” extends Biolink with Sequence Ontology and Disease Ontology).</p></li>
-<li><p>KG frameworks provide a means to build KGs, similar to the idea of BioCypher 14–16,28.
+<li><p>KG frameworks provide a means to build KGs, similar to the idea of BioCypher 14;<span class="citation" data-cites="mZ5zqhmN">[<a href="#ref-mZ5zqhmN" role="doc-biblioref">24</a>]</span>;<span class="citation" data-cites="1353itlbv">[<a href="#ref-1353itlbv" role="doc-biblioref">25</a>]</span>;<span class="citation" data-cites="bniVH7q2">[<a href="#ref-bniVH7q2" role="doc-biblioref">35</a>]</span>.
 However, most tie themselves tightly to a particular standard format or modelling language ecosystem, thereby inheriting many of the limitations described above.
-The Knowledge Graph Hub provides a data loader pipeline, KGX allows conversion of KGs between different technical formats, and RTX-KG2 builds a fixed semantically standardised KG; all three adhere to the Biolink model 16,28.
-Bio2BEL is an extensive framework to transform primary databases into BEL 15.
+The Knowledge Graph Hub provides a data loader pipeline, KGX allows conversion of KGs between different technical formats, and RTX-KG2 builds a fixed semantically standardised KG; all three adhere to the Biolink model <span class="citation" data-cites="1353itlbv">[<a href="#ref-1353itlbv" role="doc-biblioref">25</a>]</span>,<span class="citation" data-cites="bniVH7q2">[<a href="#ref-bniVH7q2" role="doc-biblioref">35</a>]</span>.
+Bio2BEL is an extensive framework to transform primary databases into BEL <span class="citation" data-cites="mZ5zqhmN">[<a href="#ref-mZ5zqhmN" role="doc-biblioref">24</a>]</span>.
 PheKnowLator is the only tool that is conceptually similar to BioCypher in that it allows the creation of knowledge graphs under different data models 14.
 However, it appears to be aimed at knowledge representation experts, requiring considerable bioinformatics and ontology expertise.
 While being fully customisable, it does not feature flexible recombination of modular components.</p></li>
 </ol>
-<p>The strategy of subgraph extraction to yield smaller, user-specific KGs has been implemented previously, for instance by CROssBAR (v1), ROBOKOP, and the BioThings Explorer 29–31.
-However, these rely on single (and thus enormous) harmonised KGs for extracting the subgraphs as opposed to BioCypher’s modular approach 32.
+<p>The strategy of subgraph extraction to yield smaller, user-specific KGs has been implemented previously, for instance by CROssBAR (v1), ROBOKOP, and the BioThings Explorer <span class="citation" data-cites="57ZT8woI">[<a href="#ref-57ZT8woI" role="doc-biblioref">10</a>]</span>;<span class="citation" data-cites="D842bsN2">[<a href="#ref-D842bsN2" role="doc-biblioref">36</a>]</span>;<span class="citation" data-cites="lloXDt6h">[<a href="#ref-lloXDt6h" role="doc-biblioref">37</a>]</span>.
+However, these rely on single (and thus enormous) harmonised KGs for extracting the subgraphs as opposed to BioCypher’s modular approach <span class="citation" data-cites="1EHBHnMYB">[<a href="#ref-1EHBHnMYB" role="doc-biblioref">38</a>]</span>.
 While the “top-down” approach of first building a massive KG and then extracting subgraphs from it is a valid means to arrive at a particular knowledge representation, the effort involved is detrimental to efficiency and democratisation of the process.
 A secondary consequence of this large primary effort is that alternative representations of the initial KG will probably not be attempted, hindering flexible knowledge representation.
 In contrast, the “bottom-up” approach we follow in BioCypher emphasises modular recombination and flexible representation with small effort overheads.</p>
-<p>Ontology mapping has been leveraged for data integration by consortia such as the Monarch Initiative (which is the parent organisation of the MONDO Disease Ontology and the Biolink model, among others) as well as single projects, such as KaBOB 33,34.
+<p>Ontology mapping has been leveraged for data integration by consortia such as the Monarch Initiative (which is the parent organisation of the MONDO Disease Ontology and the Biolink model, among others) as well as single projects, such as KaBOB <span class="citation" data-cites="ScyBF3gY">[<a href="#ref-ScyBF3gY" role="doc-biblioref">39</a>]</span>,<span class="citation" data-cites="J06lwBzy">[<a href="#ref-J06lwBzy" role="doc-biblioref">40</a>]</span>.
 While conceptually related to BioCypher in the use of ontology and biomedical data, these are massive efforts that are not amenable to replication by the average research group.
 We aim to close this gap by providing an agile and modular framework that facilitates the reuse of the valuable resources generated by those projects.</p>
 <p>There exist alternatives to workflows that involve KGs.
-While the premise of our manuscript is that KGs are an important part of sustainable and trustworthy machine learning in the biomedical sciences, “zero domain knowledge” approaches such as UniHPF 35 can do without prior knowledge in their inference process.
-Whether methods that forego knowledge representation entirely can be as good or better than methods that use knowledge representation is still a matter of discussion 36–42.
+While the premise of our manuscript is that KGs are an important part of sustainable and trustworthy machine learning in the biomedical sciences, “zero domain knowledge” approaches such as UniHPF <span class="citation" data-cites="fO4n5GVt">[<a href="#ref-fO4n5GVt" role="doc-biblioref">41</a>]</span> can do without prior knowledge in their inference process.
+Whether methods that forego knowledge representation entirely can be as good or better than methods that use knowledge representation is still a matter of discussion <span class="citation" data-cites="rf9J6yvQ">[<a href="#ref-rf9J6yvQ" role="doc-biblioref">1</a>]</span>;<span class="citation" data-cites="8CoykoAG">[<a href="#ref-8CoykoAG" role="doc-biblioref">42</a>]</span>;<span class="citation" data-cites="QOL3GPr8">[<a href="#ref-QOL3GPr8" role="doc-biblioref">43</a>]</span>;<span class="citation" data-cites="vy5qjeoS">[<a href="#ref-vy5qjeoS" role="doc-biblioref">44</a>]</span>;<span class="citation" data-cites="CiGapf55">[<a href="#ref-CiGapf55" role="doc-biblioref">3</a>]</span>;<span class="citation" data-cites="1FrsWUfLP">[<a href="#ref-1FrsWUfLP" role="doc-biblioref">45</a>]</span>;<span class="citation" data-cites="8keWQlG8">[<a href="#ref-8keWQlG8" role="doc-biblioref">46</a>]</span>.
 One aspect that is apparent from modern developments in large language models is that prior knowledge-free models appear to be very data hungry; while billion parameter models are very impressive in their text and image processing capabilities, we do not nearly have enough data in molecular biomedicine to train a GPT-like model, even if we had the funds to train it.
-In addition, even in prior knowledge-free deep models, a semantically enriched knowledge graph can still play a role and be useful as an in-process component 43.
+In addition, even in prior knowledge-free deep models, a semantically enriched knowledge graph can still play a role and be useful as an in-process component <span class="citation" data-cites="erUdG5Ur">[<a href="#ref-erUdG5Ur" role="doc-biblioref">12</a>]</span>.
 To address these and other performance-related questions, we want to facilitate the creation of benchmarks and standard datasets through the modular nature of our framework.</p>
 <h2 id="supplementary-note-5---case-studies">Supplementary Note 5 - Case studies</h2>
 <p>In the following sections, we illustrate the usefulness of various design aspects of BioCypher in practical examples.
@@ -565,14 +565,14 @@ For most of these case studies, an actual implementation already exists, while s
 Practical implementations including public code can be accessed for Modularity, Tumour board, Network expansion, Subgraph extraction, Embedding, and Open Targets.</p>
 <h3 id="modularity">Modularity</h3>
 <p>There are several resources used by the biomedical community that can be considered essential to a majority of bioinformatics tasks.
-A good example is the curation effort on proteins done by the members of the Universal Protein Resource (UniProt) consortium 5; many secondary resources and tools depend on consistent and comprehensive annotations of the major actors in molecular biology.
+A good example is the curation effort on proteins done by the members of the Universal Protein Resource (UniProt) consortium <span class="citation" data-cites="cvbuQhIz">[<a href="#ref-cvbuQhIz" role="doc-biblioref">17</a>]</span>; many secondary resources and tools depend on consistent and comprehensive annotations of the major actors in molecular biology.
 As such, there are an enormous number of individual tools and resources that make requests to the public interface of the UniProt service, all of which need to be individually maintained.
-We and several of our close collaborators make use of this resource, for instance in OmniPath 4, CKG 20, Bioteque 12, and the CROssBAR drug discovery and repurposing database 29.
+We and several of our close collaborators make use of this resource, for instance in OmniPath 4, CKG <span class="citation" data-cites="JxZlpZ1">[<a href="#ref-JxZlpZ1" role="doc-biblioref">11</a>]</span>, Bioteque <span class="citation" data-cites="vhsYX2y">[<a href="#ref-vhsYX2y" role="doc-biblioref">2</a>]</span>, and the CROssBAR drug discovery and repurposing database <span class="citation" data-cites="57ZT8woI">[<a href="#ref-57ZT8woI" role="doc-biblioref">10</a>]</span>.
 We have created an example on how to share a UniProt adapter between resources and how to use BioCypher to combine pre-existing databases based on ontology.</p>
 <p>We have written such an adapter for UniProt data, using software infrastructure provided by the OmniPath backend PyPath (for downloading and locally caching the data).
 The adapter provides the data as well as convenient access points and an overview of the available property fields using Python Enum classes, offering automatic suggestion and autocomplete functionality.
 Using these methods, selecting specific content from the entirety of UniProt data and integrating this content with other resources is greatly facilitated (Figure S1), since the alternative would be, in many cases, to use a manual script to access the UniProt API and rely on manual harmonisation with other datasets.</p>
-<p>Similarly, we have added adapters for protein-protein interactions from the popular sources IntAct 7, BioGRID 44, and STRING 45, as well as other resources.
+<p>Similarly, we have added adapters for protein-protein interactions from the popular sources IntAct 7, BioGRID <span class="citation" data-cites="nTlj6VKs">[<a href="#ref-nTlj6VKs" role="doc-biblioref">47</a>]</span>, and STRING <span class="citation" data-cites="1663S4mH8">[<a href="#ref-1663S4mH8" role="doc-biblioref">48</a>]</span>, as well as other resources.
 For an up-to-date overview of the BioCypher pipelines and adapters, please visit the Components board and the meta-graph.
 By using the UniProt accession of proteins in the KG and BioCypher functionality, the sources are seamlessly integrated into the final KG despite their differences in original data representation.
 As with UniProt data, access to interaction data is facilitated by provision of Enum classes for the various fields in the original data.
@@ -584,9 +584,9 @@ This shifts maintenance towards the primary source and thus reduces maintenance 
 The primary adapters provide an additional level of flexibility to the user by providing accessible insight into the contents of each primary resource, which can be extensive.
 For instance, in the adapter for the UniProt knowledge base, the user can select their favourite species, fields of protein information such as the length or mass of the protein, and relationships to import, such as the host organism or the coding gene of each protein.</p>
 <h3 id="tumour-board">Tumour board</h3>
-<p>Cancer patients nowadays benefit from a large range of molecular markers that can be used to establish precise prognoses and direct treatment 17,46.
+<p>Cancer patients nowadays benefit from a large range of molecular markers that can be used to establish precise prognoses and direct treatment <span class="citation" data-cites="pyC7TREj">[<a href="#ref-pyC7TREj" role="doc-biblioref">26</a>]</span>,<span class="citation" data-cites="eyEtjj2p">[<a href="#ref-eyEtjj2p" role="doc-biblioref">49</a>]</span>.
 In the context of the DECIDER project (www.deciderproject.eu), we are creating a platform to inform the tumour board of actionable molecular phenotypes of high-grade serous ovarian cancer patients.
-The current manual workflow for discovering actionable genetic variants consists of multiple complex database queries to different established cancer genetics databases 17,47,48.
+The current manual workflow for discovering actionable genetic variants consists of multiple complex database queries to different established cancer genetics databases <span class="citation" data-cites="pyC7TREj">[<a href="#ref-pyC7TREj" role="doc-biblioref">26</a>]</span>,<span class="citation" data-cites="1Hew9xuhZ">[<a href="#ref-1Hew9xuhZ" role="doc-biblioref">50</a>]</span>,<span class="citation" data-cites="Prcc1PJY">[<a href="#ref-Prcc1PJY" role="doc-biblioref">51</a>]</span>.
 The returns from each of the individual queries then need to be curated by human experts (geneticists) in regard to their identity (e.g.
 identify duplicate hits from different databases), biological relevance, level of evidence, and actionability.
 The heterogeneous nature of results received from different primary database providers makes this a time-consuming task, and a bottleneck for the discovery and comprehensive evaluation of all possible treatment options.</p>
@@ -597,9 +597,9 @@ As a second step, datasets that are not yet available from pre-existing BioCyphe
 The code for this project can be found at https://github.com/oncodash/oncodashkb.</p>
 <p>We make use of the ontology manipulation facilities provided by BioCypher to extend the broad but basic Biolink ontology in certain branches where it is useful to have more granular information about the data that enters the KG.
 For example, the exact type of genetic variants are of high importance in the molecular tumour board process, but Biolink only provides a generic “sequence variant” class in its schema.
-Therefore, we extended the ontology tree at this node with the very granular corresponding subtree of the Sequence Ontology (SO, 49), yielding a hybrid ontology with the generality of Biolink and the accuracy of a specialised ontology of sequence variants (Figure S2).
+Therefore, we extended the ontology tree at this node with the very granular corresponding subtree of the Sequence Ontology (SO, <span class="citation" data-cites="xiGrNkR1">[<a href="#ref-xiGrNkR1" role="doc-biblioref">52</a>]</span>), yielding a hybrid ontology with the generality of Biolink and the accuracy of a specialised ontology of sequence variants (Figure S2).
 Building on the mechanism provided by BioCypher, this hybridisation can be performed by providing only the minimal input of the sequence ontology URL and the nodes that should be the point of merging (“sequence variant” in Biolink and “sequence_variant” in SO).
-The same process is used with the Disease Ontology 50 and OncoTree 51 (see Figure S2).
+The same process is used with the Disease Ontology <span class="citation" data-cites="ez55Zlmu">[<a href="#ref-ez55Zlmu" role="doc-biblioref">53</a>]</span> and OncoTree <span class="citation" data-cites="nDiR3rcY">[<a href="#ref-nDiR3rcY" role="doc-biblioref">54</a>]</span> (see Figure S2).
 We use Biolink v3.2.1 and the most recent version of Disease Ontology (as provided by the OBO Foundry at http://purl.obolibrary.org/obo/so.owl).</p>
 <p>Figure S2: Modular ontology.
 BioCypher combines modular inputs from biomedical resources (left) with a flexible scaffold based on ontology (bottom) to build task-specific knowledge graphs (KGs) with variable format (middle).
@@ -609,21 +609,21 @@ Finally, the KG is provided to the user through an output adapter in the desired
 Since Biolink has a broad but general representation of biomedical classes, we extend the “sequence variant” with the corresponding granular information from the specialised Sequence Ontology (right side).
 Similarly, information about cancer and specific tumour types are added from Disease Ontology and OncoTree.</p>
 <p>Once the database has been created through BioCypher, the process of querying for an actionable variant and its associated treatment options for a given patient is greatly simplified.
-This approach also improves the concordance of knowledge base sources, the ability to incorporate external clinical resources, and the recovery of evidence only represented in a single resource 17.</p>
+This approach also improves the concordance of knowledge base sources, the ability to incorporate external clinical resources, and the recovery of evidence only represented in a single resource <span class="citation" data-cites="pyC7TREj">[<a href="#ref-pyC7TREj" role="doc-biblioref">26</a>]</span>.</p>
 <p>The major advantage of using BioCypher to integrate several resources is the formal representation of the process provided by the schema configuration, which allows for a simple description and long-term centralised maintenance.
-Other approaches 17 need ad-hoc scripts, hindering refactoring if the input resources change, and lose metadata about the provenance of the merged information, hindering a posteriori analysis.</p>
+Other approaches <span class="citation" data-cites="pyC7TREj">[<a href="#ref-pyC7TREj" role="doc-biblioref">26</a>]</span> need ad-hoc scripts, hindering refactoring if the input resources change, and lose metadata about the provenance of the merged information, hindering a posteriori analysis.</p>
 <h3 id="network-expansion">Network expansion</h3>
 <p>Database schemata of large-scale biomedical knowledge providers are tuned for effective storage.
 For analysis, the user may benefit from a more dedicated schema type corresponding to the biological question under investigation.
 We created BioCypher with the objective to simplify the transformation from storage-optimised schemas to analysis-focused schemas.
 Given one or multiple data sources, the user should be able to quickly build a task-specific knowledge graph using only a simple configuration of the desired graph contents.
-We demonstrate the simplifying capabilities using an interaction-focussed graph database derived from the Open Targets platform as an example 52.</p>
+We demonstrate the simplifying capabilities using an interaction-focussed graph database derived from the Open Targets platform as an example <span class="citation" data-cites="11HFBpGej">[<a href="#ref-11HFBpGej" role="doc-biblioref">55</a>]</span>.</p>
 <p>Barrio-Hernandez et al.
-used this graph database to inform their method of network expansion 53.
+used this graph database to inform their method of network expansion <span class="citation" data-cites="9fcv9d5">[<a href="#ref-9fcv9d5" role="doc-biblioref">56</a>]</span>.
 The database runs on Neo4j, containing about 9 million nodes and 43 million edges.
 It focuses on interactions between biomedical agents such as proteins, DNA/RNA, and small molecules.
 Returning one particular interaction from the graph requires a Cypher query of ~13 lines which returns ~15 nodes with ~25 edges (variable depending on the amount of information on each interaction).
-A procedure to collect information about these interactions from the graph is provided with the original manuscript 53, containing Cypher query code of almost 400 lines.
+A procedure to collect information about these interactions from the graph is provided with the original manuscript <span class="citation" data-cites="9fcv9d5">[<a href="#ref-9fcv9d5" role="doc-biblioref">56</a>]</span>, containing Cypher query code of almost 400 lines.
 Still, this extensive query only covers 11 of the 37 source labels, 10 of the 43 target labels, and 24 of the 76 relationship labels that are used in the graph database, offering a large margin for optimisation in creating a task-specific KG.</p>
 <p>After BioCypher adaptation, the KG (covering all information used by Barrio-Hernandez et al.) has been reduced to ~700k nodes and 2.6 million edges, a more than ten-fold reduction, without loss of information with regard to this specific task.
 This lossless reduction is possible due to 1) the semantic abstraction and 2) the removal of information in the original graph that is not relevant to the task.
@@ -643,13 +643,13 @@ D) The Cypher query to receive one interaction from the migrated graph.</p>
 Arguably, the shorter BioCypher query is also more informative, since it details the type of interaction as well as the roles of the participants.
 In addition, this representation returns sources of information about the proteins and the interaction as properties on the nodes, and the hierarchical ontology-derived labels provide rich information about the biological context.
 For instance, the first ancestor labels of the “phosphorylation” node are “enzymatic interaction”, “direct interaction”, and “physical association”, grounding this specific interaction in its biological context and enabling flexible queries for broader or more specific terms.
-This additional information was introduced into the data model by combining the Biolink ontology with the molecular interaction ontology by the Proteomics Standards Initiative 25.
+This additional information was introduced into the data model by combining the Biolink ontology with the molecular interaction ontology by the Proteomics Standards Initiative <span class="citation" data-cites="KwOAgLE2">[<a href="#ref-KwOAgLE2" role="doc-biblioref">32</a>]</span>.
 Thus, this “task-oriented” representation is complementary to the “storage-oriented” one, serving a different purpose, and BioCypher provides an easy and reliable way of going from one type of representation to the other.</p>
 <p>The BioCypher migration is fast (about 15 minutes on a common laptop) and tested end-to-end, including deduplication of entities and relationships as well as verbose information on violations of the desired structure (e.g., due to inconsistencies in the input data), making the user explicitly aware of any fault points.
 Through this feedback, several inconsistencies were found in the original Open Targets graph during the migration, some of which originated from misannotation in the SIGNOR primary resource (e.g., “P0C6X7_PRO_0000037309” and “P17861_P17861-2”).
 This problem affected only a few proteins, which could have gone unnoticed in a manual curation of the data; a type of problem that likely is common in current collections of biomedical knowledge.</p>
 <p>Knowledge representations can and should be tuned according to the specific needs of the downstream task to be performed; BioCypher is designed to accommodate arbitrarily simple or complex representations while retaining information important to biomedical research tasks.
-A compressed structure is important, for instance, in graph machine learning and embedding tasks, where each additional relationship exponentially increases computational effort for message passing and embedding techniques 12,54.
+A compressed structure is important, for instance, in graph machine learning and embedding tasks, where each additional relationship exponentially increases computational effort for message passing and embedding techniques 12,<span class="citation" data-cites="iDcPtWv1">[<a href="#ref-iDcPtWv1" role="doc-biblioref">57</a>]</span>.
 Most importantly, evidence (which experiment and publication the knowledge is derived from) and provenance (who provided which aspects of the primary data) should always be propagated.
 The former is essential to enable accurate confidence measures, e.g., not double-counting the same information because it was derived from two secondary sources which refer to the same original publication.
 The latter is important for attribution of work that the primary maintainers of large collections of biomedical knowledge provide to the community.
@@ -657,7 +657,7 @@ The code of this migration can be found at https://github.com/biocypher/open-tar
 The project uses Biolink v3.2.1.</p>
 <h3 id="subgraph-extraction">Subgraph extraction</h3>
 <p>For many practical tasks in the workflow of a research scientist, the full KG is not required.
-For this reason, building complex and extensive KGs such as the CKG 20 or the Bioteque 55 would not be sensible in all use cases.</p>
+For this reason, building complex and extensive KGs such as the CKG 20 or the Bioteque <span class="citation" data-cites="vhsYX2y">[<a href="#ref-vhsYX2y" role="doc-biblioref">2</a>]</span> would not be sensible in all use cases.</p>
 <p>For instance, in the context of a proteomics analysis, the user would only like to contextualise their list of differentially abundant proteins using literature connections in the CKG, rendering much of the information on genetics and clinical parameters unnecessary.
 In addition, the KG may contain sensitive data on previous projects or patient samples, which cannot be shared (e.g.
 in the case of publishing the analysis), causing reproducibility issues.
@@ -676,14 +676,14 @@ The code for this task can be found in the same repository.
 This project uses Biolink v3.2.1.</p>
 <h3 id="embedding">Embedding</h3>
 <p>As a second subsetting example, we demonstrate the usefulness of subsetting KGs for task-specific graph embeddings.
-KG embeddings can be an efficient lower-dimensional substitute for the original data in many machine learning tasks 12 and, as methods such as GEARS 56 show, these embeddings can be useful for very complex, hard tasks.
-However, including all prior data in every embedding is not necessary for good results, while using the proper domain of knowledge can vastly increase the performance of downstream tasks 12.
+KG embeddings can be an efficient lower-dimensional substitute for the original data in many machine learning tasks 12 and, as methods such as GEARS <span class="citation" data-cites="Tm14Ibs7">[<a href="#ref-Tm14Ibs7" role="doc-biblioref">58</a>]</span> show, these embeddings can be useful for very complex, hard tasks.
+However, including all prior data in every embedding is not necessary for good results, while using the proper domain of knowledge can vastly increase the performance of downstream tasks <span class="citation" data-cites="vhsYX2y">[<a href="#ref-vhsYX2y" role="doc-biblioref">2</a>]</span>.
 This issue extends both to the type of knowledge represented (not every kind of relationship is relevant to any given task) as well as the source of the knowledge (different focus points in knowledge resources lead to differential performance across different tasks).
 Thus, it is highly desirable to have a means to identify the proper knowledge domain relevant to a specific task to increase the efficiency of subsequent analyses.</p>
 <p>To achieve this aim, BioCypher can facilitate task-specific builds of well-defined sets of knowledge from a combination of primary sources for each application scenario.
 And, since the BioCypher framework automates much of the build process going from only a simple configuration file, the knowledge representations can be iterated over quickly to identify the most pertinent ones.
 As above, the only requirement from the user (given existing BioCypher adapters for all requested primary sources) is a selection of biological entities and their relationships in the schema configuration.</p>
-<p>We have performed this method of subsetting embedding in the Bioteque environment 12 with a subset of the Clinical Knowledge Graph 20.
+<p>We have performed this method of subsetting embedding in the Bioteque environment <span class="citation" data-cites="vhsYX2y">[<a href="#ref-vhsYX2y" role="doc-biblioref">2</a>]</span> with a subset of the Clinical Knowledge Graph <span class="citation" data-cites="JxZlpZ1">[<a href="#ref-JxZlpZ1" role="doc-biblioref">11</a>]</span>.
 Concretely, we emulated a scenario where a user seeks to computationally describe the patient samples available in the CKG to explore context-specific similarity between patients.
 In brief, we first selected a few sequences of relationships (i.e.
 the metapath) to connect subjects (patients) to the proteins expressed by their individual samples, (i.e.
@@ -714,7 +714,7 @@ In this regard, BioCypher offers a handy means to query the pertinent input file
 Indeed, a similar exercise can be performed on the Open Targets dataset (see next section), with minimal preparatory effort.
 This would allow, for instance, to further connect protein readouts to disease associations or to complement patient descriptors with embeddings of diseases, drugs, and drug targets for downstream predictive pipelines.</p>
 <h3 id="open-targets">Open Targets</h3>
-<p>The Open Targets platform is an open resource for drug discovery provided by the European Bioinformatics and Sanger Institutes 52.
+<p>The Open Targets platform is an open resource for drug discovery provided by the European Bioinformatics and Sanger Institutes <span class="citation" data-cites="11HFBpGej">[<a href="#ref-11HFBpGej" role="doc-biblioref">55</a>]</span>.
 Their core dataset on drug target-disease relationships is provided for download in columnar format; it is internally harmonised but only partially mapped to several disjoint ontologies (mainly disease-related).
 The dataset can be downloaded in Parquet format, a data structure designed to work on distributed systems in a highly parallel manner, making efficient BioCypher adaptation very simple.</p>
 <p>To enable an open, community-maintained KG version of the columnar Open Targets dataset, we created a BioCypher adapter using Biolink v3.2.1 (https://github.com/biocypher/open-targets).
@@ -731,7 +731,7 @@ Harmonising the data was then a simple matter of loading the additional adapter,
 It only required the addition of 8 lines of code in the build script.
 Adding gene essentiality and cell line information from the Dependency Map project adapter was performed similarly by adding the adapter and loading nodes and edges in the correct format.</p>
 <h3 id="federated-learning">Federated learning</h3>
-<p>Federated learning is a machine learning approach that enables multiple parties to collaboratively train a shared model while keeping their data decentralised and private 57,58.
+<p>Federated learning is a machine learning approach that enables multiple parties to collaboratively train a shared model while keeping their data decentralised and private <span class="citation" data-cites="11A8WJC5q">[<a href="#ref-11A8WJC5q" role="doc-biblioref">59</a>]</span>,<span class="citation" data-cites="aDwLmWW9">[<a href="#ref-aDwLmWW9" role="doc-biblioref">60</a>]</span>.
 This is achieved by allowing each party to train a local version of the model on their own data, and then sharing the updated model parameters with a central server that aggregates these updates.
 However, most machine learning algorithms depend on a unified structure of the input; when it comes to algorithms that combine prior knowledge with patient data, a large amount of harmonisation needs to occur before the algorithms can be applied.</p>
 <p>BioCypher facilitates federated machine learning by providing an unambiguous blueprint for the process of mapping input data to ontology.
@@ -740,13 +740,13 @@ The usefulness becomes apparent in two pilot projects outlined below.</p>
 <p>Firstly, the Care-for-Rare project of the Munich Children’s Hospital has to synchronise a broad spectrum of biomedical data: demographics, medical history, medical diagnosis, laboratory results from routine diagnostics, imaging and omics data with analyses of proteome, metabolome and transcriptome in different tissues as well as genetic information.
 To allow reaching a sample size that is suitable for modern methods of diagnosis and treatment options in rare diseases 38, world-wide collaboration between children’s hospitals is a necessity.
 The unstructured nature of most clinical data necessitates a harmonisation step with subtle challenges with respect to ontology.
-For instance, general classifications such as ICD10-GM subsume rare childrens’ diseases under umbrella terms for whole disease groups, requiring alternative coding catalogues such as Orphanet OrphaCodes 59 and the German Alpha-ID 60.
-Larger ontologies such as HPO 61 and SNOMED-CT 62 are complex and expanded constantly.
+For instance, general classifications such as ICD10-GM subsume rare childrens’ diseases under umbrella terms for whole disease groups, requiring alternative coding catalogues such as Orphanet OrphaCodes <span class="citation" data-cites="19oj9JJD5">[<a href="#ref-19oj9JJD5" role="doc-biblioref">61</a>]</span> and the German Alpha-ID <span class="citation" data-cites="nELyJbhp">[<a href="#ref-nELyJbhp" role="doc-biblioref">62</a>]</span>.
+Larger ontologies such as HPO <span class="citation" data-cites="o7nDQFO1">[<a href="#ref-o7nDQFO1" role="doc-biblioref">63</a>]</span> and SNOMED-CT <span class="citation" data-cites="pubmed:17095826">[<a href="#ref-pubmed:17095826" role="doc-biblioref"><strong>pubmed:17095826?</strong></a>]</span> are complex and expanded constantly.
 In addition to the technical challenges, the legal requirements of patient confidentiality and data protection necessitate extreme care in the processing of all data, hindering information sharing between collaborators.
 All of the above poses great challenges in data integration in the clinical setting.</p>
 <p>Secondly, the MeDaX project (bioMedical Data eXploration at University Medicine Greifswald) develops innovative and efficient methods for storage, enrichment, comparison, and retrieval of biomedical data based on KG technology.
 Embedded in the Medical Informatics Initiative (MII) Germany, MeDaX builds on the federated storage structure for biomedical health care and research data established in all Data Integration Centres (DICs) at German university hospitals.
-We envision extending the existing MIRACOLIX toolbox 63 with the MeDaX pipeline to set up local KGs, combining complex heterogeneous data from multiple resources: in addition to biomedical data available only at the DICs due to patient privacy, we include the MII core data set 64, local population studies 65,66, biomedical ontologies 67, and public information portals 68.
+We envision extending the existing MIRACOLIX toolbox <span class="citation" data-cites="yKZ8alU5">[<a href="#ref-yKZ8alU5" role="doc-biblioref">64</a>]</span> with the MeDaX pipeline to set up local KGs, combining complex heterogeneous data from multiple resources: in addition to biomedical data available only at the DICs due to patient privacy, we include the MII core data set <span class="citation" data-cites="eFQyj5Wh">[<a href="#ref-eFQyj5Wh" role="doc-biblioref">65</a>]</span>, local population studies <span class="citation" data-cites="lrjMS8FK">[<a href="#ref-lrjMS8FK" role="doc-biblioref">66</a>]</span>,<span class="citation" data-cites="u1j8EALG">[<a href="#ref-u1j8EALG" role="doc-biblioref">67</a>]</span>, biomedical ontologies <span class="citation" data-cites="18dC6FMrj">[<a href="#ref-18dC6FMrj" role="doc-biblioref">68</a>]</span>, and public information portals <span class="citation" data-cites="nC3lHM8C">[<a href="#ref-nC3lHM8C" role="doc-biblioref">69</a>]</span>.
 BioCypher’s ontology mapping process facilitates future integration of additional data sources (see also the case study “Data integration”).</p>
 <p>We enable federated learning pipelines by supplying build instructions for each local database in the form of the schema configuration that can be publicly and centrally maintained, since it contains no sensitive data (Figure S5).
 At each training location, a task-specific KG is created from public data (e.g., with the Clinical Knowledge Graph as baseline), using the subsetting facilities described in the case study “Subgraph extraction”.
@@ -772,7 +772,7 @@ Thirdly, the combination of an open architecture and ontology-based data integra
 We maintain two pilot projects for continuous large-scale data integration in a research context, detailed below.</p>
 <ol type="1">
 <li>The German Centre for Diabetes Research (DZD, www.dzd-ev.de) has developed a knowledge graph to support data integration for translational research.
-The internal KG instance provided the foundation of the open-source CovidGraph project 69 which is now maintained by the HealthECCO community (www.healthecco.org).
+The internal KG instance provided the foundation of the open-source CovidGraph project <span class="citation" data-cites="QrLcJJPA">[<a href="#ref-QrLcJJPA" role="doc-biblioref">70</a>]</span> which is now maintained by the HealthECCO community (www.healthecco.org).
 At the core of the DZD KG is a data ingestion pipeline for PubMed that transforms publication data into a detailed graph representation, including authors, affiliations, references, and MeSH term annotations.
 The PubMed graph contains 350 million nodes and 850 million relationships, as well as data on biological entities (genes, transcripts, proteins), their functional annotations, and biochemical interactions.
 This KG is used to link internal research data to public knowledge and to generate new research hypotheses.</li>
@@ -789,75 +789,75 @@ The maintenance and integration of the biomedical knowledge graph with patient d
 <p>As biomedical data become larger, integrated analysis pipelines become more expansive and, thus, expensive.
 For numerous projects in systems biomedicine to succeed, a flexible way of maintaining and analysing large sets of knowledge is necessary.
 This is done most effectively by separating data storage and analysis (such that each component can be individually scaled), while using distributed computing infrastructure to perform both tasks in close vicinity, such as computing clusters.
-We have recently published an open-source software, called Sherlock, to perform this type of data management for biomedical projects 70.
+We have recently published an open-source software, called Sherlock, to perform this type of data management for biomedical projects <span class="citation" data-cites="16z4LZSdJ">[<a href="#ref-16z4LZSdJ" role="doc-biblioref">71</a>]</span>.
 However, this pipeline in some ways depends on manual maintenance, for instance in its data transformation from primary resource to internal format.</p>
 <p>Using BioCypher, we facilitate the maintenance of Sherlock’s input sources by reusing existing adapters and converting the manual scripts to additional adapters for unrepresented resources.
 Combined with the unambiguous BioCypher schema configuration, this will make Sherlock’s input side automatable and greatly decrease maintenance effort, unlocking its full potential in managing complex bioinformatics projects and their resources.
 Given a configuration that can be developed locally, a project database can be upscaled to arbitrary numbers of nodes on an in-house or commercial cluster just as the project requires, saving compute time and thereby money.
 By virtue of the Sherlock-BioCypher integration, these projects retain the benefits from both frameworks; BioCypher provides reusability, transparency, and ontological grounding, while Sherlock makes data storage and analysis vastly more efficient and economical.</p>
 <h3 id="contextualization">Contextualization</h3>
-<p>Cells communicate with each other by exchanging molecules to organise cell development, tissue homeostasis, or immune reactions 71.
+<p>Cells communicate with each other by exchanging molecules to organise cell development, tissue homeostasis, or immune reactions <span class="citation" data-cites="HcpxNvpk">[<a href="#ref-HcpxNvpk" role="doc-biblioref">72</a>]</span>.
 Recent computational inference strategies have shown that these interactions can be inferred from single-cell transcriptomics data.
-Since then, multiple computational tools have been developed to address this task 72.
-However, most of these tools focus on the inference of cell-cell communication (CCC) mediated by proteins, except one recent tool that uses metabolites 73.</p>
+Since then, multiple computational tools have been developed to address this task <span class="citation" data-cites="1A6n4edrt">[<a href="#ref-1A6n4edrt" role="doc-biblioref">73</a>]</span>.
+However, most of these tools focus on the inference of cell-cell communication (CCC) mediated by proteins, except one recent tool that uses metabolites <span class="citation" data-cites="1EXXNpykM">[<a href="#ref-1EXXNpykM" role="doc-biblioref">74</a>]</span>.</p>
 <p>A primary limitation of metabolite-mediated CCC inference from single-cell transcriptomics data is the necessity to estimate metabolite abundance from transcript levels.
-To infer metabolite abundances, current methods employ either flux-balance analysis or enrichment-like approaches 73–75.
+To infer metabolite abundances, current methods employ either flux-balance analysis or enrichment-like approaches <span class="citation" data-cites="1EXXNpykM">[<a href="#ref-1EXXNpykM" role="doc-biblioref">74</a>]</span>-<span class="citation" data-cites="PSwd2RWP">[<a href="#ref-PSwd2RWP" role="doc-biblioref">75</a>]</span>–<span class="citation" data-cites="1FhKLN5iq">[<a href="#ref-1FhKLN5iq" role="doc-biblioref">76</a>]</span>.
 The latter require substantial prior knowledge, usually a set of producing and degrading metabolic enzymes for each metabolite, making information about metabolite-receptor interactions essential for deducing CCC.</p>
-<p>Existing prior knowledge resources cover each only a small fraction of metabolites produced by most cells (up to 116 73).
+<p>Existing prior knowledge resources cover each only a small fraction of metabolites produced by most cells (up to 116 <span class="citation" data-cites="1EXXNpykM">[<a href="#ref-1EXXNpykM" role="doc-biblioref">74</a>]</span>).
 Further, they lack information of chemical or biological properties that would allow the analysis to focus on specific diseases or tissues.
-Thus, a comprehensive resource that enables contextualization to specific biological questions provides a strategy to increase the accuracy of inference approaches, which are known to be highly prone to false positives 76.</p>
+Thus, a comprehensive resource that enables contextualization to specific biological questions provides a strategy to increase the accuracy of inference approaches, which are known to be highly prone to false positives <span class="citation" data-cites="aNFFB1Q">[<a href="#ref-aNFFB1Q" role="doc-biblioref">77</a>]</span>.</p>
 <p>We have integrated the available knowledge about metabolite-receptor interactions that is dispersed across numerous databases.
-Metabolic reactions and their corresponding enzymes can be found in databases such as KEGG 77, REACTOME 78, RHEA 79, HMDB 80, and genome-scale metabolic models such as Recon3D 81 and Human HMR 82.
-Meanwhile, information about metabolites and their receptors is available in the STITCH database 83, Guide to Pharmacology 84, and Interactomics screens 85.
-All these databases use different identifiers for their metabolite, proteins or reactions, that are often conflicting or redundant 86,87.
+Metabolic reactions and their corresponding enzymes can be found in databases such as KEGG <span class="citation" data-cites="VwS8W9dk">[<a href="#ref-VwS8W9dk" role="doc-biblioref">78</a>]</span>, REACTOME <span class="citation" data-cites="Gout7oWo">[<a href="#ref-Gout7oWo" role="doc-biblioref">79</a>]</span>, RHEA <span class="citation" data-cites="v9JUscZ1">[<a href="#ref-v9JUscZ1" role="doc-biblioref">80</a>]</span>, HMDB <span class="citation" data-cites="Rygf3Cgf">[<a href="#ref-Rygf3Cgf" role="doc-biblioref">81</a>]</span>, and genome-scale metabolic models such as Recon3D <span class="citation" data-cites="TYquyrUR">[<a href="#ref-TYquyrUR" role="doc-biblioref">82</a>]</span> and Human HMR <span class="citation" data-cites="QANpB4kr">[<a href="#ref-QANpB4kr" role="doc-biblioref">83</a>]</span>.
+Meanwhile, information about metabolites and their receptors is available in the STITCH database <span class="citation" data-cites="bc1DWCco">[<a href="#ref-bc1DWCco" role="doc-biblioref">84</a>]</span>, Guide to Pharmacology <span class="citation" data-cites="1GjHUK5qj">[<a href="#ref-1GjHUK5qj" role="doc-biblioref">85</a>]</span>, and Interactomics screens <span class="citation" data-cites="GBpX8fvk">[<a href="#ref-GBpX8fvk" role="doc-biblioref">86</a>]</span>.
+All these databases use different identifiers for their metabolite, proteins or reactions, that are often conflicting or redundant <span class="citation" data-cites="171uilzJ7">[<a href="#ref-171uilzJ7" role="doc-biblioref">87</a>]</span>,<span class="citation" data-cites="117E2kGkQ">[<a href="#ref-117E2kGkQ" role="doc-biblioref">88</a>]</span>.
 Using BioCypher, we systematically and reproducibly integrate the knowledge from these databases, facilitating the creation and maintenance of a comprehensive metabolite-receptor interaction database (https://github.com/biocypher/metalinks).</p>
 <p>The effectiveness of this approach is exemplified by examining metabolite-mediated CCC in the kidney.
 By employing a few concise lines of Cypher, metabolites and proteins can be filtered to focus on those active in the kidney or present in urine.
 Likewise, metabolite-receptor interactions are filtered using confidence levels.
 Applying these contextualization parameters reduces the overall size of the dataset by decreasing the number of metabolites from approximately 1400 to a more manageable 394 (derived from enzyme sets), and metabolite-receptor interactions from ~ 100 000 to 3864, featuring 807 unique receptors and 261 unique metabolites.
-The resulting table can either be used in Python directly via BioCypher’s support of Pandas data frames, or exported to CSV from Neo4j, and seamlessly integrated into downstream analysis tools performing CCC, such as LIANA 76.</p>
+The resulting table can either be used in Python directly via BioCypher’s support of Pandas data frames, or exported to CSV from Neo4j, and seamlessly integrated into downstream analysis tools performing CCC, such as LIANA <span class="citation" data-cites="aNFFB1Q">[<a href="#ref-aNFFB1Q" role="doc-biblioref">77</a>]</span>.</p>
 <p>Supplementary table 1. Recent biomedical knowledge graph solutions (non-comprehensive).
 Database
 Reference
 Biological Insight Knowledge Graph
-13
+<span class="citation" data-cites="SmbvHVqc">[<a href="#ref-SmbvHVqc" role="doc-biblioref">22</a>]</span>
 Bioteque
-12
+<span class="citation" data-cites="vhsYX2y">[<a href="#ref-vhsYX2y" role="doc-biblioref">2</a>]</span>
 Clinical Knowledge Graph
-20
+<span class="citation" data-cites="JxZlpZ1">[<a href="#ref-JxZlpZ1" role="doc-biblioref">11</a>]</span>
 CROssBAR
-29
+<span class="citation" data-cites="57ZT8woI">[<a href="#ref-57ZT8woI" role="doc-biblioref">10</a>]</span>
 Dependency Map
-88
+<span class="citation" data-cites="RnnKuIPr">[<a href="#ref-RnnKuIPr" role="doc-biblioref">89</a>]</span>
 GenomicKB
-89
+<span class="citation" data-cites="1GDvfevZN">[<a href="#ref-1GDvfevZN" role="doc-biblioref">90</a>]</span>
 HealthECCO Covidgraph
-69
+<span class="citation" data-cites="QrLcJJPA">[<a href="#ref-QrLcJJPA" role="doc-biblioref">70</a>]</span>
 INDRA CogEx
 https://github.com/bgyori/indra_cogex
 KG-COVID-19
-16
+<span class="citation" data-cites="1353itlbv">[<a href="#ref-1353itlbv" role="doc-biblioref">25</a>]</span>
 NIH Funding knowledge graph
-90
+<span class="citation" data-cites="BvOaZVwT">[<a href="#ref-BvOaZVwT" role="doc-biblioref">91</a>]</span>
 OmniPath
-4
+<span class="citation" data-cites="BDzI9Y5F">[<a href="#ref-BDzI9Y5F" role="doc-biblioref">9</a>]</span>
 Open Targets
-52
+<span class="citation" data-cites="11HFBpGej">[<a href="#ref-11HFBpGej" role="doc-biblioref">55</a>]</span>
 PheKnowLator
-14
+<span class="citation" data-cites="1H2nqqKV7">[<a href="#ref-1H2nqqKV7" role="doc-biblioref">23</a>]</span>
 PORI (Platform for Oncogenic Reporting and Interpretation)
-17
+<span class="citation" data-cites="pyC7TREj">[<a href="#ref-pyC7TREj" role="doc-biblioref">26</a>]</span>
 PrimeKG
-37
+<span class="citation" data-cites="8CoykoAG">[<a href="#ref-8CoykoAG" role="doc-biblioref">42</a>]</span>
 RTX-KG2
-28
+<span class="citation" data-cites="bniVH7q2">[<a href="#ref-bniVH7q2" role="doc-biblioref">35</a>]</span>
 TypeDB
 https://github.com/typedb-osi/typedb-bio</p>
 <h2 class="page_break_before" id="references">References</h2>
 <!-- Explicitly insert bibliography here -->
 <div id="refs" class="references csl-bib-body" role="doc-bibliography">
 <div id="ref-rf9J6yvQ" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">1. </div><div class="csl-right-inline"><strong>Graph representation learning in biomedicine and healthcare</strong> <div class="csl-block">Michelle M Li, Kexin Huang, Marinka Zitnik</div> <em>Nature Biomedical Engineering</em> (2022-10-31) <a href="https://doi.org/gq533s">https://doi.org/gq533s</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/s41551-022-00942-x">10.1038/s41551-022-00942-x</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/36316368">36316368</a></div></div>
+<div class="csl-left-margin">1. </div><div class="csl-right-inline"><strong>Graph representation learning in biomedicine and healthcare</strong> <div class="csl-block">Michelle M Li, Kexin Huang, Marinka Zitnik</div> <em>Nature Biomedical Engineering</em> (2022-10-31) <a href="https://doi.org/gq533s">https://doi.org/gq533s</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/s41551-022-00942-x">10.1038/s41551-022-00942-x</a></div></div>
 </div>
 <div id="ref-vhsYX2y" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">2. </div><div class="csl-right-inline"><strong>Integrating and formatting biomedical data as pre-calculated knowledge graph embeddings in the Bioteque</strong> <div class="csl-block">Adrià Fernández-Torras, Miquel Duran-Frigola, Martino Bertoni, Martina Locatelli, Patrick Aloy</div> <em>Nature Communications</em> (2022-09-09) <a href="https://doi.org/gqtdvj">https://doi.org/gqtdvj</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/s41467-022-33026-0">10.1038/s41467-022-33026-0</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/36085310">36085310</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9463154">PMC9463154</a></div></div>
@@ -866,7 +866,7 @@ https://github.com/typedb-osi/typedb-bio</p>
 <div class="csl-left-margin">3. </div><div class="csl-right-inline"><strong>Knowledge graphs as tools for explainable machine learning: A survey</strong> <div class="csl-block">Ilaria Tiddi, Stefan Schlobach</div> <em>Artificial Intelligence</em> (2022-01) <a href="https://doi.org/gnstxz">https://doi.org/gnstxz</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1016/j.artint.2021.103627">10.1016/j.artint.2021.103627</a></div></div>
 </div>
 <div id="ref-yqoUY2f9" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">4. </div><div class="csl-right-inline"><strong>A review of biomedical datasets relating to drug discovery: a knowledge graph perspective</strong> <div class="csl-block">Stephen Bonner, Ian P Barrett, Cheng Ye, Rowan Swiers, Ola Engkvist, Andreas Bender, Charles Tapley Hoyt, William L Hamilton</div> <em>Briefings in Bioinformatics</em> (2022-09-23) <a href="https://doi.org/gqv3s3">https://doi.org/gqv3s3</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/bib/bbac404">10.1093/bib/bbac404</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/36151740">36151740</a></div></div>
+<div class="csl-left-margin">4. </div><div class="csl-right-inline"><strong>A review of biomedical datasets relating to drug discovery: a knowledge graph perspective</strong> <div class="csl-block">Stephen Bonner, Ian P Barrett, Cheng Ye, Rowan Swiers, Ola Engkvist, Andreas Bender, Charles Tapley Hoyt, William L Hamilton</div> <em>Briefings in Bioinformatics</em> (2022-09-23) <a href="https://doi.org/gqv3s3">https://doi.org/gqv3s3</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/bib/bbac404">10.1093/bib/bbac404</a></div></div>
 </div>
 <div id="ref-TNqtTxS8" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">5. </div><div class="csl-right-inline"><strong>Knowledge-Based Biomedical Data Science</strong> <div class="csl-block">Tiffany J Callahan, Ignacio J Tripodi, Harrison Pielke-Lombardo, Lawrence E Hunter</div> <em>Annual Review of Biomedical Data Science</em> (2020-07-20) <a href="https://doi.org/ghtkzt">https://doi.org/ghtkzt</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1146/annurev-biodatasci-010820-091627">10.1146/annurev-biodatasci-010820-091627</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/33954284">33954284</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8095730">PMC8095730</a></div></div>
@@ -881,7 +881,7 @@ https://github.com/typedb-osi/typedb-bio</p>
 <div class="csl-left-margin">8. </div><div class="csl-right-inline"><strong>The Biomedical Resource Ontology (BRO) to enable resource discovery in clinical and translational research</strong> <div class="csl-block">Jessica D Tenenbaum, Patricia L Whetzel, Kent Anderson, Charles D Borromeo, Ivo D Dinov, Davera Gabriel, Beth Kirschner, Barbara Mirel, Tim Morris, Natasha Noy, … Peter Lyster</div> <em>Journal of Biomedical Informatics</em> (2011-02) <a href="https://doi.org/c66d8c">https://doi.org/c66d8c</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1016/j.jbi.2010.10.003">10.1016/j.jbi.2010.10.003</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/20955817">20955817</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3050430">PMC3050430</a></div></div>
 </div>
 <div id="ref-BDzI9Y5F" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">9. </div><div class="csl-right-inline"><strong>OmniPath: guidelines and gateway for literature-curated signaling pathway resources</strong> <div class="csl-block">Dénes Türei, Tamás Korcsmáros, Julio Saez-Rodriguez</div> <em>Nature Methods</em> (2016-11-29) <a href="https://doi.org/gh29s5">https://doi.org/gh29s5</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/nmeth.4077">10.1038/nmeth.4077</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/27898060">27898060</a></div></div>
+<div class="csl-left-margin">9. </div><div class="csl-right-inline"><strong>OmniPath: guidelines and gateway for literature-curated signaling pathway resources</strong> <div class="csl-block">Dénes Türei, Tamás Korcsmáros, Julio Saez-Rodriguez</div> <em>Nature Methods</em> (2016-11-29) <a href="https://doi.org/gh29s5">https://doi.org/gh29s5</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/nmeth.4077">10.1038/nmeth.4077</a></div></div>
 </div>
 <div id="ref-57ZT8woI" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">10. </div><div class="csl-right-inline"><strong>CROssBAR: comprehensive resource of biomedical relations with knowledge graph representations</strong> <div class="csl-block">Tunca Doğan, Heval Atas, Vishal Joshi, Ahmet Atakan, Ahmet Sureyya Rifaioglu, Esra Nalbat, Andrew Nightingale, Rabie Saidi, Vladimir Volynkin, Hermann Zellner, … Volkan Atalay</div> <em>Nucleic Acids Research</em> (2021-06-28) <a href="https://doi.org/gndrgn">https://doi.org/gndrgn</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/nar/gkab543">10.1093/nar/gkab543</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/34181736">34181736</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8450100">PMC8450100</a></div></div>
@@ -894,6 +894,241 @@ https://github.com/typedb-osi/typedb-bio</p>
 </div>
 <div id="ref-11YmMTmFW" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">13. </div><div class="csl-right-inline"><strong>A Platform for the Biomedical Application of Large Language Models</strong> <div class="csl-block">Sebastian Lobentanzer, Julio Saez-Rodriguez</div> <em>arXiv</em> (2023) <a href="https://doi.org/gs5th4">https://doi.org/gs5th4</a> <div class="csl-block">DOI: <a href="https://doi.org/10.48550/arxiv.2305.06488">10.48550/arxiv.2305.06488</a></div></div>
+</div>
+<div id="ref-vzPcrJo9" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">14. </div><div class="csl-right-inline"><strong>Biolink Model: A universal schema for knowledge graphs in clinical, biomedical, and translational science</strong> <div class="csl-block">Deepak R Unni, Sierra AT Moxon, Michael Bada, Matthew Brush, Richard Bruskiewich, JHarry Caufield, Paul A Clemons, Vlado Dancik, Michel Dumontier, Karamarie Fecho, … </div> <em>Clinical and Translational Science</em> (2022-06-06) <a href="https://doi.org/gq6hdn">https://doi.org/gq6hdn</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1111/cts.13302">10.1111/cts.13302</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/36125173">36125173</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9372416">PMC9372416</a></div></div>
+</div>
+<div id="ref-CNP39tah" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">15. </div><div class="csl-right-inline"><strong>The OBO Foundry: coordinated evolution of ontologies to support biomedical data integration</strong> <div class="csl-block">Barry Smith, Michael Ashburner, Cornelius Rosse, Jonathan Bard, William Bug, Werner Ceusters, Louis J Goldberg, Karen Eilbeck, Amelia Ireland, … Suzanna Lewis</div> <em>Nature Biotechnology</em> (2007-11) <a href="https://doi.org/bqng99">https://doi.org/bqng99</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/nbt1346">10.1038/nbt1346</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/17989687">17989687</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2814061">PMC2814061</a></div></div>
+</div>
+<div id="ref-fKdMnXba" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">16. </div><div class="csl-right-inline"><strong>Unifying the identification of biomedical entities with the Bioregistry</strong> <div class="csl-block">Charles Tapley Hoyt, Meghan Balk, Tiffany J Callahan, Daniel Domingo-Fernández, Melissa A Haendel, Harshad B Hegde, Daniel S Himmelstein, Klas Karis, John Kunze, Tiago Lubiana, … Benjamin M Gyori</div> <em>Scientific Data</em> (2022-11-19) <a href="https://doi.org/gq92zt">https://doi.org/gq92zt</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/s41597-022-01807-3">10.1038/s41597-022-01807-3</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/36402838">36402838</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9675740">PMC9675740</a></div></div>
+</div>
+<div id="ref-cvbuQhIz" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">17. </div><div class="csl-right-inline"><strong>UniProt: a hub for protein information</strong> <em>Nucleic Acids Research</em> (2014-10-27) <a href="https://doi.org/f64xfr">https://doi.org/f64xfr</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/nar/gku989">10.1093/nar/gku989</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/25348405">25348405</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4384041">PMC4384041</a></div></div>
+</div>
+<div id="ref-ezOoICHE" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">18. </div><div class="csl-right-inline"><strong>COSMIC: exploring the world's knowledge of somatic mutations in human cancer</strong> <div class="csl-block">Simon A Forbes, David Beare, Prasad Gunasekaran, Kenric Leung, Nidhi Bindal, Harry Boutselakis, Minjie Ding, Sally Bamford, Charlotte Cole, Sari Ward, … Peter J Campbell</div> <em>Nucleic Acids Research</em> (2014-10-29) <a href="https://doi.org/f64ng8">https://doi.org/f64ng8</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/nar/gku1075">10.1093/nar/gku1075</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/25355519">25355519</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4383913">PMC4383913</a></div></div>
+</div>
+<div id="ref-dGRWxzm4" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">19. </div><div class="csl-right-inline"><strong>IntAct: an open source molecular interaction database</strong> <div class="csl-block">H Hermjakob</div> <em>Nucleic Acids Research</em> (2004-01-01) <a href="https://doi.org/dz63qs">https://doi.org/dz63qs</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/nar/gkh052">10.1093/nar/gkh052</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/14681455">14681455</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC308786">PMC308786</a></div></div>
+</div>
+<div id="ref-NQaiGeFN" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">20. </div><div class="csl-right-inline"><strong>Issues in the Registration of Clinical Trials</strong> <div class="csl-block">Deborah A Zarin, Nicholas C Ide, Tony Tse, William R Harlan, Joyce C West, Donald AB Lindberg</div> <em>JAMA</em> (2007-05-16) <a href="https://doi.org/bqg9j8">https://doi.org/bqg9j8</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1001/jama.297.19.2112">10.1001/jama.297.19.2112</a></div></div>
+</div>
+<div id="ref-1GEdqX9gO" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">21. </div><div class="csl-right-inline"><strong>Integrative Transcriptomics Reveals Sexually Dimorphic Control of the Cholinergic/Neurokine Interface in Schizophrenia and Bipolar Disorder</strong> <div class="csl-block">Sebastian Lobentanzer, Geula Hanin, Jochen Klein, Hermona Soreq</div> <em>Cell Reports</em> (2019-10) <a href="https://doi.org/ghm25b">https://doi.org/ghm25b</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1016/j.celrep.2019.09.017">10.1016/j.celrep.2019.09.017</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31618642">31618642</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6899527">PMC6899527</a></div></div>
+</div>
+<div id="ref-SmbvHVqc" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">22. </div><div class="csl-right-inline"><strong>Biological Insights Knowledge Graph: an integrated knowledge graph to support drug development</strong> <div class="csl-block">David Geleta, Andriy Nikolov, Gavin Edwards, Anna Gogleva, Richard Jackson, Erik Jansson, Andrej Lamov, Sebastian Nilsson, Marina Pettersson, Vladimir Poroshin, … Eliseo Papa</div> <em>Cold Spring Harbor Laboratory</em> (2021-11-01) <a href="https://doi.org/gs52ms">https://doi.org/gs52ms</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1101/2021.10.28.466262">10.1101/2021.10.28.466262</a></div></div>
+</div>
+<div id="ref-1H2nqqKV7" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">23. </div><div class="csl-right-inline"><strong>A Framework for Automated Construction of Heterogeneous Large-Scale Biomedical Knowledge Graphs</strong> <div class="csl-block">Tiffany J Callahan, Ignacio J Tripodi, Lawrence E Hunter, William A Baumgartner Jr.</div> <em>Cold Spring Harbor Laboratory</em> (2020-05-02) <a href="https://doi.org/gg338z">https://doi.org/gg338z</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1101/2020.04.30.071407">10.1101/2020.04.30.071407</a></div></div>
+</div>
+<div id="ref-mZ5zqhmN" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">24. </div><div class="csl-right-inline"><strong>Integration of Structured Biological Data Sources using Biological Expression Language</strong> <div class="csl-block">Charles Tapley Hoyt, Daniel Domingo-Fernández, Sarah Mubeen, Josep Marin Llaó, Andrej Konotopez, Christian Ebeling, Colin Birkenbihl, Özlem Muslu, Bradley English, Simon Müller, … Martin Hofmann-Apitius</div> <em>Cold Spring Harbor Laboratory</em> (2019-05-08) <a href="https://doi.org/gg3kpq">https://doi.org/gg3kpq</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1101/631812">10.1101/631812</a></div></div>
+</div>
+<div id="ref-1353itlbv" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">25. </div><div class="csl-right-inline"><strong>KG-COVID-19: a framework to produce customized knowledge graphs for COVID-19 response</strong> <div class="csl-block">Justin Reese, Deepak Unni, Tiffany J Callahan, Luca Cappelletti, Vida Ravanmehr, Seth Carbon, Tommaso Fontana, Hannah Blau, Nicolas Matentzoglu, Nomi L Harris, … Christopher J Mungall</div> <em>Cold Spring Harbor Laboratory</em> (2020-08-18) <a href="https://doi.org/ghrpwg">https://doi.org/ghrpwg</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1101/2020.08.17.254839">10.1101/2020.08.17.254839</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/32839776">32839776</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7444288">PMC7444288</a></div></div>
+</div>
+<div id="ref-pyC7TREj" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">26. </div><div class="csl-right-inline"><strong>A platform for oncogenomic reporting and interpretation</strong> <div class="csl-block">Caralyn Reisle, Laura M Williamson, Erin Pleasance, Anna Davies, Brayden Pellegrini, Dustin W Bleile, Karen L Mungall, Eric Chuah, Martin R Jones, Yussanne Ma, … Steven JM Jones</div> <em>Nature Communications</em> (2022-02-09) <a href="https://doi.org/gp5zvn">https://doi.org/gp5zvn</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/s41467-022-28348-y">10.1038/s41467-022-28348-y</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/35140225">35140225</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8828759">PMC8828759</a></div></div>
+</div>
+<div id="ref-DeIC0Dgw" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">27. </div><div class="csl-right-inline"><strong>KGML-xDTD: A Knowledge Graph-based Machine Learning Framework for Drug Treatment Prediction and Mechanism Description</strong> <div class="csl-block">Chunyu Ma, Zhihan Zhou, Han Liu, David Koslicki</div> <em>Cold Spring Harbor Laboratory</em> (2022-12-02) <a href="https://doi.org/gs2hwp">https://doi.org/gs2hwp</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1101/2022.11.29.518441">10.1101/2022.11.29.518441</a></div></div>
+</div>
+<div id="ref-11W3tHiHT" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">28. </div><div class="csl-right-inline"><strong>Recent advances in modeling languages for pathway maps and computable biological networks</strong> <div class="csl-block">Ted Slater</div> <em>Drug Discovery Today</em> (2014-02) <a href="https://doi.org/f5wsb7">https://doi.org/f5wsb7</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1016/j.drudis.2013.12.011">10.1016/j.drudis.2013.12.011</a></div></div>
+</div>
+<div id="ref-akdxNohe" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">29. </div><div class="csl-right-inline"><strong>Gene Ontology Causal Activity Modeling (GO-CAM) moves beyond GO annotations to structured descriptions of biological functions and systems</strong> <div class="csl-block">Paul D Thomas, David P Hill, Huaiyu Mi, David Osumi-Sutherland, Kimberly Van Auken, Seth Carbon, James P Balhoff, Laurent-Philippe Albou, Benjamin Good, Pascale Gaudet, … Christopher J Mungall</div> <em>Nature Genetics</em> (2019-09-23) <a href="https://doi.org/ggcfst">https://doi.org/ggcfst</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/s41588-019-0500-1">10.1038/s41588-019-0500-1</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31548717">31548717</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7012280">PMC7012280</a></div></div>
+</div>
+<div id="ref-mP9wIAFk" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">30. </div><div class="csl-right-inline"><strong>&lt;scp&gt;SBML&lt;/scp&gt;
+Level 3: an extensible format for the exchange and reuse of biological models</strong> <div class="csl-block">Sarah M Keating, Dagmar Waltemath, Matthias König, Fengkai Zhang, Andreas Dräger, Claudine Chaouiya, Frank T Bergmann, Andrew Finney, Colin S Gillespie, Tomáš Helikar, … </div> <em>Molecular Systems Biology</em> (2020-08) <a href="https://doi.org/gncdt5">https://doi.org/gncdt5</a> <div class="csl-block">DOI: <a href="https://doi.org/10.15252/msb.20199110">10.15252/msb.20199110</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/32845085">32845085</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8411907">PMC8411907</a></div></div>
+</div>
+<div id="ref-1Cn9nrdiq" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">31. </div><div class="csl-right-inline"><strong>The BioPAX community standard for pathway data sharing</strong> <div class="csl-block">Emek Demir, Michael P Cary, Suzanne Paley, Ken Fukuda, Christian Lemer, Imre Vastrik, Guanming Wu, Peter D'Eustachio, Carl Schaefer, Joanne Luciano, … Gary D Bader</div> <em>Nature Biotechnology</em> (2010-09) <a href="https://doi.org/fgcrtt">https://doi.org/fgcrtt</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/nbt.1666">10.1038/nbt.1666</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/20829833">20829833</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3001121">PMC3001121</a></div></div>
+</div>
+<div id="ref-KwOAgLE2" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">32. </div><div class="csl-right-inline"><strong>The HUPO PSI's Molecular Interaction format—a community standard for the representation of protein interaction data</strong> <div class="csl-block">Henning Hermjakob, Luisa Montecchi-Palazzi, Gary Bader, Jérôme Wojcik, Lukasz Salwinski, Arnaud Ceol, Susan Moore, Sandra Orchard, Ugis Sarkans, Christian von Mering, … Rolf Apweiler</div> <em>Nature Biotechnology</em> (2004-01-30) <a href="https://doi.org/fsdgcx">https://doi.org/fsdgcx</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/nbt926">10.1038/nbt926</a></div></div>
+</div>
+<div id="ref-Nxf46J67" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">33. </div><div class="csl-right-inline"><strong>Representations of molecular pathways: an evaluation of SBML, PSI MI and BioPAX</strong> <div class="csl-block">Lena Strömbäck, Patrick Lambrix</div> <em>Bioinformatics</em> (2005-10-18) <a href="https://doi.org/dm6h69">https://doi.org/dm6h69</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/bioinformatics/bti718">10.1093/bioinformatics/bti718</a></div></div>
+</div>
+<div id="ref-PqRxavyS" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">34. </div><div class="csl-right-inline"><strong>Promoting Coordinated Development of Community-Based Information Standards for Modeling in Biology: The COMBINE Initiative</strong> <div class="csl-block">Michael Hucka, David P Nickerson, Gary D Bader, Frank T Bergmann, Jonathan Cooper, Emek Demir, Alan Garny, Martin Golebiewski, Chris J Myers, Falk Schreiber, … Nicolas Le NovÃ¨re</div> <em>Frontiers in Bioengineering and Biotechnology</em> (2015-02-24) <a href="https://doi.org/gf5hmg">https://doi.org/gf5hmg</a> <div class="csl-block">DOI: <a href="https://doi.org/10.3389/fbioe.2015.00019">10.3389/fbioe.2015.00019</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/25759811">25759811</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4338824">PMC4338824</a></div></div>
+</div>
+<div id="ref-bniVH7q2" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">35. </div><div class="csl-right-inline"><strong>RTX-KG2: a system for building a semantically standardized knowledge graph for translational biomedicine</strong> <div class="csl-block">EC Wood, Amy K Glen, Lindsey G Kvarfordt, Finn Womack, Liliana Acevedo, Timothy S Yoon, Chunyu Ma, Veronica Flores, Meghamala Sinha, Yodsawalai Chodpathumwan, … Stephen A Ramsey</div> <em>BMC Bioinformatics</em> (2022-09-29) <a href="https://doi.org/gqxmkb">https://doi.org/gqxmkb</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1186/s12859-022-04932-3">10.1186/s12859-022-04932-3</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/36175836">36175836</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9520835">PMC9520835</a></div></div>
+</div>
+<div id="ref-D842bsN2" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">36. </div><div class="csl-right-inline"><strong>ROBOKOP: an abstraction layer and user interface for knowledge graphs to support question answering</strong> <div class="csl-block">Kenneth Morton, Patrick Wang, Chris Bizon, Steven Cox, James Balhoff, Yaphet Kebede, Karamarie Fecho, Alexander Tropsha</div> <em>Bioinformatics</em> (2019-08-13) <a href="https://doi.org/gj7chw">https://doi.org/gj7chw</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/bioinformatics/btz604">10.1093/bioinformatics/btz604</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31410449">31410449</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6954664">PMC6954664</a></div></div>
+</div>
+<div id="ref-lloXDt6h" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">37. </div><div class="csl-right-inline"><strong>Cross-linking BioThings APIs through JSON-LD to facilitate knowledge exploration</strong> <div class="csl-block">Jiwen Xin, Cyrus Afrasiabi, Sebastien Lelong, Julee Adesara, Ginger Tsueng, Andrew I Su, Chunlei Wu</div> <em>BMC Bioinformatics</em> (2018-02-01) <a href="https://doi.org/grfnc4">https://doi.org/grfnc4</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1186/s12859-018-2041-5">10.1186/s12859-018-2041-5</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29390967">29390967</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5796402">PMC5796402</a></div></div>
+</div>
+<div id="ref-1EHBHnMYB" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">38. </div><div class="csl-right-inline"><strong>The Biomedical Data Translator Program: Conception, Culture, and Community</strong> <em>Clinical and Translational Science</em> (2018-11-09) <a href="https://doi.org/gktj4p">https://doi.org/gktj4p</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1111/cts.12592">10.1111/cts.12592</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30412340">30412340</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6440573">PMC6440573</a></div></div>
+</div>
+<div id="ref-ScyBF3gY" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">39. </div><div class="csl-right-inline"><strong>Navigating the Phenotype Frontier: The Monarch Initiative</strong> <div class="csl-block">Julie A McMurry, Sebastian Köhler, Nicole L Washington, James P Balhoff, Charles Borromeo, Matthew Brush, Seth Carbon, Tom Conlin, Nathan Dunn, Mark Engelstad, … Melissa A Haendel</div> <em>Genetics</em> (2016-08-01) <a href="https://doi.org/f82g27">https://doi.org/f82g27</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1534/genetics.116.188870">10.1534/genetics.116.188870</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/27516611">27516611</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4981258">PMC4981258</a></div></div>
+</div>
+<div id="ref-J06lwBzy" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">40. </div><div class="csl-right-inline"><strong>KaBOB: ontology-based semantic integration of biomedical databases</strong> <div class="csl-block">Kevin M Livingston, Michael Bada, William A Baumgartner Jr, Lawrence E Hunter</div> <em>BMC Bioinformatics</em> (2015-04-23) <a href="https://doi.org/f7kdb3">https://doi.org/f7kdb3</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1186/s12859-015-0559-3">10.1186/s12859-015-0559-3</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/25903923">25903923</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4448321">PMC4448321</a></div></div>
+</div>
+<div id="ref-fO4n5GVt" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">41. </div><div class="csl-right-inline"><strong>UniHPF : Universal Healthcare Predictive Framework with Zero Domain Knowledge</strong> <div class="csl-block">Kyunghoon Hur, Jungwoo Oh, Junu Kim, Jiyoun Kim, Min Jae Lee, Eunbyeol Cho, Seong-Eun Moon, Young-Hak Kim, Edward Choi</div> <em>arXiv</em> (2022) <a href="https://doi.org/gs52nd">https://doi.org/gs52nd</a> <div class="csl-block">DOI: <a href="https://doi.org/10.48550/arxiv.2211.08082">10.48550/arxiv.2211.08082</a></div></div>
+</div>
+<div id="ref-8CoykoAG" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">42. </div><div class="csl-right-inline"><strong>Building a knowledge graph to enable precision medicine</strong> <div class="csl-block">Payal Chandak, Kexin Huang, Marinka Zitnik</div> <em>Cold Spring Harbor Laboratory</em> (2022-05-01) <a href="https://doi.org/gsx5jg">https://doi.org/gsx5jg</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1101/2022.05.01.489928">10.1101/2022.05.01.489928</a></div></div>
+</div>
+<div id="ref-QOL3GPr8" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">43. </div><div class="csl-right-inline"><strong>Deep learning for diagnosing patients with rare genetic diseases</strong> <div class="csl-block">Emily Alsentzer, Michelle M Li, Shilpa N Kobren, Isaac S Kohane, Marinka Zitnik</div> <em>Cold Spring Harbor Laboratory</em> (2022-12-13) <a href="https://doi.org/gs52mt">https://doi.org/gs52mt</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1101/2022.12.07.22283238">10.1101/2022.12.07.22283238</a></div></div>
+</div>
+<div id="ref-vy5qjeoS" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">44. </div><div class="csl-right-inline"><strong>Deep Bidirectional Language-Knowledge Graph Pretraining</strong> <div class="csl-block">Michihiro Yasunaga, Antoine Bosselut, Hongyu Ren, Xikun Zhang, Christopher D Manning, Percy Liang, Jure Leskovec</div> <em>arXiv</em> (2022) <a href="https://doi.org/gs52nb">https://doi.org/gs52nb</a> <div class="csl-block">DOI: <a href="https://doi.org/10.48550/arxiv.2210.09338">10.48550/arxiv.2210.09338</a></div></div>
+</div>
+<div id="ref-1FrsWUfLP" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">45. </div><div class="csl-right-inline"><strong>Knowledge Graph - Deep Learning: A Case Study in Question Answering in Aviation Safety Domain</strong> <div class="csl-block">Ankush Agarwal, Raj Gite, Shreya Laddha, Pushpak Bhattacharyya, Satyanarayan Kar, Asif Ekbal, Prabhjit Thind, Rajesh Zele, Ravi Shankar</div> <em>arXiv</em> (2022) <a href="https://doi.org/gs52m9">https://doi.org/gs52m9</a> <div class="csl-block">DOI: <a href="https://doi.org/10.48550/arxiv.2205.15952">10.48550/arxiv.2205.15952</a></div></div>
+</div>
+<div id="ref-8keWQlG8" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">46. </div><div class="csl-right-inline"><strong>STonKGs: a sophisticated transformer trained on biomedical text and knowledge graphs</strong> <div class="csl-block">Helena Balabin, Charles Tapley Hoyt, Colin Birkenbihl, Benjamin M Gyori, John Bachman, Alpha Tom Kodamullil, Paul G Plöger, Martin Hofmann-Apitius, Daniel Domingo-Fernández</div> <em>Bioinformatics</em> (2022-01-05) <a href="https://doi.org/gqc94q">https://doi.org/gqc94q</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/bioinformatics/btac001">10.1093/bioinformatics/btac001</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/34986221">34986221</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8896635">PMC8896635</a></div></div>
+</div>
+<div id="ref-nTlj6VKs" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">47. </div><div class="csl-right-inline"><strong>The &lt;scp&gt;BioGRID&lt;/scp&gt; database: A comprehensive biomedical resource of curated protein, genetic, and chemical interactions</strong> <div class="csl-block">Rose Oughtred, Jennifer Rust, Christie Chang, Bobby‐Joe Breitkreutz, Chris Stark, Andrew Willems, Lorrie Boucher, Genie Leung, Nadine Kolas, Frederick Zhang, … Mike Tyers</div> <em>Protein Science</em> (2020-11-23) <a href="https://doi.org/gk7skv">https://doi.org/gk7skv</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1002/pro.3978">10.1002/pro.3978</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/33070389">33070389</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7737760">PMC7737760</a></div></div>
+</div>
+<div id="ref-1663S4mH8" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">48. </div><div class="csl-right-inline"><strong>The STRING database in 2021: customizable protein–protein networks, and functional characterization of user-uploaded gene/measurement sets</strong> <div class="csl-block">Damian Szklarczyk, Annika L Gable, Katerina C Nastou, David Lyon, Rebecca Kirsch, Sampo Pyysalo, Nadezhda T Doncheva, Marc Legeay, Tao Fang, Peer Bork, … Christian von Mering</div> <em>Nucleic Acids Research</em> (2020-11-25) <a href="https://doi.org/gh77tp">https://doi.org/gh77tp</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/nar/gkaa1074">10.1093/nar/gkaa1074</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/33237311">33237311</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7779004">PMC7779004</a></div></div>
+</div>
+<div id="ref-eyEtjj2p" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">49. </div><div class="csl-right-inline"><strong>Cancer molecular markers: A guide to cancer detection and management</strong> <div class="csl-block">Meera Nair, Sardul Singh Sandhu, Anil Kumar Sharma</div> <em>Seminars in Cancer Biology</em> (2018-10) <a href="https://doi.org/gfdkxn">https://doi.org/gfdkxn</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1016/j.semcancer.2018.02.002">10.1016/j.semcancer.2018.02.002</a></div></div>
+</div>
+<div id="ref-1Hew9xuhZ" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">50. </div><div class="csl-right-inline"><strong>Support systems to guide clinical decision-making in precision oncology: The Cancer Core Europe Molecular Tumor Board Portal</strong> <div class="csl-block">David Tamborero, Rodrigo Dienstmann, Maan Haj Rachid, Jorrit Boekel, Richard Baird, Irene Braña, Luigi De Petris, Jeffrey Yachnin, Christophe Massard, Frans L Opdam, … </div> <em>Nature Medicine</em> (2020-07) <a href="https://doi.org/gh9htr">https://doi.org/gh9htr</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/s41591-020-0969-2">10.1038/s41591-020-0969-2</a></div></div>
+</div>
+<div id="ref-Prcc1PJY" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">51. </div><div class="csl-right-inline"><strong>Cancer Genome Interpreter annotates the biological and clinical relevance of tumor alterations</strong> <div class="csl-block">David Tamborero, Carlota Rubio-Perez, Jordi Deu-Pons, Michael P Schroeder, Ana Vivancos, Ana Rovira, Ignasi Tusquets, Joan Albanell, Jordi Rodon, Josep Tabernero, … Nuria Lopez-Bigas</div> <em>Genome Medicine</em> (2018-03-28) <a href="https://doi.org/gmhdr5">https://doi.org/gmhdr5</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1186/s13073-018-0531-8">10.1186/s13073-018-0531-8</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29592813">29592813</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5875005">PMC5875005</a></div></div>
+</div>
+<div id="ref-xiGrNkR1" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">52. </div><div class="csl-right-inline"><strong>The Sequence Ontology: a tool for the unification of genome annotations</strong> <div class="csl-block">Karen Eilbeck, Suzanna E Lewis, Christopher J Mungall, Mark Yandell, Lincoln Stein, Richard Durbin, Michael Ashburner</div> <em>Genome Biology</em> (2005-04-29) <a href="https://doi.org/frzhf4">https://doi.org/frzhf4</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1186/gb-2005-6-5-r44">10.1186/gb-2005-6-5-r44</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/15892872">15892872</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1175956">PMC1175956</a></div></div>
+</div>
+<div id="ref-ez55Zlmu" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">53. </div><div class="csl-right-inline"><strong>The Human Disease Ontology 2022 update</strong> <div class="csl-block">Lynn M Schriml, James B Munro, Mike Schor, Dustin Olley, Carrie McCracken, Victor Felix, J Allen Baron, Rebecca Jackson, Susan M Bello, Cynthia Bearer, … Carol Greene</div> <em>Nucleic Acids Research</em> (2021-11-10) <a href="https://doi.org/gsb57x">https://doi.org/gsb57x</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/nar/gkab1063">10.1093/nar/gkab1063</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/34755882">34755882</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8728220">PMC8728220</a></div></div>
+</div>
+<div id="ref-nDiR3rcY" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">54. </div><div class="csl-right-inline"><strong>OncoTree: A Cancer Classification System for Precision Oncology</strong> <div class="csl-block">Ritika Kundra, Hongxin Zhang, Robert Sheridan, Sahussapont Joseph Sirintrapun, Avery Wang, Angelica Ochoa, Manda Wilson, Benjamin Gross, Yichao Sun, Ramyasree Madupuri, … Nikolaus Schultz</div> <em>JCO Clinical Cancer Informatics</em> (2021-12) <a href="https://doi.org/gmgf8m">https://doi.org/gmgf8m</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1200/cci.20.00108">10.1200/cci.20.00108</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/33625877">33625877</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8240791">PMC8240791</a></div></div>
+</div>
+<div id="ref-11HFBpGej" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">55. </div><div class="csl-right-inline"><strong>Open Targets: a platform for therapeutic target identification and validation</strong> <div class="csl-block">Gautier Koscielny, Peter An, Denise Carvalho-Silva, Jennifer A Cham, Luca Fumis, Rippa Gasparyan, Samiul Hasan, Nikiforos Karamanis, Michael Maguire, Eliseo Papa, … Ian Dunham</div> <em>Nucleic Acids Research</em> (2016-11-29) <a href="https://doi.org/f9v9hf">https://doi.org/f9v9hf</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/nar/gkw1055">10.1093/nar/gkw1055</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/27899665">27899665</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5210543">PMC5210543</a></div></div>
+</div>
+<div id="ref-9fcv9d5" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">56. </div><div class="csl-right-inline"><strong>Network expansion of genetic associations defines a pleiotropy map of human cell biology</strong> <div class="csl-block">Inigo Barrio-Hernandez, Jeremy Schwartzentruber, Anjali Shrivastava, Noemi del-Toro, Qian Zhang, Glyn Bradley, Henning Hermjakob, Sandra Orchard, Ian Dunham, Carl A Anderson, … Pedro Beltrao</div> <em>Cold Spring Harbor Laboratory</em> (2021-07-19) <a href="https://doi.org/gs52mr">https://doi.org/gs52mr</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1101/2021.07.19.452924">10.1101/2021.07.19.452924</a></div></div>
+</div>
+<div id="ref-iDcPtWv1" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">57. </div><div class="csl-right-inline"><strong>GRAPE for Fast and Scalable Graph Processing and random walk-based Embedding</strong> <div class="csl-block">Luca Cappelletti, Tommaso Fontana, Elena Casiraghi, Vida Ravanmehr, Tiffany J Callahan, Carlos Cano, Marcin P Joachimiak, Christopher J Mungall, Peter N Robinson, Justin Reese, Giorgio Valentini</div> <em>arXiv</em> (2021) <a href="https://doi.org/gs52m8">https://doi.org/gs52m8</a> <div class="csl-block">DOI: <a href="https://doi.org/10.48550/arxiv.2110.06196">10.48550/arxiv.2110.06196</a></div></div>
+</div>
+<div id="ref-Tm14Ibs7" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">58. </div><div class="csl-right-inline"><strong>GEARS: Predicting transcriptional outcomes of novel multi-gene perturbations</strong> <div class="csl-block">Yusuf Roohani, Kexin Huang, Jure Leskovec</div> <em>Cold Spring Harbor Laboratory</em> (2022-07-14) <a href="https://doi.org/gqhrzs">https://doi.org/gqhrzs</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1101/2022.07.12.499735">10.1101/2022.07.12.499735</a></div></div>
+</div>
+<div id="ref-11A8WJC5q" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">59. </div><div class="csl-right-inline"><strong>On the Privacy of Federated Pipelines</strong> <div class="csl-block">Reza Nasirigerdeh, Reihaneh Torkzadehmahani, Jan Baumbach, David B Blumenthal</div> <em>Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval</em> (2021-07-11) <a href="https://doi.org/gs52mx">https://doi.org/gs52mx</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1145/3404835.3462996">10.1145/3404835.3462996</a></div></div>
+</div>
+<div id="ref-aDwLmWW9" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">60. </div><div class="csl-right-inline"><strong>The FeatureCloud AI Store for Federated Learning in Biomedicine and Beyond</strong> <div class="csl-block">Julian Matschinske, Julian Späth, Reza Nasirigerdeh, Reihaneh Torkzadehmahani, Anne Hartebrodt, Balázs Orbán, Sándor Fejér, Olga Zolotareva, Mohammad Bakhtiari, Béla Bihari, … Jan Baumbach</div> <em>arXiv</em> (2021) <a href="https://doi.org/gs52m6">https://doi.org/gs52m6</a> <div class="csl-block">DOI: <a href="https://doi.org/10.48550/arxiv.2105.05734">10.48550/arxiv.2105.05734</a></div></div>
+</div>
+<div id="ref-19oj9JJD5" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">61. </div><div class="csl-right-inline"><strong>[Orphanet: a European database for rare diseases].</strong> <div class="csl-block">SS Weinreich, R Mangon, JJ Sikkens, ME en Teeuw, MC Cornel</div> <em>Nederlands tijdschrift voor geneeskunde</em> (2008-03-01) <a href="https://www.ncbi.nlm.nih.gov/pubmed/18389888">https://www.ncbi.nlm.nih.gov/pubmed/18389888</a> <div class="csl-block">PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/18389888">18389888</a></div></div>
+</div>
+<div id="ref-nELyJbhp" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">62. </div><div class="csl-right-inline"><strong>German approach of coding rare diseases with ICD-10-GM and Orpha numbers in routine settings</strong> <div class="csl-block">Stefanie Weber, Magdalena Dávila</div> <em>Orphanet Journal of Rare Diseases</em> (2014) <a href="https://doi.org/gs52mz">https://doi.org/gs52mz</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1186/1750-1172-9-s1-o10">10.1186/1750-1172-9-s1-o10</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4249588">PMC4249588</a></div></div>
+</div>
+<div id="ref-o7nDQFO1" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">63. </div><div class="csl-right-inline"><strong>The Human Phenotype Ontology</strong> <div class="csl-block">PN Robinson, S Mundlos</div> <em>Clinical Genetics</em> (2010-05-09) <a href="https://doi.org/cj87nn">https://doi.org/cj87nn</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1111/j.1399-0004.2010.01436.x">10.1111/j.1399-0004.2010.01436.x</a></div></div>
+</div>
+<div id="ref-yKZ8alU5" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">64. </div><div class="csl-right-inline"><strong>MIRACUM: Medical Informatics in Research and Care in University Medicine</strong> <div class="csl-block">Hans-Ulrich Prokosch, Till Acker, Johannes Bernarding, Harald Binder, Martin Boeker, Melanie Boerries, Philipp Daumke, Thomas Ganslandt, Jürgen Hesser, Gunther Höning, … Holger Storf</div> <em>Methods of Information in Medicine</em> (2018-07) <a href="https://doi.org/gdzpqv">https://doi.org/gdzpqv</a> <div class="csl-block">DOI: <a href="https://doi.org/10.3414/me17-02-0025">10.3414/me17-02-0025</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30016814">30016814</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6178200">PMC6178200</a></div></div>
+</div>
+<div id="ref-eFQyj5Wh" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">65. </div><div class="csl-right-inline"><a href="https://www.medizininformatik-initiative.de/sites/default/files/2018-07/2018-03_mdi_Der%20Kerndatensatz%20der%20Medizininformatik-Initiative%20Ein%20Schritt%20zur%20Sekund%C3%A4rnutzung%20von%20Versorgungsdaten%20auf%20nationaler%20Ebene.pdf">https://www.medizininformatik-initiative.de/sites/default/files/2018-07/2018-03_mdi_Der%20Kerndatensatz%20der%20Medizininformatik-Initiative%20Ein%20Schritt%20zur%20Sekund%C3%A4rnutzung%20von%20Versorgungsdaten%20auf%20nationaler%20Ebene.pdf</a></div>
+</div>
+<div id="ref-lrjMS8FK" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">66. </div><div class="csl-right-inline"><strong>Study of Health in Pomerania (SHIP): A health examination survey in an east German region: Objectives and design</strong> <div class="csl-block">Ulrich John, Elke Hensel, Jan L�demann, Marion Piek, Sybille Sauer, Christiane Adam, Gabriele Born, Dietrich Alte, Eberhard Greiser, Ursula Haertel, … Christof Kessler</div> <em>Sozial- und Pr�ventivmedizin SPM</em> (2001-05) <a href="https://doi.org/c4gt9k">https://doi.org/c4gt9k</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1007/bf01324255">10.1007/bf01324255</a></div></div>
+</div>
+<div id="ref-u1j8EALG" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">67. </div><div class="csl-right-inline"><strong>Cohort profile: Greifswald approach to individualized medicine (GANI_MED)</strong> <div class="csl-block">Hans J Grabe, Heinrich Assel, Thomas Bahls, Marcus Dörr, Karlhans Endlich, Nicole Endlich, Pia Erdmann, Ralf Ewert, Stephan B Felix, Beate Fiene, … Heyo K Kroemer</div> <em>Journal of Translational Medicine</em> (2014) <a href="https://doi.org/gpf2mh">https://doi.org/gpf2mh</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1186/1479-5876-12-144">10.1186/1479-5876-12-144</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/24886498">24886498</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4040487">PMC4040487</a></div></div>
+</div>
+<div id="ref-18dC6FMrj" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">68. </div><div class="csl-right-inline"><strong>BioPortal: ontologies and integrated data resources at the click of a mouse</strong> <div class="csl-block">NF Noy, NH Shah, PL Whetzel, B Dai, M Dorf, N Griffith, C Jonquet, DL Rubin, M-A Storey, CG Chute, MA Musen</div> <em>Nucleic Acids Research</em> (2009-05-29) <a href="https://doi.org/dm869h">https://doi.org/dm869h</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/nar/gkp440">10.1093/nar/gkp440</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/19483092">19483092</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2703982">PMC2703982</a></div></div>
+</div>
+<div id="ref-nC3lHM8C" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">69. </div><div class="csl-right-inline"><strong>The German Corona Consensus Dataset (GECCO): a standardized dataset for COVID-19 research in university medicine and beyond</strong> <div class="csl-block">Julian Sass, Alexander Bartschke, Moritz Lehne, Andrea Essenwanger, Eugenia Rinaldi, Stefanie Rudolph, Kai U Heitmann, Jörg J Vehreschild, Christof von Kalle, Sylvia Thun</div> <em>BMC Medical Informatics and Decision Making</em> (2020-12) <a href="https://doi.org/gs52m2">https://doi.org/gs52m2</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1186/s12911-020-01374-w">10.1186/s12911-020-01374-w</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/33349259">33349259</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7751265">PMC7751265</a></div></div>
+</div>
+<div id="ref-QrLcJJPA" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">70. </div><div class="csl-right-inline"><strong>CovidGraph: a graph to fight COVID-19</strong> <div class="csl-block">Lea Gütebier, Tim Bleimehl, Ron Henkel, Jamie Munro, Sebastian Müller, Axel Morgner, Jakob Laenge, Anke Pachauer, Alexander Erdl, Jens Weimar, … Alexander Jarasch</div> <em>Bioinformatics</em> (2022-08-30) <a href="https://doi.org/gs52mn">https://doi.org/gs52mn</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/bioinformatics/btac592">10.1093/bioinformatics/btac592</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/36040169">36040169</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9563682">PMC9563682</a></div></div>
+</div>
+<div id="ref-16z4LZSdJ" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">71. </div><div class="csl-right-inline"><strong>Sherlock: an open-source data platform to store, analyze and integrate Big Data for computational biologists</strong> <div class="csl-block">Balazs Bohar, David Fazekas, Matthew Madgwick, Luca Csabai, Marton Olbei, Tamás Korcsmáros, Mate Szalay-Beko</div> <em>F1000Research</em> (2023-01-12) <a href="https://doi.org/gs52m4">https://doi.org/gs52m4</a> <div class="csl-block">DOI: <a href="https://doi.org/10.12688/f1000research.52791.3">10.12688/f1000research.52791.3</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/36533093">36533093</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9731172">PMC9731172</a></div></div>
+</div>
+<div id="ref-HcpxNvpk" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">72. </div><div class="csl-right-inline"><strong>Deciphering cell–cell interactions and communication from gene expression</strong> <div class="csl-block">Erick Armingol, Adam Officer, Olivier Harismendy, Nathan E Lewis</div> <em>Nature Reviews Genetics</em> (2020-11-09) <a href="https://doi.org/ghjj3h">https://doi.org/ghjj3h</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/s41576-020-00292-x">10.1038/s41576-020-00292-x</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/33168968">33168968</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7649713">PMC7649713</a></div></div>
+</div>
+<div id="ref-1A6n4edrt" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">73. </div><div class="csl-right-inline"><strong>The landscape of cell–cell communication through single-cell transcriptomics</strong> <div class="csl-block">Axel A Almet, Zixuan Cang, Suoqin Jin, Qing Nie</div> <em>Current Opinion in Systems Biology</em> (2021-06) <a href="https://doi.org/gs52mh">https://doi.org/gs52mh</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1016/j.coisb.2021.03.007">10.1016/j.coisb.2021.03.007</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/33969247">33969247</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8104132">PMC8104132</a></div></div>
+</div>
+<div id="ref-1EXXNpykM" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">74. </div><div class="csl-right-inline"><strong>MEBOCOST: Metabolite-mediated Cell Communication Modeling by Single Cell Transcriptome</strong> <div class="csl-block">Rongbin Zheng, Yang Zhang, Tadataka Tsuji, Xinlei Gao, Allon Wagner, Nir Yosef, Hong Chen, Lili Zhang, Yu-Hua Tseng, Kaifu Chen</div> <em>Cold Spring Harbor Laboratory</em> (2022-05-31) <a href="https://doi.org/gsw74q">https://doi.org/gsw74q</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1101/2022.05.30.494067">10.1101/2022.05.30.494067</a></div></div>
+</div>
+<div id="ref-PSwd2RWP" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">75. </div><div class="csl-right-inline"><strong>Inferring neuron-neuron communications from single-cell transcriptomics through NeuronChat</strong> <div class="csl-block">Wei Zhao, Kevin G Johnston, Honglei Ren, Xiangmin Xu, Qing Nie</div> <em>Nature Communications</em> (2023-02-28) <a href="https://doi.org/gsx7kz">https://doi.org/gsx7kz</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/s41467-023-36800-w">10.1038/s41467-023-36800-w</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/36854676">36854676</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9974942">PMC9974942</a></div></div>
+</div>
+<div id="ref-1FhKLN5iq" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">76. </div><div class="csl-right-inline"><strong>Single-cell roadmap of human gonadal development</strong> <div class="csl-block">Luz Garcia-Alonso, Valentina Lorenzi, Cecilia Icoresi Mazzeo, João Pedro Alves-Lopes, Kenny Roberts, Carmen Sancho-Serra, Justin Engelbert, Magda Marečková, Wolfram H Gruhn, Rachel A Botting, … Roser Vento-Tormo</div> <em>Nature</em> (2022-07-06) <a href="https://doi.org/gqgf9r">https://doi.org/gqgf9r</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/s41586-022-04918-4">10.1038/s41586-022-04918-4</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/35794482">35794482</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9300467">PMC9300467</a></div></div>
+</div>
+<div id="ref-aNFFB1Q" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">77. </div><div class="csl-right-inline"><strong>Comparison of methods and resources for cell-cell communication inference from single-cell RNA-Seq data</strong> <div class="csl-block">Daniel Dimitrov, Dénes Türei, Martin Garrido-Rodriguez, Paul L Burmedi, James S Nagai, Charlotte Boys, Ricardo O Ramirez Flores, Hyojin Kim, Bence Szalai, Ivan G Costa, … Julio Saez-Rodriguez</div> <em>Nature Communications</em> (2022-06-09) <a href="https://doi.org/grkzjh">https://doi.org/grkzjh</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/s41467-022-30755-0">10.1038/s41467-022-30755-0</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/35680885">35680885</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9184522">PMC9184522</a></div></div>
+</div>
+<div id="ref-VwS8W9dk" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">78. </div><div class="csl-right-inline"><strong>KEGG: new perspectives on genomes, pathways, diseases and drugs</strong> <div class="csl-block">Minoru Kanehisa, Miho Furumichi, Mao Tanabe, Yoko Sato, Kanae Morishima</div> <em>Nucleic Acids Research</em> (2016-11-28) <a href="https://doi.org/f9v6kv">https://doi.org/f9v6kv</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/nar/gkw1092">10.1093/nar/gkw1092</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/27899662">27899662</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5210567">PMC5210567</a></div></div>
+</div>
+<div id="ref-Gout7oWo" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">79. </div><div class="csl-right-inline"><strong>The reactome pathway knowledgebase 2022</strong> <div class="csl-block">Marc Gillespie, Bijay Jassal, Ralf Stephan, Marija Milacic, Karen Rothfels, Andrea Senff-Ribeiro, Johannes Griss, Cristoffer Sevilla, Lisa Matthews, Chuqiao Gong, … Peter D’Eustachio</div> <em>Nucleic Acids Research</em> (2021-11-12) <a href="https://doi.org/gpm2r5">https://doi.org/gpm2r5</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/nar/gkab1028">10.1093/nar/gkab1028</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/34788843">34788843</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8689983">PMC8689983</a></div></div>
+</div>
+<div id="ref-v9JUscZ1" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">80. </div><div class="csl-right-inline"><strong>Rhea, the reaction knowledgebase in 2022</strong> <div class="csl-block">Parit Bansal, Anne Morgat, Kristian B Axelsen, Venkatesh Muthukrishnan, Elisabeth Coudert, Lucila Aimo, Nevila Hyka-Nouspikel, Elisabeth Gasteiger, Arnaud Kerhornou, Teresa Batista Neto, … Alan Bridge</div> <em>Nucleic Acids Research</em> (2021-11-10) <a href="https://doi.org/gqk8b7">https://doi.org/gqk8b7</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/nar/gkab1016">10.1093/nar/gkab1016</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/34755880">34755880</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8728268">PMC8728268</a></div></div>
+</div>
+<div id="ref-Rygf3Cgf" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">81. </div><div class="csl-right-inline"><strong>HMDB 5.0: the Human Metabolome Database for 2022</strong> <div class="csl-block">David S Wishart, AnChi Guo, Eponine Oler, Fei Wang, Afia Anjum, Harrison Peters, Raynard Dizon, Zinat Sayeeda, Siyang Tian, Brian L Lee, … Vasuk Gautam</div> <em>Nucleic Acids Research</em> (2021-11-19) <a href="https://doi.org/gpfs92">https://doi.org/gpfs92</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/nar/gkab1062">10.1093/nar/gkab1062</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/34986597">34986597</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8728138">PMC8728138</a></div></div>
+</div>
+<div id="ref-TYquyrUR" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">82. </div><div class="csl-right-inline"><strong>Recon3D enables a three-dimensional view of gene variation in human metabolism</strong> <div class="csl-block">Elizabeth Brunk, Swagatika Sahoo, Daniel C Zielinski, Ali Altunkaya, Andreas Dräger, Nathan Mih, Francesco Gatto, Avlant Nilsson, German Andres Preciat Gonzalez, Maike Kathrin Aurich, … Bernhard O Palsson</div> <em>Nature Biotechnology</em> (2018-02-19) <a href="https://doi.org/gg7wf5">https://doi.org/gg7wf5</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/nbt.4072">10.1038/nbt.4072</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29457794">29457794</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5840010">PMC5840010</a></div></div>
+</div>
+<div id="ref-QANpB4kr" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">83. </div><div class="csl-right-inline"><strong>An atlas of human metabolism</strong> <div class="csl-block">Jonathan L Robinson, Pınar Kocabaş, Hao Wang, Pierre-Etienne Cholley, Daniel Cook, Avlant Nilsson, Mihail Anton, Raphael Ferreira, Iván Domenzain, Virinchi Billa, … Jens Nielsen</div> <em>Science Signaling</em> (2020-03-24) <a href="https://doi.org/ggqgs6">https://doi.org/ggqgs6</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1126/scisignal.aaz1482">10.1126/scisignal.aaz1482</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/32209698">32209698</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7331181">PMC7331181</a></div></div>
+</div>
+<div id="ref-bc1DWCco" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">84. </div><div class="csl-right-inline"><strong>STITCH 5: augmenting protein–chemical interaction networks with tissue and affinity data</strong> <div class="csl-block">Damian Szklarczyk, Alberto Santos, Christian von Mering, Lars Juhl Jensen, Peer Bork, Michael Kuhn</div> <em>Nucleic Acids Research</em> (2015-11-20) <a href="https://doi.org/f8cprg">https://doi.org/f8cprg</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/nar/gkv1277">10.1093/nar/gkv1277</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/26590256">26590256</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4702904">PMC4702904</a></div></div>
+</div>
+<div id="ref-1GjHUK5qj" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">85. </div><div class="csl-right-inline"><strong>The IUPHAR/BPS guide to PHARMACOLOGY in 2022: curating pharmacology for COVID-19, malaria and antibacterials</strong> <div class="csl-block">Simon D Harding, Jane F Armstrong, Elena Faccenda, Christopher Southan, Stephen PH Alexander, Anthony P Davenport, Adam J Pawson, Michael Spedding, Jamie A Davies</div> <em>Nucleic Acids Research</em> (2021-10-30) <a href="https://doi.org/gs52mp">https://doi.org/gs52mp</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/nar/gkab1010">10.1093/nar/gkab1010</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/34718737">34718737</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8689838">PMC8689838</a></div></div>
+</div>
+<div id="ref-GBpX8fvk" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">86. </div><div class="csl-right-inline"><strong>Protein-metabolite interactomics of carbohydrate metabolism reveal regulation of lactate dehydrogenase</strong> <div class="csl-block">Kevin G Hicks, Ahmad A Cluntun, Heidi L Schubert, Sean R Hackett, Jordan A Berg, Paul G Leonard, Mariana A Ajalla Aleixo, Youjia Zhou, Alex J Bott, Sonia R Salvatore, … Jared Rutter</div> <em>Science</em> (2023-03-10) <a href="https://doi.org/gsb7t6">https://doi.org/gsb7t6</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1126/science.abm3452">10.1126/science.abm3452</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/36893255">36893255</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10262665">PMC10262665</a></div></div>
+</div>
+<div id="ref-171uilzJ7" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">87. </div><div class="csl-right-inline"><strong>Towards a Rosetta stone for metabolomics: recommendations to overcome inconsistent metabolite nomenclature</strong> <div class="csl-block">Ville Koistinen, Olli Kärkkäinen, Pekka Keski-Rahkonen, Hiroshi Tsugawa, Augustin Scalbert, Masanori Arita, David Wishart, Kati Hanhineva</div> <em>Nature Metabolism</em> (2023-03-08) <a href="https://doi.org/gs52mm">https://doi.org/gs52mm</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/s42255-023-00757-3">10.1038/s42255-023-00757-3</a></div></div>
+</div>
+<div id="ref-117E2kGkQ" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">88. </div><div class="csl-right-inline"><strong>Consistency, Inconsistency, and Ambiguity of Metabolite Names in Biochemical Databases Used for Genome-Scale Metabolic Modelling</strong> <div class="csl-block">Nhung Pham, Ruben van Heck, Jesse van Dam, Peter Schaap, Edoardo Saccenti, Maria Suarez-Diez</div> <em>Metabolites</em> (2019-02-06) <a href="https://doi.org/gs52m5">https://doi.org/gs52m5</a> <div class="csl-block">DOI: <a href="https://doi.org/10.3390/metabo9020028">10.3390/metabo9020028</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30736318">30736318</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6409771">PMC6409771</a></div></div>
+</div>
+<div id="ref-RnnKuIPr" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">89. </div><div class="csl-right-inline"><strong>Integrated cross-study datasets of genetic dependencies in cancer</strong> <div class="csl-block">Clare Pacini, Joshua M Dempster, Isabella Boyle, Emanuel Gonçalves, Hanna Najgebauer, Emre Karakoc, Dieudonne van der Meer, Andrew Barthorpe, Howard Lightfoot, Patricia Jaaks, … Francesco Iorio</div> <em>Nature Communications</em> (2021-03-12) <a href="https://doi.org/gnpt56">https://doi.org/gnpt56</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/s41467-021-21898-7">10.1038/s41467-021-21898-7</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/33712601">33712601</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7955067">PMC7955067</a></div></div>
+</div>
+<div id="ref-1GDvfevZN" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">90. </div><div class="csl-right-inline"><strong>GenomicKB: a knowledge graph for the human genome</strong> <div class="csl-block">Fan Feng, Feitong Tang, Yijia Gao, Dongyu Zhu, Tianjun Li, Shuyuan Yang, Yuan Yao, Yuanhao Huang, Jie Liu</div> <em>Nucleic Acids Research</em> (2022-11-01) <a href="https://doi.org/gs52mq">https://doi.org/gs52mq</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/nar/gkac957">10.1093/nar/gkac957</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/36318240">36318240</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9825430">PMC9825430</a></div></div>
+</div>
+<div id="ref-BvOaZVwT" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">91. </div><div class="csl-right-inline"><strong>Scientific evidence based rare disease research discovery with research funding data in knowledge graph</strong> <div class="csl-block">Qian Zhu, Ðắc-Trung Nguyễn, Timothy Sheils, Gioconda Alyea, Eric Sid, Yanji Xu, James Dickens, Ewy A Mathé, Anne Pariser</div> <em>Orphanet Journal of Rare Diseases</em> (2021-11-18) <a href="https://doi.org/gs52m3">https://doi.org/gs52m3</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1186/s13023-021-02120-9">10.1186/s13023-021-02120-9</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/34794473">34794473</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8600882">PMC8600882</a></div></div>
 </div>
 </div>
 <!-- default theme -->
