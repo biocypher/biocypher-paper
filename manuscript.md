@@ -53,8 +53,8 @@ header-includes: |
   <meta name="dc.date" content="2023-11-21" />
   <meta name="citation_publication_date" content="2023-11-21" />
   <meta property="article:published_time" content="2023-11-21" />
-  <meta name="dc.modified" content="2023-11-21T12:17:13+00:00" />
-  <meta property="article:modified_time" content="2023-11-21T12:17:13+00:00" />
+  <meta name="dc.modified" content="2023-11-21T12:21:29+00:00" />
+  <meta property="article:modified_time" content="2023-11-21T12:21:29+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -146,9 +146,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://biocypher.github.io/biocypher-paper/" />
   <meta name="citation_pdf_url" content="https://biocypher.github.io/biocypher-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://biocypher.github.io/biocypher-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://biocypher.github.io/biocypher-paper/v/d534a735adeabd2ebaa7325f6f0ccbd798017cb1/" />
-  <meta name="manubot_html_url_versioned" content="https://biocypher.github.io/biocypher-paper/v/d534a735adeabd2ebaa7325f6f0ccbd798017cb1/" />
-  <meta name="manubot_pdf_url_versioned" content="https://biocypher.github.io/biocypher-paper/v/d534a735adeabd2ebaa7325f6f0ccbd798017cb1/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://biocypher.github.io/biocypher-paper/v/f02385a85a2c5117b9627ab487c7524051ae9064/" />
+  <meta name="manubot_html_url_versioned" content="https://biocypher.github.io/biocypher-paper/v/f02385a85a2c5117b9627ab487c7524051ae9064/" />
+  <meta name="manubot_pdf_url_versioned" content="https://biocypher.github.io/biocypher-paper/v/f02385a85a2c5117b9627ab487c7524051ae9064/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -170,9 +170,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://biocypher.github.io/biocypher-paper/v/d534a735adeabd2ebaa7325f6f0ccbd798017cb1/))
+([permalink](https://biocypher.github.io/biocypher-paper/v/f02385a85a2c5117b9627ab487c7524051ae9064/))
 was automatically generated
-from [biocypher/biocypher-paper@d534a73](https://github.com/biocypher/biocypher-paper/tree/d534a735adeabd2ebaa7325f6f0ccbd798017cb1)
+from [biocypher/biocypher-paper@f02385a](https://github.com/biocypher/biocypher-paper/tree/f02385a85a2c5117b9627ab487c7524051ae9064)
 on November 21, 2023.
 </em></small>
 
@@ -510,10 +510,10 @@ Biomedical knowledge, although increasingly abundant, is fragmented across hundr
 For instance, a clinical researcher may use protein information from UniProtKB [@doi:10.1093/nar/gku989], genetic variants from COSMIC [@doi:10.1093/nar/gku1075], protein interactions from IntAct [@doi:10.1093/nar/gkh052], and information on clinical trials from ClinicalTrials.gov [@doi:10.1001/jama.297.19.2112].
 
 
-Finding the most suitable KG for a specific task is challenging and time-consuming; they are published in isolation and there is no registry [@doi:10.1093/bib/bbac404],[@doi:10.1146/annurev-biodatasci-010820-091627].
-Few available KG solutions perfectly fit the task the individual researcher wants to perform, but creating custom KGs is only possible for those that can afford years of development time by an individual [@doi:10.1016/j.celrep.2019.09.017],[@doi:10.1038/s41467-022-33026-0] or even entire teams [@doi:10.1101/2021.10.28.466262].
+Finding the most suitable KG for a specific task is challenging and time-consuming; they are published in isolation and there is no registry [@doi:10.1093/bib/bbac404;@doi:10.1146/annurev-biodatasci-010820-091627].
+Few available KG solutions perfectly fit the task the individual researcher wants to perform, but creating custom KGs is only possible for those that can afford years of development time by an individual [@doi:10.1016/j.celrep.2019.09.017;@doi:10.1038/s41467-022-33026-0] or even entire teams [@doi:10.1101/2021.10.28.466262].
 Smaller or non-bioinformatics labs need to choose from publicly available KGs, limiting customisation and the use of non-public data.
-There exist frameworks to build certain kinds of KG from scratch [@doi:10.1101/2020.04.30.071407],[@doi:10.1101/631812], but these are difficult to use for researchers outside of the ontology subfield and often have a rigid underlying data model 10,[@doi:10.1101/2020.08.17.254839].
+There exist frameworks to build certain kinds of KG from scratch [@doi:10.1101/2020.04.30.071407;@doi:10.1101/631812], but these are difficult to use for researchers outside of the ontology subfield and often have a rigid underlying data model 10,[@doi:10.1101/2020.08.17.254839].
 Even task-specific knowledge graphs sometimes need to be built locally by the user due to licensing or maintenance reasons, which requires significant technical expertise [@doi:10.1038/s41467-022-28348-y].
 Modifying an existing, comprehensive KG for a specific purpose is a non-trivial and often manual process prone to lack of reproducibility [@doi:10.1101/2022.11.29.518441].
 
@@ -584,7 +584,7 @@ Despite its speed, automated testing of millions of entities and relationships p
 
 ## Supplementary Note 4 - Prior Art
 
-There have been numerous attempts at standardising knowledge graphs and making biomedical data stores more interoperable [@doi:10.1093/bib/bbac404],[@doi:10.1146/annurev-biodatasci-010820-091627].
+There have been numerous attempts at standardising knowledge graphs and making biomedical data stores more interoperable [@doi:10.1093/bib/bbac404;@doi:10.1146/annurev-biodatasci-010820-091627].
 They can be divided into three broad classes representing increasing levels of abstraction of the KG build process: 
 
 1) Centrally maintained databases include task-oriented data collections such as OmniPath 4 or the CKG [@doi:10.1038/s41587-021-01145-6].
@@ -595,7 +595,7 @@ In contrast, with BioCypher, we migrate OmniPath, CKG, and other popular databas
 
 
 2) Explicit standard formats or modelling languages include the Biolink model 1, BEL [@doi:10.1016/j.drudis.2013.12.011], GO-CAM [@doi:10.1038/s41588-019-0500-1], SBML [@doi:10.15252/msb.20199110], BioPAX [@doi:10.1038/nbt.1666], and PSI-MI [@doi:10.1038/nbt926].
-There are many more, each a solution to a very specific problem, as reviewed elsewhere [@doi:10.1016/j.drudis.2013.12.011],[@doi:10.1093/bioinformatics/bti718]; some are part of the COMBINE standard ecosystem [@doi:10.3389/fbioe.2015.00019].
+There are many more, each a solution to a very specific problem, as reviewed elsewhere [@doi:10.1016/j.drudis.2013.12.011;@doi:10.1093/bioinformatics/bti718]; some are part of the COMBINE standard ecosystem [@doi:10.3389/fbioe.2015.00019].
 Their main shortcoming is the rigidity that follows from their data model definitions: to represent data in one of these languages, the user needs to fully adopt it.
 If the task exceeds the scope of the language, the user needs to either look for alternatives, or introduce new features into the language, which can be a lengthy process.
 In addition, some features may be incompatible, and thus, one centrally maintained language definition is fundamentally limited.
@@ -604,7 +604,7 @@ Inside our framework, these languages can be freely and transparently exchanged,
 
 3) KG frameworks provide a means to build KGs, similar to the idea of BioCypher 14;[@doi:10.1101/631812];[@doi:10.1101/2020.08.17.254839];[@doi:10.1186/s12859-022-04932-3].
 However, most tie themselves tightly to a particular standard format or modelling language ecosystem, thereby inheriting many of the limitations described above.
-The Knowledge Graph Hub provides a data loader pipeline, KGX allows conversion of KGs between different technical formats, and RTX-KG2 builds a fixed semantically standardised KG; all three adhere to the Biolink model [@doi:10.1101/2020.08.17.254839],[@doi:10.1186/s12859-022-04932-3].
+The Knowledge Graph Hub provides a data loader pipeline, KGX allows conversion of KGs between different technical formats, and RTX-KG2 builds a fixed semantically standardised KG; all three adhere to the Biolink model [@doi:10.1101/2020.08.17.254839;@doi:10.1186/s12859-022-04932-3].
 Bio2BEL is an extensive framework to transform primary databases into BEL [@doi:10.1101/631812].
 PheKnowLator is the only tool that is conceptually similar to BioCypher in that it allows the creation of knowledge graphs under different data models 14.
 However, it appears to be aimed at knowledge representation experts, requiring considerable bioinformatics and ontology expertise.
@@ -617,7 +617,7 @@ While the “top-down” approach of first building a massive KG and then extrac
 A secondary consequence of this large primary effort is that alternative representations of the initial KG will probably not be attempted, hindering flexible knowledge representation.
 In contrast, the “bottom-up” approach we follow in BioCypher emphasises modular recombination and flexible representation with small effort overheads.
 
-Ontology mapping has been leveraged for data integration by consortia such as the Monarch Initiative (which is the parent organisation of the MONDO Disease Ontology and the Biolink model, among others) as well as single projects, such as KaBOB [@doi:10.1534/genetics.116.188870],[@doi:10.1186/s12859-015-0559-3].
+Ontology mapping has been leveraged for data integration by consortia such as the Monarch Initiative (which is the parent organisation of the MONDO Disease Ontology and the Biolink model, among others) as well as single projects, such as KaBOB [@doi:10.1534/genetics.116.188870;@doi:10.1186/s12859-015-0559-3].
 While conceptually related to BioCypher in the use of ontology and biomedical data, these are massive efforts that are not amenable to replication by the average research group.
 We aim to close this gap by providing an agile and modular framework that facilitates the reuse of the valuable resources generated by those projects.
 
@@ -640,7 +640,7 @@ Practical implementations including public code can be accessed for Modularity, 
 There are several resources used by the biomedical community that can be considered essential to a majority of bioinformatics tasks.
 A good example is the curation effort on proteins done by the members of the Universal Protein Resource (UniProt) consortium [@doi:10.1093/nar/gku989]; many secondary resources and tools depend on consistent and comprehensive annotations of the major actors in molecular biology.
 As such, there are an enormous number of individual tools and resources that make requests to the public interface of the UniProt service, all of which need to be individually maintained.
-We and several of our close collaborators make use of this resource, for instance in OmniPath 4, CKG [@doi:10.1038/s41587-021-01145-6], Bioteque [@doi:10.1038/s41467-022-33026-0], and the CROssBAR drug discovery and repurposing database [@doi:10.1093/nar/gkab543].
+We and several of our close collaborators make use of this resource, for instance in OmniPath [@doi:10.1038/nmeth.4077], CKG [@doi:10.1038/s41587-021-01145-6], Bioteque [@doi:10.1038/s41467-022-33026-0], and the CROssBAR drug discovery and repurposing database [@doi:10.1093/nar/gkab543].
 We have created an example on how to share a UniProt adapter between resources and how to use BioCypher to combine pre-existing databases based on ontology.
 
 We have written such an adapter for UniProt data, using software infrastructure provided by the OmniPath backend PyPath (for downloading and locally caching the data).
@@ -662,9 +662,9 @@ For instance, in the adapter for the UniProt knowledge base, the user can select
 
 ### Tumour board
 
-Cancer patients nowadays benefit from a large range of molecular markers that can be used to establish precise prognoses and direct treatment [@doi:10.1038/s41467-022-28348-y],[@doi:10.1016/j.semcancer.2018.02.002].
+Cancer patients nowadays benefit from a large range of molecular markers that can be used to establish precise prognoses and direct treatment [@doi:10.1038/s41467-022-28348-y;@doi:10.1016/j.semcancer.2018.02.002].
 In the context of the DECIDER project (www.deciderproject.eu), we are creating a platform to inform the tumour board of actionable molecular phenotypes of high-grade serous ovarian cancer patients.
-The current manual workflow for discovering actionable genetic variants consists of multiple complex database queries to different established cancer genetics databases [@doi:10.1038/s41467-022-28348-y],[@doi:10.1038/s41591-020-0969-2],[@doi:10.1186/s13073-018-0531-8].
+The current manual workflow for discovering actionable genetic variants consists of multiple complex database queries to different established cancer genetics databases [@doi:10.1038/s41467-022-28348-y;@doi:10.1038/s41591-020-0969-2;@doi:10.1186/s13073-018-0531-8].
 The returns from each of the individual queries then need to be curated by human experts (geneticists) in regard to their identity (e.g.
 identify duplicate hits from different databases), biological relevance, level of evidence, and actionability.
 The heterogeneous nature of results received from different primary database providers makes this a time-consuming task, and a bottleneck for the discovery and comprehensive evaluation of all possible treatment options.
@@ -755,7 +755,7 @@ The project uses Biolink v3.2.1.
 ### Subgraph extraction
 
 For many practical tasks in the workflow of a research scientist, the full KG is not required.
-For this reason, building complex and extensive KGs such as the CKG 20 or the Bioteque [@doi:10.1038/s41467-022-33026-0] would not be sensible in all use cases.
+For this reason, building complex and extensive KGs such as the CKG [@doi:10.1038/s41587-021-01145-6] or the Bioteque [@doi:10.1038/s41467-022-33026-0] would not be sensible in all use cases.
 
 
 For instance, in the context of a proteomics analysis, the user would only like to contextualise their list of differentially abundant proteins using literature connections in the CKG, rendering much of the information on genetics and clinical parameters unnecessary.
@@ -850,7 +850,7 @@ Adding gene essentiality and cell line information from the Dependency Map proje
 
 ### Federated learning
 
-Federated learning is a machine learning approach that enables multiple parties to collaboratively train a shared model while keeping their data decentralised and private [@doi:10.1145/3404835.3462996],[@doi:10.48550/arXiv.2105.05734].
+Federated learning is a machine learning approach that enables multiple parties to collaboratively train a shared model while keeping their data decentralised and private [@doi:10.1145/3404835.3462996;@doi:10.48550/arXiv.2105.05734].
 This is achieved by allowing each party to train a local version of the model on their own data, and then sharing the updated model parameters with a central server that aggregates these updates.
 However, most machine learning algorithms depend on a unified structure of the input; when it comes to algorithms that combine prior knowledge with patient data, a large amount of harmonisation needs to occur before the algorithms can be applied.
 
@@ -869,7 +869,7 @@ All of the above poses great challenges in data integration in the clinical sett
 
 Secondly, the MeDaX project (bioMedical Data eXploration at University Medicine Greifswald) develops innovative and efficient methods for storage, enrichment, comparison, and retrieval of biomedical data based on KG technology.
 Embedded in the Medical Informatics Initiative (MII) Germany, MeDaX builds on the federated storage structure for biomedical health care and research data established in all Data Integration Centres (DICs) at German university hospitals.
-We envision extending the existing MIRACOLIX toolbox [@doi:10.3414/ME17-02-0025] with the MeDaX pipeline to set up local KGs, combining complex heterogeneous data from multiple resources: in addition to biomedical data available only at the DICs due to patient privacy, we include the MII core data set [@{https://www.medizininformatik-initiative.de/sites/default/files/2018-07/2018-03_mdi_Der%20Kerndatensatz%20der%20Medizininformatik-Initiative%20Ein%20Schritt%20zur%20Sekund%C3%A4rnutzung%20von%20Versorgungsdaten%20auf%20nationaler%20Ebene.pdf}], local population studies [@doi:10.1007/BF01324255],[@doi:10.1186/1479-5876-12-144], biomedical ontologies [@doi:10.1093/nar/gkp440], and public information portals [@doi:10.1186/s12911-020-01374-w].
+We envision extending the existing MIRACOLIX toolbox [@doi:10.3414/ME17-02-0025] with the MeDaX pipeline to set up local KGs, combining complex heterogeneous data from multiple resources: in addition to biomedical data available only at the DICs due to patient privacy, we include the MII core data set [@{https://www.medizininformatik-initiative.de/sites/default/files/2018-07/2018-03_mdi_Der%20Kerndatensatz%20der%20Medizininformatik-Initiative%20Ein%20Schritt%20zur%20Sekund%C3%A4rnutzung%20von%20Versorgungsdaten%20auf%20nationaler%20Ebene.pdf}], local population studies [@doi:10.1007/BF01324255;@doi:10.1186/1479-5876-12-144], biomedical ontologies [@doi:10.1093/nar/gkp440], and public information portals [@doi:10.1186/s12911-020-01374-w].
 BioCypher’s ontology mapping process facilitates future integration of additional data sources (see also the case study “Data integration”).
 
 
@@ -941,7 +941,7 @@ However, most of these tools focus on the inference of cell-cell communication (
 
 
 A primary limitation of metabolite-mediated CCC inference from single-cell transcriptomics data is the necessity to estimate metabolite abundance from transcript levels.
-To infer metabolite abundances, current methods employ either flux-balance analysis or enrichment-like approaches [@doi:10.1101/2022.05.30.494067]-[@doi:10.1038/s41467-023-36800-w]–[@doi:10.1038/s41586-022-04918-4].
+To infer metabolite abundances, current methods employ either flux-balance analysis or enrichment-like approaches [@doi:10.1101/2022.05.30.494067;@doi:10.1038/s41467-023-36800-w;@doi:10.1038/s41586-022-04918-4].
 The latter require substantial prior knowledge, usually a set of producing and degrading metabolic enzymes for each metabolite, making information about metabolite-receptor interactions essential for deducing CCC.
 
 
@@ -953,7 +953,7 @@ Thus, a comprehensive resource that enables contextualization to specific biolog
 We have integrated the available knowledge about metabolite-receptor interactions that is dispersed across numerous databases.
 Metabolic reactions and their corresponding enzymes can be found in databases such as KEGG [@doi:10.1093/nar/gkw1092], REACTOME [@doi:10.1093/nar/gkab1028], RHEA [@doi:10.1093/nar/gkab1016], HMDB [@doi:10.1093/nar/gkab1062], and genome-scale metabolic models such as Recon3D [@doi:10.1038/nbt.4072] and Human HMR [@doi:10.1126/scisignal.aaz1482].
 Meanwhile, information about metabolites and their receptors is available in the STITCH database [@doi:10.1093/nar/gkv1277], Guide to Pharmacology [@doi:10.1093/nar/gkab1010], and Interactomics screens [@doi:10.1126/science.abm3452].
-All these databases use different identifiers for their metabolite, proteins or reactions, that are often conflicting or redundant [@doi:10.1038/s42255-023-00757-3],[@doi:10.3390/metabo9020028].
+All these databases use different identifiers for their metabolite, proteins or reactions, that are often conflicting or redundant [@doi:10.1038/s42255-023-00757-3;@doi:10.3390/metabo9020028].
 Using BioCypher, we systematically and reproducibly integrate the knowledge from these databases, facilitating the creation and maintenance of a comprehensive metabolite-receptor interaction database (https://github.com/biocypher/metalinks).
 
 The effectiveness of this approach is exemplified by examining metabolite-mediated CCC in the kidney.

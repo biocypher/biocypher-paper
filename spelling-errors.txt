@@ -47,7 +47,7 @@ CogEx
 comorbidities
 corpuses
 COVID
-Covidgraph
+CovidGraph
 CSV
 curation
 curations
@@ -68,7 +68,7 @@ Dunham
 DZD
 Earlham
 EBI
-embeddings
+Embeddings
 EMBL
 ENSEMBL
 Enum
@@ -157,17 +157,17 @@ PrimeKG
 Probul
 programmatically
 proteome
-Proteomics
+proteomics
 pypath
 PyPI
 PySpark
 Quadram
 REACTOME
 Recerca
-Reproducibility
+reproducibility
 reproducibly
 repurposing
-reusability
+Reusability
 ROBOKOP
 ROC
 RTX
@@ -181,7 +181,7 @@ slobentanzer
 SNE
 SNOMED
 subfield
-subgraph
+Subgraph
 subgraphs
 subsetting
 subtree
