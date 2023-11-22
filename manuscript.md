@@ -53,8 +53,8 @@ header-includes: |
   <meta name="dc.date" content="2023-11-22" />
   <meta name="citation_publication_date" content="2023-11-22" />
   <meta property="article:published_time" content="2023-11-22" />
-  <meta name="dc.modified" content="2023-11-22T16:43:54+00:00" />
-  <meta property="article:modified_time" content="2023-11-22T16:43:54+00:00" />
+  <meta name="dc.modified" content="2023-11-22T16:51:34+00:00" />
+  <meta property="article:modified_time" content="2023-11-22T16:51:34+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -146,9 +146,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://biocypher.github.io/biocypher-paper/" />
   <meta name="citation_pdf_url" content="https://biocypher.github.io/biocypher-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://biocypher.github.io/biocypher-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://biocypher.github.io/biocypher-paper/v/2ed3ac31ede09a35e152db94e1cfab3559a851ea/" />
-  <meta name="manubot_html_url_versioned" content="https://biocypher.github.io/biocypher-paper/v/2ed3ac31ede09a35e152db94e1cfab3559a851ea/" />
-  <meta name="manubot_pdf_url_versioned" content="https://biocypher.github.io/biocypher-paper/v/2ed3ac31ede09a35e152db94e1cfab3559a851ea/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://biocypher.github.io/biocypher-paper/v/cbb00b761719f572c7f2235050dd94e69eeec138/" />
+  <meta name="manubot_html_url_versioned" content="https://biocypher.github.io/biocypher-paper/v/cbb00b761719f572c7f2235050dd94e69eeec138/" />
+  <meta name="manubot_pdf_url_versioned" content="https://biocypher.github.io/biocypher-paper/v/cbb00b761719f572c7f2235050dd94e69eeec138/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -170,9 +170,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://biocypher.github.io/biocypher-paper/v/2ed3ac31ede09a35e152db94e1cfab3559a851ea/))
+([permalink](https://biocypher.github.io/biocypher-paper/v/cbb00b761719f572c7f2235050dd94e69eeec138/))
 was automatically generated
-from [biocypher/biocypher-paper@2ed3ac3](https://github.com/biocypher/biocypher-paper/tree/2ed3ac31ede09a35e152db94e1cfab3559a851ea)
+from [biocypher/biocypher-paper@cbb00b7](https://github.com/biocypher/biocypher-paper/tree/cbb00b761719f572c7f2235050dd94e69eeec138)
 on November 22, 2023.
 </em></small>
 
@@ -500,7 +500,7 @@ All co-authors as members of the BioCypher Consortium contributed to the case st
 JSR reports funding from GSK, Pfizer and Sanofi and fees from Travere Therapeutics and Astex Pharmaceuticals.
 
 
-## Supplementary Methods
+## Supplementary Methods {.page_break_before}
 
 BioCypher is implemented as a Python package.
 Its structure follows the purpose of a threefold modularity of inputs, ontology, and outputs.
@@ -968,45 +968,30 @@ Applying these contextualization parameters reduces the overall size of the data
 The resulting table can either be used in Python directly via BioCypher’s support of Pandas data frames, or exported to CSV from Neo4j, and seamlessly integrated into downstream analysis tools performing CCC, such as LIANA [@doi:10.1038/s41467-022-30755-0].
 
 
-Supplementary table 1. Recent biomedical knowledge graph solutions (non-comprehensive). 
-Database
-Reference
-Biological Insight Knowledge Graph
-[@doi:10.1101/2021.10.28.466262]
-Bioteque
-[@doi:10.1038/s41467-022-33026-0]
-Clinical Knowledge Graph
-[@doi:10.1038/s41587-021-01145-6]
-CROssBAR
-[@doi:10.1093/nar/gkab543]
-Dependency Map
-[@doi:10.1038/s41467-021-21898-7]
-GenomicKB
-[@doi:10.1093/nar/gkac957]
-HealthECCO Covidgraph
-[@doi:10.1093/bioinformatics/btac592] 
-INDRA CogEx
-https://github.com/bgyori/indra_cogex 
-KG-COVID-19
-[@doi:10.1101/2020.08.17.254839]
-NIH Funding knowledge graph
-[@doi:10.1186/s13023-021-02120-9]
-OmniPath
-[@doi:10.1038/nmeth.4077]
-Open Targets
-[@doi:10.1093/nar/gkw1055]
-PheKnowLator
-[@doi:10.1101/2020.04.30.071407]
-PORI (Platform for Oncogenic Reporting and Interpretation)
-[@doi:10.1038/s41467-022-28348-y]
-PrimeKG
-[@doi:10.1101/2022.05.01.489928]
-RTX-KG2
-[@doi:10.1186/s12859-022-04932-3]
-TypeDB
-https://github.com/typedb-osi/typedb-bio
+## Supplementary tables
 
+| Database | Reference |
+| -------- | --------- |
+| Biological Insight Knowledge Graph | [@doi:10.1101/2021.10.28.466262] |
+| Bioteque | [@doi:10.1038/s41467-022-33026-0] |
+| Clinical Knowledge Graph | [@doi:10.1038/s41587-021-01145-6] |
+| CROssBAR | [@doi:10.1093/nar/gkab543] |
+| Dependency Map | [@doi:10.1038/s41467-021-21898-7] |
+| GenomicKB | [@doi:10.1093/nar/gkac957] |
+| HealthECCO Covidgraph | [@doi:10.1093/bioinformatics/btac592] |
+| INDRA CogEx | [https://github.com/bgyori/indra_cogex] |
+| KG-COVID-19 | [@doi:10.1101/2020.08.17.254839] |
+| NIH Funding knowledge graph | [@doi:10.1186/s13023-021-02120-9] |
+| OmniPath | [@doi:10.1038/nmeth.4077] |
+| Open Targets | [@doi:10.1093/nar/gkw1055] |
+| PheKnowLator | [@doi:10.1101/2020.04.30.071407] |
+| PORI (Platform for Oncogenic Reporting and Interpretation) | [@doi:10.1038/s41467-022-28348-y] |
+| PrimeKG | [@doi:10.1101/2022.05.01.489928] |
+| RTX-KG2 | [@doi:10.1186/s12859-022-04932-3] |
+| TypeDB | [https://github.com/typedb-osi/typedb-bio] |
 
+Table: Supplementary table 1. Recent biomedical knowledge graph solutions (non-comprehensive).
+{#tbl:sup.table.1}
 
 ## References {.page_break_before}
 

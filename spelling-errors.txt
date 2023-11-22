@@ -23,7 +23,7 @@ BioGRID
 bioinformatics
 Biolink
 biomarkers
-biomedicine
+Biomedicine
 BioPAX
 Bioquant
 Bioregistry
@@ -115,7 +115,7 @@ Im
 Institució
 Institut
 Interactomics
-Interoperable
+interoperable
 IQR
 IRB
 iteratively
@@ -144,7 +144,7 @@ MII
 MIRACOLIX
 MIRACUM
 misannotation
-modularity
+Modularity
 MONDO
 MSCoreSys
 namespace
@@ -178,14 +178,14 @@ Probul
 programmatically
 programme
 proteome
-Proteomics
-PyPath
+proteomics
+pypath
 PyPI
 PySpark
 Quadram
 Reactome
 Recerca
-reproducibility
+Reproducibility
 reproducibly
 repurposing
 reusability
