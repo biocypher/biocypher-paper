@@ -53,8 +53,8 @@ header-includes: |
   <meta name="dc.date" content="2023-11-22" />
   <meta name="citation_publication_date" content="2023-11-22" />
   <meta property="article:published_time" content="2023-11-22" />
-  <meta name="dc.modified" content="2023-11-22T14:23:07+00:00" />
-  <meta property="article:modified_time" content="2023-11-22T14:23:07+00:00" />
+  <meta name="dc.modified" content="2023-11-22T14:33:14+00:00" />
+  <meta property="article:modified_time" content="2023-11-22T14:33:14+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -146,9 +146,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://biocypher.github.io/biocypher-paper/" />
   <meta name="citation_pdf_url" content="https://biocypher.github.io/biocypher-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://biocypher.github.io/biocypher-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://biocypher.github.io/biocypher-paper/v/c55b92fd85573844e65bdadaae5df9521fc7417c/" />
-  <meta name="manubot_html_url_versioned" content="https://biocypher.github.io/biocypher-paper/v/c55b92fd85573844e65bdadaae5df9521fc7417c/" />
-  <meta name="manubot_pdf_url_versioned" content="https://biocypher.github.io/biocypher-paper/v/c55b92fd85573844e65bdadaae5df9521fc7417c/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://biocypher.github.io/biocypher-paper/v/b385752934fd8588ae37191d6b036a1f8952b8ce/" />
+  <meta name="manubot_html_url_versioned" content="https://biocypher.github.io/biocypher-paper/v/b385752934fd8588ae37191d6b036a1f8952b8ce/" />
+  <meta name="manubot_pdf_url_versioned" content="https://biocypher.github.io/biocypher-paper/v/b385752934fd8588ae37191d6b036a1f8952b8ce/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -170,9 +170,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://biocypher.github.io/biocypher-paper/v/c55b92fd85573844e65bdadaae5df9521fc7417c/))
+([permalink](https://biocypher.github.io/biocypher-paper/v/b385752934fd8588ae37191d6b036a1f8952b8ce/))
 was automatically generated
-from [biocypher/biocypher-paper@c55b92f](https://github.com/biocypher/biocypher-paper/tree/c55b92fd85573844e65bdadaae5df9521fc7417c)
+from [biocypher/biocypher-paper@b385752](https://github.com/biocypher/biocypher-paper/tree/b385752934fd8588ae37191d6b036a1f8952b8ce)
 on November 22, 2023.
 </em></small>
 
@@ -418,21 +418,21 @@ The current landscape of biomedical KGs is not easily navigated; neither the KGs
 Understandably, the overhead required to implement these principles may not be justified when building a one-off task-specific KG for research.
 Thus, many KGs are built manually for specific applications, which leads to issues in their reuse and integration [@doi:10.1093/bib/bbac404].
 For downstream users, the resulting KGs are too distinct to easily compare or combine [@doi:10.1146/annurev-biodatasci-010820-091627].
-Maintaining KGs for the community is additional work; once maintenance stops, they quickly deteriorate, leading to reusability and reproducibility issues [@doi:10.1093/bib/bbac404] (Supplementary Note 1).
+Maintaining KGs for the community is additional work; once maintenance stops, they quickly deteriorate, leading to reusability and reproducibility issues [@doi:10.1093/bib/bbac404] ([Supplementary Note 1][Supplementary Note 1 - Background]).
 
 BioCypher has been built with continuous consideration of the FAIR and TRUST principles, yielding benefits to the entire community in multiple respects:
 
-Modularity: To rationalise efforts across the community, we propose a modular architecture that maximises reuse of data and code in three ways: input, ontology, and output (Figure 1A).
+**Modularity:** To rationalise efforts across the community, we propose a modular architecture that maximises reuse of data and code in three ways: input, ontology, and output (Figure 1A).
 Input adapters allow delegating maintenance work to one central place for each resource, ontology adapters give access to the wealth of structured information curated by the ontology community, and output adapters allow benchmarking and selection of database management systems.
 Together, these mechanisms enable a workflow that reduces the time and effort to develop and deploy custom KGs.
 
-Harmonisation: By using ontologies as expertly crafted repositories of conceptual hierarchies, we facilitate harmonisation from a biological perspective.
+**Harmonisation:** By using ontologies as expertly crafted repositories of conceptual hierarchies, we facilitate harmonisation from a biological perspective.
 We aid with the technical aspects of using and manipulating ontologies, for instance by flexibly extending or hybridising complementary ontologies.
 
-Reproducibility: By sharing the mapping of KG contents to ontologies, we facilitate reproduction of the structure of the corresponding database without access to the primary data, which may be prohibited by licence or privacy issues.
+**Reproducibility:** By sharing the mapping of KG contents to ontologies, we facilitate reproduction of the structure of the corresponding database without access to the primary data, which may be prohibited by licence or privacy issues.
 We also enable extraction of subgraphs, effectively converting storage-oriented to task-specific KGs, which due to their reduced sizes are easier to share alongside analyses.
 
-Reusability and accessibility: Finally, the sustainability of research software is strongly related to adoption in – and contributions from – the community.
+**Reusability and accessibility:** Finally, the sustainability of research software is strongly related to adoption in – and contributions from – the community.
 BioCypher is developed as a TRUSTworthy open-source software, applying methods of continuous integration and deployment, and including a diverse community of researchers and developers from the beginning.
 This facilitates workflows that are tested end-to-end, including the integrity of the scientific data.
 We operate under the permissive MIT licence and provide community members with guidelines for their contributions and a code of conduct (https://github.com/biocypher).
@@ -446,7 +446,7 @@ To inform the contents of this meta-graph, we have reactivated and now maintain 
 ![
 **Figure 1: The BioCypher framework.**
 A) Threefold modularity: Resources (left) and ontologies (bottom left) are combined to yield a knowledge graph (right). The mapping of entities to ontology concepts is realised by shareable configuration, which can be iteratively optimised. B) Initially, we transform commonly used, curated “secondary” resources into configurable, task-specific knowledge graphs in various output formats. Incrementally, these secondary adapters will be replaced by primary resource adapters (see Figure S1). Coloured panels in A and B indicate parts of the BioCypher ecosystem. C) Agreeing on a common representational framework allows harmonisation of task-specific data sources to answer complex queries across biomedical domains. For instance, starting at mass spectrometry measurements of a patient’s tumour (left), one could go through clinical annotations to genetic dependencies from the Dependency Map project to identify potential drug targets, or through pathway / process annotations in Reactome and IntAct, identify relevant ligand-receptor pairs using OmniPath, and use CROssBAR to perform drug discovery or repurposing for these receptors. Panels correspond to resources; although we work on most of the displayed resources, the figure is used for illustrative purposes and does not depict an existing pipeline.
-](images/figure-1.png)
+](https://raw.githubusercontent.com/biocypher/biocypher-paper/main/content/images/figure_1.png)
 {#fig:1}
 
 BioCypher is implemented as a Python library that provides a low-code access point to data processing and ontology manipulation, emphasising the reuse of existing resources to the highest extent possible.

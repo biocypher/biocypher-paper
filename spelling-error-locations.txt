@@ -42,6 +42,8 @@ content/10.main.md:47:ontologies
 content/10.main.md:47:Reactome
 content/10.main.md:47:repurposing
 content/10.main.md:47:spectrometry
+content/10.main.md:48:biocypher
+content/10.main.md:48:biocypher
 content/10.main.md:51:BioCypher
 content/10.main.md:52:Bioconductor
 content/10.main.md:52:biocypher
