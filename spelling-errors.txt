@@ -23,7 +23,7 @@ BioGRID
 bioinformatics
 Biolink
 biomarkers
-Biomedicine
+biomedicine
 BioPAX
 Bioquant
 Bioregistry
@@ -74,7 +74,7 @@ Dunham
 DZD
 Earlham
 EBI
-Embeddings
+embeddings
 EMBL
 ENSEMBL
 Enum
@@ -144,7 +144,7 @@ MII
 MIRACOLIX
 MIRACUM
 misannotation
-Modularity
+modularity
 MONDO
 MSCoreSys
 namespace
@@ -178,14 +178,14 @@ Probul
 programmatically
 programme
 proteome
-proteomics
+Proteomics
 PyPath
 PyPI
 PySpark
 Quadram
-REACTOME
+Reactome
 Recerca
-Reproducibility
+reproducibility
 reproducibly
 repurposing
 reusability
