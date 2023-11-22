@@ -84,8 +84,8 @@
   <meta name="dc.date" content="2023-11-22" />
   <meta name="citation_publication_date" content="2023-11-22" />
   <meta property="article:published_time" content="2023-11-22" />
-  <meta name="dc.modified" content="2023-11-22T16:43:54+00:00" />
-  <meta property="article:modified_time" content="2023-11-22T16:43:54+00:00" />
+  <meta name="dc.modified" content="2023-11-22T16:51:34+00:00" />
+  <meta property="article:modified_time" content="2023-11-22T16:51:34+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -177,9 +177,9 @@
   <meta name="citation_fulltext_html_url" content="https://biocypher.github.io/biocypher-paper/" />
   <meta name="citation_pdf_url" content="https://biocypher.github.io/biocypher-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://biocypher.github.io/biocypher-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://biocypher.github.io/biocypher-paper/v/2ed3ac31ede09a35e152db94e1cfab3559a851ea/" />
-  <meta name="manubot_html_url_versioned" content="https://biocypher.github.io/biocypher-paper/v/2ed3ac31ede09a35e152db94e1cfab3559a851ea/" />
-  <meta name="manubot_pdf_url_versioned" content="https://biocypher.github.io/biocypher-paper/v/2ed3ac31ede09a35e152db94e1cfab3559a851ea/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://biocypher.github.io/biocypher-paper/v/cbb00b761719f572c7f2235050dd94e69eeec138/" />
+  <meta name="manubot_html_url_versioned" content="https://biocypher.github.io/biocypher-paper/v/cbb00b761719f572c7f2235050dd94e69eeec138/" />
+  <meta name="manubot_pdf_url_versioned" content="https://biocypher.github.io/biocypher-paper/v/cbb00b761719f572c7f2235050dd94e69eeec138/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -196,9 +196,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://biocypher.github.io/biocypher-paper/v/2ed3ac31ede09a35e152db94e1cfab3559a851ea/">permalink</a>)
+(<a href="https://biocypher.github.io/biocypher-paper/v/cbb00b761719f572c7f2235050dd94e69eeec138/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/biocypher/biocypher-paper/tree/2ed3ac31ede09a35e152db94e1cfab3559a851ea">biocypher/biocypher-paper@2ed3ac3</a>
+from <a href="https://github.com/biocypher/biocypher-paper/tree/cbb00b761719f572c7f2235050dd94e69eeec138">biocypher/biocypher-paper@cbb00b7</a>
 on November 22, 2023.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -456,7 +456,7 @@ The manuscript was drafted by SL, edited by JSR, and jointly revised by all co-a
 All co-authors as members of the BioCypher Consortium contributed to the case studies in development and writing and gave feedback for software development, which was coordinated and integrated by SL.</p>
 <h2 id="conflict-of-interest">Conflict of Interest</h2>
 <p>JSR reports funding from GSK, Pfizer and Sanofi and fees from Travere Therapeutics and Astex Pharmaceuticals.</p>
-<h2 id="supplementary-methods">Supplementary Methods</h2>
+<h2 class="page_break_before" id="supplementary-methods">Supplementary Methods</h2>
 <p>BioCypher is implemented as a Python package.
 Its structure follows the purpose of a threefold modularity of inputs, ontology, and outputs.
 A user interface class (“core”) receives user choices via configuration YAML files and connects the inputs provided by resource-specific adapters to either bulk disk-writing methods or driver-based connections tailor-made for database management systems.
@@ -828,43 +828,93 @@ By employing a <a href="https://github.com/biocypher/metalinks/blob/main/cypher_
 Likewise, metabolite-receptor interactions are filtered using confidence levels.
 Applying these contextualization parameters reduces the overall size of the dataset by decreasing the number of metabolites from approximately 1400 to a more manageable 394 (derived from enzyme sets), and metabolite-receptor interactions from ~ 100 000 to 3864, featuring 807 unique receptors and 261 unique metabolites.
 The resulting table can either be used in Python directly via BioCypher’s support of Pandas data frames, or exported to CSV from Neo4j, and seamlessly integrated into downstream analysis tools performing CCC, such as LIANA <span class="citation" data-cites="aNFFB1Q">[<a href="#ref-aNFFB1Q" role="doc-biblioref">78</a>]</span>.</p>
-<p>Supplementary table 1. Recent biomedical knowledge graph solutions (non-comprehensive).
-Database
-Reference
-Biological Insight Knowledge Graph
-<span class="citation" data-cites="SmbvHVqc">[<a href="#ref-SmbvHVqc" role="doc-biblioref">22</a>]</span>
-Bioteque
-<span class="citation" data-cites="vhsYX2y">[<a href="#ref-vhsYX2y" role="doc-biblioref">2</a>]</span>
-Clinical Knowledge Graph
-<span class="citation" data-cites="JxZlpZ1">[<a href="#ref-JxZlpZ1" role="doc-biblioref">11</a>]</span>
-CROssBAR
-<span class="citation" data-cites="57ZT8woI">[<a href="#ref-57ZT8woI" role="doc-biblioref">10</a>]</span>
-Dependency Map
-<span class="citation" data-cites="RnnKuIPr">[<a href="#ref-RnnKuIPr" role="doc-biblioref">90</a>]</span>
-GenomicKB
-<span class="citation" data-cites="1GDvfevZN">[<a href="#ref-1GDvfevZN" role="doc-biblioref">91</a>]</span>
-HealthECCO Covidgraph
-<span class="citation" data-cites="QrLcJJPA">[<a href="#ref-QrLcJJPA" role="doc-biblioref">71</a>]</span>
-INDRA CogEx
-https://github.com/bgyori/indra_cogex
-KG-COVID-19
-<span class="citation" data-cites="1353itlbv">[<a href="#ref-1353itlbv" role="doc-biblioref">25</a>]</span>
-NIH Funding knowledge graph
-<span class="citation" data-cites="BvOaZVwT">[<a href="#ref-BvOaZVwT" role="doc-biblioref">92</a>]</span>
-OmniPath
-<span class="citation" data-cites="BDzI9Y5F">[<a href="#ref-BDzI9Y5F" role="doc-biblioref">9</a>]</span>
-Open Targets
-<span class="citation" data-cites="11HFBpGej">[<a href="#ref-11HFBpGej" role="doc-biblioref">55</a>]</span>
-PheKnowLator
-<span class="citation" data-cites="1H2nqqKV7">[<a href="#ref-1H2nqqKV7" role="doc-biblioref">23</a>]</span>
-PORI (Platform for Oncogenic Reporting and Interpretation)
-<span class="citation" data-cites="pyC7TREj">[<a href="#ref-pyC7TREj" role="doc-biblioref">26</a>]</span>
-PrimeKG
-<span class="citation" data-cites="8CoykoAG">[<a href="#ref-8CoykoAG" role="doc-biblioref">42</a>]</span>
-RTX-KG2
-<span class="citation" data-cites="bniVH7q2">[<a href="#ref-bniVH7q2" role="doc-biblioref">35</a>]</span>
-TypeDB
-https://github.com/typedb-osi/typedb-bio</p>
+<h2 id="supplementary-tables">Supplementary tables</h2>
+<div id="tbl:sup.table.1" class="tablenos">
+<table id="tbl:sup.table.1">
+<caption><span>Table 1:</span> Supplementary table 1. Recent biomedical knowledge graph solutions (non-comprehensive).
+</caption>
+<colgroup>
+<col style="width: 47%" />
+<col style="width: 52%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Database</th>
+<th>Reference</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Biological Insight Knowledge Graph</td>
+<td><span class="citation" data-cites="SmbvHVqc">[<a href="#ref-SmbvHVqc" role="doc-biblioref">22</a>]</span></td>
+</tr>
+<tr class="even">
+<td>Bioteque</td>
+<td><span class="citation" data-cites="vhsYX2y">[<a href="#ref-vhsYX2y" role="doc-biblioref">2</a>]</span></td>
+</tr>
+<tr class="odd">
+<td>Clinical Knowledge Graph</td>
+<td><span class="citation" data-cites="JxZlpZ1">[<a href="#ref-JxZlpZ1" role="doc-biblioref">11</a>]</span></td>
+</tr>
+<tr class="even">
+<td>CROssBAR</td>
+<td><span class="citation" data-cites="57ZT8woI">[<a href="#ref-57ZT8woI" role="doc-biblioref">10</a>]</span></td>
+</tr>
+<tr class="odd">
+<td>Dependency Map</td>
+<td><span class="citation" data-cites="RnnKuIPr">[<a href="#ref-RnnKuIPr" role="doc-biblioref">90</a>]</span></td>
+</tr>
+<tr class="even">
+<td>GenomicKB</td>
+<td><span class="citation" data-cites="1GDvfevZN">[<a href="#ref-1GDvfevZN" role="doc-biblioref">91</a>]</span></td>
+</tr>
+<tr class="odd">
+<td>HealthECCO Covidgraph</td>
+<td><span class="citation" data-cites="QrLcJJPA">[<a href="#ref-QrLcJJPA" role="doc-biblioref">71</a>]</span></td>
+</tr>
+<tr class="even">
+<td>INDRA CogEx</td>
+<td>[https://github.com/bgyori/indra_cogex]</td>
+</tr>
+<tr class="odd">
+<td>KG-COVID-19</td>
+<td><span class="citation" data-cites="1353itlbv">[<a href="#ref-1353itlbv" role="doc-biblioref">25</a>]</span></td>
+</tr>
+<tr class="even">
+<td>NIH Funding knowledge graph</td>
+<td><span class="citation" data-cites="BvOaZVwT">[<a href="#ref-BvOaZVwT" role="doc-biblioref">92</a>]</span></td>
+</tr>
+<tr class="odd">
+<td>OmniPath</td>
+<td><span class="citation" data-cites="BDzI9Y5F">[<a href="#ref-BDzI9Y5F" role="doc-biblioref">9</a>]</span></td>
+</tr>
+<tr class="even">
+<td>Open Targets</td>
+<td><span class="citation" data-cites="11HFBpGej">[<a href="#ref-11HFBpGej" role="doc-biblioref">55</a>]</span></td>
+</tr>
+<tr class="odd">
+<td>PheKnowLator</td>
+<td><span class="citation" data-cites="1H2nqqKV7">[<a href="#ref-1H2nqqKV7" role="doc-biblioref">23</a>]</span></td>
+</tr>
+<tr class="even">
+<td>PORI (Platform for Oncogenic Reporting and Interpretation)</td>
+<td><span class="citation" data-cites="pyC7TREj">[<a href="#ref-pyC7TREj" role="doc-biblioref">26</a>]</span></td>
+</tr>
+<tr class="odd">
+<td>PrimeKG</td>
+<td><span class="citation" data-cites="8CoykoAG">[<a href="#ref-8CoykoAG" role="doc-biblioref">42</a>]</span></td>
+</tr>
+<tr class="even">
+<td>RTX-KG2</td>
+<td><span class="citation" data-cites="bniVH7q2">[<a href="#ref-bniVH7q2" role="doc-biblioref">35</a>]</span></td>
+</tr>
+<tr class="odd">
+<td>TypeDB</td>
+<td>[https://github.com/typedb-osi/typedb-bio]</td>
+</tr>
+</tbody>
+</table>
+</div>
 <h2 class="page_break_before" id="references">References</h2>
 <!-- Explicitly insert bibliography here -->
 <div id="refs" class="references csl-bib-body" role="doc-bibliography">
