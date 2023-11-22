@@ -53,8 +53,8 @@ header-includes: |
   <meta name="dc.date" content="2023-11-22" />
   <meta name="citation_publication_date" content="2023-11-22" />
   <meta property="article:published_time" content="2023-11-22" />
-  <meta name="dc.modified" content="2023-11-22T16:15:17+00:00" />
-  <meta property="article:modified_time" content="2023-11-22T16:15:17+00:00" />
+  <meta name="dc.modified" content="2023-11-22T16:30:17+00:00" />
+  <meta property="article:modified_time" content="2023-11-22T16:30:17+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -146,9 +146,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://biocypher.github.io/biocypher-paper/" />
   <meta name="citation_pdf_url" content="https://biocypher.github.io/biocypher-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://biocypher.github.io/biocypher-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://biocypher.github.io/biocypher-paper/v/a975ef23698fc86e5aad9a91c0ed984bab41adf5/" />
-  <meta name="manubot_html_url_versioned" content="https://biocypher.github.io/biocypher-paper/v/a975ef23698fc86e5aad9a91c0ed984bab41adf5/" />
-  <meta name="manubot_pdf_url_versioned" content="https://biocypher.github.io/biocypher-paper/v/a975ef23698fc86e5aad9a91c0ed984bab41adf5/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://biocypher.github.io/biocypher-paper/v/c4ef697a550e8ca4950a3641b22508988a354771/" />
+  <meta name="manubot_html_url_versioned" content="https://biocypher.github.io/biocypher-paper/v/c4ef697a550e8ca4950a3641b22508988a354771/" />
+  <meta name="manubot_pdf_url_versioned" content="https://biocypher.github.io/biocypher-paper/v/c4ef697a550e8ca4950a3641b22508988a354771/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -170,9 +170,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://biocypher.github.io/biocypher-paper/v/a975ef23698fc86e5aad9a91c0ed984bab41adf5/))
+([permalink](https://biocypher.github.io/biocypher-paper/v/c4ef697a550e8ca4950a3641b22508988a354771/))
 was automatically generated
-from [biocypher/biocypher-paper@a975ef2](https://github.com/biocypher/biocypher-paper/tree/a975ef23698fc86e5aad9a91c0ed984bab41adf5)
+from [biocypher/biocypher-paper@c4ef697](https://github.com/biocypher/biocypher-paper/tree/c4ef697a550e8ca4950a3641b22508988a354771)
 on November 22, 2023.
 </em></small>
 
@@ -446,7 +446,7 @@ To inform the contents of this meta-graph, we have reactivated and now maintain 
 ![
 **Figure 1: The BioCypher framework.**
 A) Threefold modularity: Resources (left) and ontologies (bottom left) are combined to yield a knowledge graph (right). The mapping of entities to ontology concepts is realised by shareable configuration, which can be iteratively optimised. B) Initially, we transform commonly used, curated “secondary” resources into configurable, task-specific knowledge graphs in various output formats. Incrementally, these secondary adapters will be replaced by primary resource adapters (see Figure S1). Coloured panels in A and B indicate parts of the BioCypher ecosystem. C) Agreeing on a common representational framework allows harmonisation of task-specific data sources to answer complex queries across biomedical domains. For instance, starting at mass spectrometry measurements of a patient’s tumour (left), one could go through clinical annotations to genetic dependencies from the Dependency Map project to identify potential drug targets, or through pathway / process annotations in Reactome and IntAct, identify relevant ligand-receptor pairs using OmniPath, and use CROssBAR to perform drug discovery or repurposing for these receptors. Panels correspond to resources; although we work on most of the displayed resources, the figure is used for illustrative purposes and does not depict an existing pipeline.
-](https://github.com/biocypher/biocypher-paper/raw/main/content/images/figure_1.png)
+](https://biocypher.org/_images/graphical_abstract.png)
 {#fig:1}
 
 BioCypher is implemented as a Python library that provides a low-code access point to data processing and ontology manipulation, emphasising the reuse of existing resources to the highest extent possible.
@@ -480,6 +480,24 @@ We demonstrate some key advantages of BioCypher by case studies in [Supplementar
 We believe that creating a more interoperable biomedical research community is as much a social effort as it is a scientific software problem.
 To facilitate adoption of any approach, the process must be made as simple as possible, and it must yield tangible rewards, such as significant savings in developer time.
 We will provide hands-on training for all interested researchers, and we invite all database and tool developers to join our collective effort.
+
+
+## Acknowledgements
+
+This project has received funding from the European Union’s Horizon 2020 research and innovation programme (grant agreement No 965193 [DECIDER] and 116030 [TransQST]), the German Federal Ministry of Education and Research (BMBF, Computational Life Sciences grant No 031L0181B and MSCoreSys research initiative research core SMART-CARE 031L0212A), the Defense Advanced Research Projects Agency (DARPA) Young Faculty Award [W911NF-20-1-0255], and the Medical Informatics Initiative Germany, MIRACUM consortium, FKZ: 01ZZ2019.
+
+We thank Henning Hermjakob, Benjamin Haibe-Kains, Pablo Rodriguez-Mier, Daniel Dimitrov, and Olga Ivanova for feedback on the manuscript, and Ben Hitz and Pedro Assis for feedback on their use of BioCypher.
+
+## Author Contributions
+
+The project was conceived by SL and JSR.
+The software was developed by SL with input from DT.
+The manuscript was drafted by SL, edited by JSR, and jointly revised by all co-authors.
+All co-authors as members of the BioCypher Consortium contributed to the case studies in development and writing and gave feedback for software development, which was coordinated and integrated by SL.
+
+## Conflict of Interest
+
+JSR reports funding from GSK, Pfizer and Sanofi and fees from Travere Therapeutics and Astex Pharmaceuticals.
 
 
 ## Supplementary Methods
@@ -989,23 +1007,6 @@ TypeDB
 https://github.com/typedb-osi/typedb-bio
 
 
-
-## Acknowledgements
-
-This project has received funding from the European Union’s Horizon 2020 research and innovation programme (grant agreement No 965193 [DECIDER] and 116030 [TransQST]), the German Federal Ministry of Education and Research (BMBF, Computational Life Sciences grant No 031L0181B and MSCoreSys research initiative research core SMART-CARE 031L0212A), the Defense Advanced Research Projects Agency (DARPA) Young Faculty Award [W911NF-20-1-0255], and the Medical Informatics Initiative Germany, MIRACUM consortium, FKZ: 01ZZ2019.
-
-We thank Henning Hermjakob, Benjamin Haibe-Kains, Pablo Rodriguez-Mier, Daniel Dimitrov, and Olga Ivanova for feedback on the manuscript, and Ben Hitz and Pedro Assis for feedback on their use of BioCypher.
-
-## Author Contributions
-
-The project was conceived by SL and JSR.
-The software was developed by SL with input from DT.
-The manuscript was drafted by SL, edited by JSR, and jointly revised by all co-authors.
-All co-authors as members of the BioCypher Consortium contributed to the case studies in development and writing and gave feedback for software development, which was coordinated and integrated by SL.
-
-## Conflict of Interest
-
-JSR reports funding from GSK, Pfizer and Sanofi and fees from Travere Therapeutics and Astex Pharmaceuticals.
 
 ## References {.page_break_before}
 

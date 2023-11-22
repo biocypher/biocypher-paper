@@ -20,7 +20,7 @@ Bioconductor
 BioCypher
 BioCypher’s
 BioGRID
-Bioinformatics
+bioinformatics
 Biolink
 biomarkers
 Biomedicine
@@ -115,7 +115,7 @@ Im
 Institució
 Institut
 Interactomics
-interoperable
+Interoperable
 IQR
 IRB
 iteratively
@@ -178,14 +178,14 @@ Probul
 programmatically
 programme
 proteome
-Proteomics
+proteomics
 PyPath
 PyPI
 PySpark
 Quadram
 REACTOME
 Recerca
-reproducibility
+Reproducibility
 reproducibly
 repurposing
 reusability
@@ -205,7 +205,7 @@ SNE
 SNOMED
 spectrometry
 subfield
-Subgraph
+subgraph
 subgraphs
 subsetting
 subtree
