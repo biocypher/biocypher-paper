@@ -20,10 +20,10 @@ Bioconductor
 BioCypher
 BioCypher’s
 BioGRID
-bioinformatics
+Bioinformatics
 Biolink
 biomarkers
-biomedicine
+Biomedicine
 BioPAX
 Bioquant
 Bioregistry
@@ -144,7 +144,7 @@ MII
 MIRACOLIX
 MIRACUM
 misannotation
-modularity
+Modularity
 MONDO
 MSCoreSys
 namespace
@@ -178,7 +178,7 @@ Probul
 programmatically
 programme
 proteome
-proteomics
+Proteomics
 PyPath
 PyPI
 PySpark
@@ -205,7 +205,7 @@ SNE
 SNOMED
 spectrometry
 subfield
-subgraph
+Subgraph
 subgraphs
 subsetting
 subtree

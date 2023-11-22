@@ -53,8 +53,8 @@ header-includes: |
   <meta name="dc.date" content="2023-11-22" />
   <meta name="citation_publication_date" content="2023-11-22" />
   <meta property="article:published_time" content="2023-11-22" />
-  <meta name="dc.modified" content="2023-11-22T16:12:56+00:00" />
-  <meta property="article:modified_time" content="2023-11-22T16:12:56+00:00" />
+  <meta name="dc.modified" content="2023-11-22T16:15:17+00:00" />
+  <meta property="article:modified_time" content="2023-11-22T16:15:17+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -146,9 +146,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://biocypher.github.io/biocypher-paper/" />
   <meta name="citation_pdf_url" content="https://biocypher.github.io/biocypher-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://biocypher.github.io/biocypher-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://biocypher.github.io/biocypher-paper/v/5942118f9318cdeacba972f63bd8581ef573158b/" />
-  <meta name="manubot_html_url_versioned" content="https://biocypher.github.io/biocypher-paper/v/5942118f9318cdeacba972f63bd8581ef573158b/" />
-  <meta name="manubot_pdf_url_versioned" content="https://biocypher.github.io/biocypher-paper/v/5942118f9318cdeacba972f63bd8581ef573158b/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://biocypher.github.io/biocypher-paper/v/a975ef23698fc86e5aad9a91c0ed984bab41adf5/" />
+  <meta name="manubot_html_url_versioned" content="https://biocypher.github.io/biocypher-paper/v/a975ef23698fc86e5aad9a91c0ed984bab41adf5/" />
+  <meta name="manubot_pdf_url_versioned" content="https://biocypher.github.io/biocypher-paper/v/a975ef23698fc86e5aad9a91c0ed984bab41adf5/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -170,9 +170,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://biocypher.github.io/biocypher-paper/v/5942118f9318cdeacba972f63bd8581ef573158b/))
+([permalink](https://biocypher.github.io/biocypher-paper/v/a975ef23698fc86e5aad9a91c0ed984bab41adf5/))
 was automatically generated
-from [biocypher/biocypher-paper@5942118](https://github.com/biocypher/biocypher-paper/tree/5942118f9318cdeacba972f63bd8581ef573158b)
+from [biocypher/biocypher-paper@a975ef2](https://github.com/biocypher/biocypher-paper/tree/a975ef23698fc86e5aad9a91c0ed984bab41adf5)
 on November 22, 2023.
 </em></small>
 
@@ -441,7 +441,7 @@ Different measures further increase the accessibility and FAIRness of our framew
 For example, we provide a template repository for a BioCypher pipeline with adapters, including a Docker Compose setup.
 To enable learning by example, we curate existing pipelines, as well as all adapters they use, in our GitHub organisation.
 Using the GitHub API and a BioCypher pipeline, we build a “meta-graph” for the simple browsing and analysis of BioCypher workflows (https://meta.biocypher.org).
-To inform the contents of this meta-graph, we have reactivated and now maintain the Biomedical Resource Ontology (BRO [@doi:10.1016/j.jbi.2010.10.003]), which helps to categorise pipelines and adapters into research areas, data types, and purposes (Supplementary Note 2).
+To inform the contents of this meta-graph, we have reactivated and now maintain the Biomedical Resource Ontology (BRO [@doi:10.1016/j.jbi.2010.10.003]), which helps to categorise pipelines and adapters into research areas, data types, and purposes ([Supplementary Note 2][Supplementary Note 2 - Approach]).
 
 ![
 **Figure 1: The BioCypher framework.**
@@ -468,14 +468,14 @@ Due to BioCypher’s modular nature, additional output adapters can quickly be a
 Application programming interfaces (APIs) built on top of the BioCypher KGs enable complex and versatile queries and simplify the interaction of users with the knowledge.
 For example, web widgets and apps (such as drug discovery and repositioning with https://crossbar.kansil.org and analysis workflows with https://drugst.one) allow researchers to browse and customise the database, and to plug it into standard pipelines.
 Additionally, a structured, semantically enriched knowledge representation facilitates connection to and improves performance of modern natural language processing applications such as GPT [@doi:10.1609/aaai.v36i10.21286], which can be specifically tuned for biomedical research [@doi:10.48550/arxiv.2305.06488].
-The use of common standards enables sharing of tools across projects and communities or in cloud-based services that preserve sensitive patient data (Supplementary Note 3).
+The use of common standards enables sharing of tools across projects and communities or in cloud-based services that preserve sensitive patient data ([Supplementary Note 3][Supplementary Note 3 - Implementation]).
 
 There have been numerous attempts at standardising KGs and making biomedical data stores more interoperable.
 We can identify three general types of approaches, in increasing order of abstraction: centrally maintained databases, explicit standard formats (modelling languages), and KG frameworks.
-With BioCypher, we aim to improve user-friendliness on all three levels of abstraction; for an in-depth discussion, see Supplementary Note 4.
+With BioCypher, we aim to improve user-friendliness on all three levels of abstraction; for an in-depth discussion, see [Supplementary Note 4][Supplementary Note 4 - Prior Art].
 Despite many efforts, there is no widely accepted solution.
 Very often, resources take the “path of least resistance” in adopting their own, arbitrary formats of representation. To our knowledge, no framework provides easy access to state-of-the-art KGs to the average biomedical researcher, a gap that BioCypher aims to fill.
-We demonstrate some key advantages of BioCypher by case studies in Supplementary Note 5.
+We demonstrate some key advantages of BioCypher by case studies in [Supplementary Note 5][Supplementary Note 5 - Case studies].
 
 We believe that creating a more interoperable biomedical research community is as much a social effort as it is a scientific software problem.
 To facilitate adoption of any approach, the process must be made as simple as possible, and it must yield tangible rewards, such as significant savings in developer time.
