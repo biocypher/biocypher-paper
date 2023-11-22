@@ -23,7 +23,7 @@ BioGRID
 bioinformatics
 Biolink
 biomarkers
-biomedicine
+Biomedicine
 BioPAX
 Bioquant
 Bioregistry
@@ -50,7 +50,7 @@ CogEx
 comorbidities
 corpuses
 COVID
-CovidGraph
+Covidgraph
 CSV
 curation
 curations
@@ -74,7 +74,7 @@ Dunham
 DZD
 Earlham
 EBI
-embeddings
+Embeddings
 EMBL
 ENSEMBL
 Enum
@@ -115,7 +115,7 @@ Im
 Institució
 Institut
 Interactomics
-Interoperable
+interoperable
 IQR
 IRB
 iteratively
@@ -178,17 +178,17 @@ Probul
 programmatically
 programme
 proteome
-proteomics
-pypath
+Proteomics
+PyPath
 PyPI
 PySpark
 Quadram
 REACTOME
 Recerca
-Reproducibility
+reproducibility
 reproducibly
 repurposing
-Reusability
+reusability
 ROBOKOP
 ROC
 RTX
@@ -205,7 +205,7 @@ SNE
 SNOMED
 spectrometry
 subfield
-Subgraph
+subgraph
 subgraphs
 subsetting
 subtree
