@@ -20,7 +20,7 @@ Bioconductor
 BioCypher
 BioCypher’s
 BioGRID
-bioinformatics
+Bioinformatics
 Biolink
 biomarkers
 Biomedicine
@@ -115,7 +115,7 @@ Im
 Institució
 Institut
 Interactomics
-interoperable
+Interoperable
 IQR
 IRB
 iteratively
@@ -179,7 +179,7 @@ programmatically
 programme
 proteome
 proteomics
-pypath
+PyPath
 PyPI
 PySpark
 Quadram
@@ -188,7 +188,7 @@ Recerca
 Reproducibility
 reproducibly
 repurposing
-reusability
+Reusability
 ROBOKOP
 ROC
 RTX
