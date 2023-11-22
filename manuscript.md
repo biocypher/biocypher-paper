@@ -53,8 +53,8 @@ header-includes: |
   <meta name="dc.date" content="2023-11-22" />
   <meta name="citation_publication_date" content="2023-11-22" />
   <meta property="article:published_time" content="2023-11-22" />
-  <meta name="dc.modified" content="2023-11-22T16:53:42+00:00" />
-  <meta property="article:modified_time" content="2023-11-22T16:53:42+00:00" />
+  <meta name="dc.modified" content="2023-11-22T20:06:14+00:00" />
+  <meta property="article:modified_time" content="2023-11-22T20:06:14+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -146,9 +146,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://biocypher.github.io/biocypher-paper/" />
   <meta name="citation_pdf_url" content="https://biocypher.github.io/biocypher-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://biocypher.github.io/biocypher-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://biocypher.github.io/biocypher-paper/v/c16284bd9d3c89ed5f278ae74eb3d68a3f69824d/" />
-  <meta name="manubot_html_url_versioned" content="https://biocypher.github.io/biocypher-paper/v/c16284bd9d3c89ed5f278ae74eb3d68a3f69824d/" />
-  <meta name="manubot_pdf_url_versioned" content="https://biocypher.github.io/biocypher-paper/v/c16284bd9d3c89ed5f278ae74eb3d68a3f69824d/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://biocypher.github.io/biocypher-paper/v/c4449500df351b3fc94d0c12ff20ed1f89b0d1cb/" />
+  <meta name="manubot_html_url_versioned" content="https://biocypher.github.io/biocypher-paper/v/c4449500df351b3fc94d0c12ff20ed1f89b0d1cb/" />
+  <meta name="manubot_pdf_url_versioned" content="https://biocypher.github.io/biocypher-paper/v/c4449500df351b3fc94d0c12ff20ed1f89b0d1cb/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -170,9 +170,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://biocypher.github.io/biocypher-paper/v/c16284bd9d3c89ed5f278ae74eb3d68a3f69824d/))
+([permalink](https://biocypher.github.io/biocypher-paper/v/c4449500df351b3fc94d0c12ff20ed1f89b0d1cb/))
 was automatically generated
-from [biocypher/biocypher-paper@c16284b](https://github.com/biocypher/biocypher-paper/tree/c16284bd9d3c89ed5f278ae74eb3d68a3f69824d)
+from [biocypher/biocypher-paper@c444950](https://github.com/biocypher/biocypher-paper/tree/c4449500df351b3fc94d0c12ff20ed1f89b0d1cb)
 on November 22, 2023.
 </em></small>
 
@@ -447,7 +447,7 @@ To inform the contents of this meta-graph, we have reactivated and now maintain 
 **Figure 1: The BioCypher framework.**
 A) Threefold modularity: Resources (left) and ontologies (bottom left) are combined to yield a knowledge graph (right). The mapping of entities to ontology concepts is realised by shareable configuration, which can be iteratively optimised. B) Initially, we transform commonly used, curated “secondary” resources into configurable, task-specific knowledge graphs in various output formats. Incrementally, these secondary adapters will be replaced by primary resource adapters (see Figure S1). Coloured panels in A and B indicate parts of the BioCypher ecosystem. C) Agreeing on a common representational framework allows harmonisation of task-specific data sources to answer complex queries across biomedical domains. For instance, starting at mass spectrometry measurements of a patient’s tumour (left), one could go through clinical annotations to genetic dependencies from the Dependency Map project to identify potential drug targets, or through pathway / process annotations in Reactome and IntAct, identify relevant ligand-receptor pairs using OmniPath, and use CROssBAR to perform drug discovery or repurposing for these receptors. Panels correspond to resources; although we work on most of the displayed resources, the figure is used for illustrative purposes and does not depict an existing pipeline.
 ](https://biocypher.org/_images/graphical_abstract.png)
-{#fig:1 width=8in}
+{#fig:1 height=4in}
 
 BioCypher is implemented as a Python library that provides a low-code access point to data processing and ontology manipulation, emphasising the reuse of existing resources to the highest extent possible.
 We have begun to open the platform to other bioinformatics ecosystems, starting with R/Bioconductor (https://biocypher.org/r-bioc.html).
