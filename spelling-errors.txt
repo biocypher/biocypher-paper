@@ -20,10 +20,10 @@ Bioconductor
 BioCypher
 BioCypher’s
 BioGRID
-Bioinformatics
+bioinformatics
 Biolink
 biomarkers
-Biomedicine
+biomedicine
 BioPAX
 Bioquant
 Bioregistry
@@ -74,7 +74,7 @@ Dunham
 DZD
 Earlham
 EBI
-embeddings
+Embeddings
 EMBL
 ENSEMBL
 Enum
@@ -144,7 +144,7 @@ MII
 MIRACOLIX
 MIRACUM
 misannotation
-Modularity
+modularity
 MONDO
 MSCoreSys
 namespace
@@ -178,14 +178,14 @@ Probul
 programmatically
 programme
 proteome
-Proteomics
-pypath
+proteomics
+PyPath
 PyPI
 PySpark
 Quadram
 REACTOME
 Recerca
-Reproducibility
+reproducibility
 reproducibly
 repurposing
 reusability
@@ -205,7 +205,7 @@ SNE
 SNOMED
 spectrometry
 subfield
-Subgraph
+subgraph
 subgraphs
 subsetting
 subtree
