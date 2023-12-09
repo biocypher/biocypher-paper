@@ -5,6 +5,7 @@
 [![HTML Manuscript](https://img.shields.io/badge/manuscript-HTML-blue.svg)](https://biocypher.github.io/biocypher-paper/)
 [![PDF Manuscript](https://img.shields.io/badge/manuscript-PDF-blue.svg)](https://biocypher.github.io/biocypher-paper/manuscript.pdf)
 [![GitHub Actions Status](https://github.com/biocypher/biocypher-paper/workflows/Manubot/badge.svg)](https://github.com/biocypher/biocypher-paper/actions)
+[![DOI](https://zenodo.org/badge/DOI/10.1038/s41587-023-01848-y.svg)](https://doi.org/10.1038/s41587-023-01848-y)
 
 ## Manuscript description
 
