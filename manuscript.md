@@ -53,8 +53,8 @@ header-includes: |
   <meta name="dc.date" content="2023-12-09" />
   <meta name="citation_publication_date" content="2023-12-09" />
   <meta property="article:published_time" content="2023-12-09" />
-  <meta name="dc.modified" content="2023-12-09T16:51:46+00:00" />
-  <meta property="article:modified_time" content="2023-12-09T16:51:46+00:00" />
+  <meta name="dc.modified" content="2023-12-09T16:55:11+00:00" />
+  <meta property="article:modified_time" content="2023-12-09T16:55:11+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -146,9 +146,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://biocypher.github.io/biocypher-paper/" />
   <meta name="citation_pdf_url" content="https://biocypher.github.io/biocypher-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://biocypher.github.io/biocypher-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://biocypher.github.io/biocypher-paper/v/9fcb1670c3b8a82e6b0b2a09aad614d0ac0fe14a/" />
-  <meta name="manubot_html_url_versioned" content="https://biocypher.github.io/biocypher-paper/v/9fcb1670c3b8a82e6b0b2a09aad614d0ac0fe14a/" />
-  <meta name="manubot_pdf_url_versioned" content="https://biocypher.github.io/biocypher-paper/v/9fcb1670c3b8a82e6b0b2a09aad614d0ac0fe14a/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://biocypher.github.io/biocypher-paper/v/13348e9e1b2015ccf9ac5e87dc8999209a37735b/" />
+  <meta name="manubot_html_url_versioned" content="https://biocypher.github.io/biocypher-paper/v/13348e9e1b2015ccf9ac5e87dc8999209a37735b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://biocypher.github.io/biocypher-paper/v/13348e9e1b2015ccf9ac5e87dc8999209a37735b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -170,9 +170,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://biocypher.github.io/biocypher-paper/v/9fcb1670c3b8a82e6b0b2a09aad614d0ac0fe14a/))
+([permalink](https://biocypher.github.io/biocypher-paper/v/13348e9e1b2015ccf9ac5e87dc8999209a37735b/))
 was automatically generated
-from [biocypher/biocypher-paper@9fcb167](https://github.com/biocypher/biocypher-paper/tree/9fcb1670c3b8a82e6b0b2a09aad614d0ac0fe14a)
+from [biocypher/biocypher-paper@13348e9](https://github.com/biocypher/biocypher-paper/tree/13348e9e1b2015ccf9ac5e87dc8999209a37735b)
 on December 9, 2023.
 </em></small>
 
@@ -763,7 +763,7 @@ Through this feedback, several inconsistencies were found in the original Open T
 This problem affected only a few proteins, which could have gone unnoticed in a manual curation of the data; a type of problem that likely is common in current collections of biomedical knowledge.
 
 Knowledge representations can and should be tuned according to the specific needs of the downstream task to be performed; BioCypher is designed to accommodate arbitrarily simple or complex representations while retaining information important to biomedical research tasks.
-A compressed structure is important, for instance, in graph machine learning and embedding tasks, where each additional relationship exponentially increases computational effort for message passing and embedding techniques 12,[@doi:10.48550/arxiv.2110.06196].
+A compressed structure is important, for instance, in graph machine learning and embedding tasks, where each additional relationship exponentially increases computational effort for message passing and embedding techniques [@doi:10.1038/s41467-022-33026-0;@doi:10.48550/arxiv.2110.06196].
 Most importantly, evidence (which experiment and publication the knowledge is derived from) and provenance (who provided which aspects of the primary data) should always be propagated.
 The former is essential to enable accurate confidence measures, e.g., not double-counting the same information because it was derived from two secondary sources which refer to the same original publication.
 The latter is important for attribution of work that the primary maintainers of large collections of biomedical knowledge provide to the community.

@@ -144,7 +144,7 @@ MII
 MIRACOLIX
 MIRACUM
 misannotation
-modularity
+Modularity
 MONDO
 MSCoreSys
 namespace
@@ -179,12 +179,12 @@ Probul
 programmatically
 programme
 proteome
-Proteomics
+proteomics
 pypath
 PyPI
 PySpark
 Quadram
-REACTOME
+Reactome
 Recerca
 Reproducibility
 reproducibly
