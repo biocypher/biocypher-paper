@@ -180,13 +180,13 @@ programmatically
 programme
 proteome
 Proteomics
-PyPath
+pypath
 PyPI
 PySpark
 Quadram
 REACTOME
 Recerca
-Reproducibility
+reproducibility
 reproducibly
 repurposing
 reusability
@@ -206,7 +206,7 @@ SNE
 SNOMED
 spectrometry
 subfield
-Subgraph
+subgraph
 subgraphs
 subsetting
 subtree
