@@ -53,8 +53,8 @@ header-includes: |
   <meta name="dc.date" content="2023-12-09" />
   <meta name="citation_publication_date" content="2023-12-09" />
   <meta property="article:published_time" content="2023-12-09" />
-  <meta name="dc.modified" content="2023-12-09T16:34:10+00:00" />
-  <meta property="article:modified_time" content="2023-12-09T16:34:10+00:00" />
+  <meta name="dc.modified" content="2023-12-09T16:51:46+00:00" />
+  <meta property="article:modified_time" content="2023-12-09T16:51:46+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -146,9 +146,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://biocypher.github.io/biocypher-paper/" />
   <meta name="citation_pdf_url" content="https://biocypher.github.io/biocypher-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://biocypher.github.io/biocypher-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://biocypher.github.io/biocypher-paper/v/8c16f282d05bcaed4c08ffd316912534d9722905/" />
-  <meta name="manubot_html_url_versioned" content="https://biocypher.github.io/biocypher-paper/v/8c16f282d05bcaed4c08ffd316912534d9722905/" />
-  <meta name="manubot_pdf_url_versioned" content="https://biocypher.github.io/biocypher-paper/v/8c16f282d05bcaed4c08ffd316912534d9722905/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://biocypher.github.io/biocypher-paper/v/9fcb1670c3b8a82e6b0b2a09aad614d0ac0fe14a/" />
+  <meta name="manubot_html_url_versioned" content="https://biocypher.github.io/biocypher-paper/v/9fcb1670c3b8a82e6b0b2a09aad614d0ac0fe14a/" />
+  <meta name="manubot_pdf_url_versioned" content="https://biocypher.github.io/biocypher-paper/v/9fcb1670c3b8a82e6b0b2a09aad614d0ac0fe14a/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -170,9 +170,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://biocypher.github.io/biocypher-paper/v/8c16f282d05bcaed4c08ffd316912534d9722905/))
+([permalink](https://biocypher.github.io/biocypher-paper/v/9fcb1670c3b8a82e6b0b2a09aad614d0ac0fe14a/))
 was automatically generated
-from [biocypher/biocypher-paper@8c16f28](https://github.com/biocypher/biocypher-paper/tree/8c16f282d05bcaed4c08ffd316912534d9722905)
+from [biocypher/biocypher-paper@9fcb167](https://github.com/biocypher/biocypher-paper/tree/9fcb1670c3b8a82e6b0b2a09aad614d0ac0fe14a)
 on December 9, 2023.
 </em></small>
 
@@ -535,7 +535,7 @@ For instance, a clinical researcher may use protein information from UniProtKB [
 Finding the most suitable KG for a specific task is challenging and time-consuming; they are published in isolation and there is no registry [@doi:10.1093/bib/bbac404;@doi:10.1146/annurev-biodatasci-010820-091627].
 Few available KG solutions perfectly fit the task the individual researcher wants to perform, but creating custom KGs is only possible for those that can afford years of development time by an individual [@doi:10.1016/j.celrep.2019.09.017;@doi:10.1038/s41467-022-33026-0] or even entire teams [@doi:10.1101/2021.10.28.466262].
 Smaller or non-bioinformatics labs need to choose from publicly available KGs, limiting customisation and the use of non-public data.
-There exist frameworks to build certain kinds of KG from scratch [@doi:10.1101/2020.04.30.071407;@doi:10.1101/631812], but these are difficult to use for researchers outside of the ontology subfield and often have a rigid underlying data model 10,[@doi:10.1101/2020.08.17.254839].
+There exist frameworks to build certain kinds of KG from scratch [@doi:10.1101/2020.04.30.071407;@doi:10.1101/631812], but these are difficult to use for researchers outside of the ontology subfield and often have a rigid underlying data model [@doi:10.1146/annurev-biodatasci-010820-091627;@doi:10.1101/2020.08.17.254839].
 Even task-specific knowledge graphs sometimes need to be built locally by the user due to licensing or maintenance reasons, which requires significant technical expertise [@doi:10.1038/s41467-022-28348-y].
 Modifying an existing, comprehensive KG for a specific purpose is a non-trivial and often manual process prone to lack of reproducibility [@doi:10.1101/2022.11.29.518441].
 

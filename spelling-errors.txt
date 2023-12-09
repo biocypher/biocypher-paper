@@ -50,7 +50,7 @@ CogEx
 comorbidities
 corpuses
 COVID
-Covidgraph
+CovidGraph
 CSV
 curation
 curations
@@ -115,7 +115,7 @@ Im
 Institució
 Institut
 Interactomics
-Interoperable
+interoperable
 IQR
 IRB
 iteratively
@@ -144,7 +144,7 @@ MII
 MIRACOLIX
 MIRACUM
 misannotation
-Modularity
+modularity
 MONDO
 MSCoreSys
 namespace
@@ -184,7 +184,7 @@ pypath
 PyPI
 PySpark
 Quadram
-Reactome
+REACTOME
 Recerca
 Reproducibility
 reproducibly
@@ -206,7 +206,7 @@ SNE
 SNOMED
 spectrometry
 subfield
-subgraph
+Subgraph
 subgraphs
 subsetting
 subtree
