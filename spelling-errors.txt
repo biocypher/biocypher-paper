@@ -20,10 +20,10 @@ Bioconductor
 BioCypher
 BioCypher’s
 BioGRID
-Bioinformatics
+bioinformatics
 Biolink
 biomarkers
-biomedicine
+Biomedicine
 BioPAX
 Bioquant
 Bioregistry
@@ -50,7 +50,7 @@ CogEx
 comorbidities
 corpuses
 COVID
-Covidgraph
+CovidGraph
 CSV
 curation
 curations
@@ -115,7 +115,7 @@ Im
 Institució
 Institut
 Interactomics
-Interoperable
+interoperable
 IQR
 IRB
 iteratively
@@ -186,7 +186,7 @@ PySpark
 Quadram
 REACTOME
 Recerca
-reproducibility
+Reproducibility
 reproducibly
 repurposing
 reusability
@@ -206,7 +206,7 @@ SNE
 SNOMED
 spectrometry
 subfield
-Subgraph
+subgraph
 subgraphs
 subsetting
 subtree

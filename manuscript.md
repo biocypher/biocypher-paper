@@ -53,8 +53,8 @@ header-includes: |
   <meta name="dc.date" content="2023-12-09" />
   <meta name="citation_publication_date" content="2023-12-09" />
   <meta property="article:published_time" content="2023-12-09" />
-  <meta name="dc.modified" content="2023-12-09T16:18:28+00:00" />
-  <meta property="article:modified_time" content="2023-12-09T16:18:28+00:00" />
+  <meta name="dc.modified" content="2023-12-09T16:19:20+00:00" />
+  <meta property="article:modified_time" content="2023-12-09T16:19:20+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -146,9 +146,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://biocypher.github.io/biocypher-paper/" />
   <meta name="citation_pdf_url" content="https://biocypher.github.io/biocypher-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://biocypher.github.io/biocypher-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://biocypher.github.io/biocypher-paper/v/e40a83347b4fe20e0488f4ad00de0dc461756966/" />
-  <meta name="manubot_html_url_versioned" content="https://biocypher.github.io/biocypher-paper/v/e40a83347b4fe20e0488f4ad00de0dc461756966/" />
-  <meta name="manubot_pdf_url_versioned" content="https://biocypher.github.io/biocypher-paper/v/e40a83347b4fe20e0488f4ad00de0dc461756966/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://biocypher.github.io/biocypher-paper/v/e40e01c463cd73a4771cd0d7a875c29e70ef6931/" />
+  <meta name="manubot_html_url_versioned" content="https://biocypher.github.io/biocypher-paper/v/e40e01c463cd73a4771cd0d7a875c29e70ef6931/" />
+  <meta name="manubot_pdf_url_versioned" content="https://biocypher.github.io/biocypher-paper/v/e40e01c463cd73a4771cd0d7a875c29e70ef6931/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -170,9 +170,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://biocypher.github.io/biocypher-paper/v/e40a83347b4fe20e0488f4ad00de0dc461756966/))
+([permalink](https://biocypher.github.io/biocypher-paper/v/e40e01c463cd73a4771cd0d7a875c29e70ef6931/))
 was automatically generated
-from [biocypher/biocypher-paper@e40a833](https://github.com/biocypher/biocypher-paper/tree/e40a83347b4fe20e0488f4ad00de0dc461756966)
+from [biocypher/biocypher-paper@e40e01c](https://github.com/biocypher/biocypher-paper/tree/e40e01c463cd73a4771cd0d7a875c29e70ef6931)
 on December 9, 2023.
 </em></small>
 
@@ -903,12 +903,12 @@ Biomedical data collections are growing to enormous sizes, which makes the handl
 Additionally, these large corpuses then need to be put to good use in downstream analyses, including collaborations between groups or even institutions.
 The growth of arbitrarily organised large-scale collections of knowledge poses major challenges to the maintainers of these databases:
 
-Maintaining data ingestion pipelines for dozens of upstream data sources is not feasible in a research context and detracts development time from other tasks.
+- Maintaining data ingestion pipelines for dozens of upstream data sources is not feasible in a research context and detracts development time from other tasks.
 
-Using a custom (non-standardised) data model, the effort to integrate new upstream data sources grows with the total number of pre-existing data sources.
+- Using a custom (non-standardised) data model, the effort to integrate new upstream data sources grows with the total number of pre-existing data sources.
 Each new data source has to be cross-referenced with all existing data sources and inconsistencies arise because the same piece of information may be represented with different levels of abstraction.
 
-The custom data model also complicates collaboration with external researchers.
+- The custom data model also complicates collaboration with external researchers.
 Integrating data from different contexts requires the collaborators to adapt to the internal data model.
 
 BioCypher can handle all three challenges.
