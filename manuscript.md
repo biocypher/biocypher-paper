@@ -53,8 +53,8 @@ header-includes: |
   <meta name="dc.date" content="2023-12-09" />
   <meta name="citation_publication_date" content="2023-12-09" />
   <meta property="article:published_time" content="2023-12-09" />
-  <meta name="dc.modified" content="2023-12-09T15:49:55+00:00" />
-  <meta property="article:modified_time" content="2023-12-09T15:49:55+00:00" />
+  <meta name="dc.modified" content="2023-12-09T16:15:05+00:00" />
+  <meta property="article:modified_time" content="2023-12-09T16:15:05+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -146,9 +146,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://biocypher.github.io/biocypher-paper/" />
   <meta name="citation_pdf_url" content="https://biocypher.github.io/biocypher-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://biocypher.github.io/biocypher-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://biocypher.github.io/biocypher-paper/v/a6a47d7e6a2ee001602befc6a3780b30b2aed837/" />
-  <meta name="manubot_html_url_versioned" content="https://biocypher.github.io/biocypher-paper/v/a6a47d7e6a2ee001602befc6a3780b30b2aed837/" />
-  <meta name="manubot_pdf_url_versioned" content="https://biocypher.github.io/biocypher-paper/v/a6a47d7e6a2ee001602befc6a3780b30b2aed837/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://biocypher.github.io/biocypher-paper/v/39f37d02b78a687c50a5b166d8da4879e73b2236/" />
+  <meta name="manubot_html_url_versioned" content="https://biocypher.github.io/biocypher-paper/v/39f37d02b78a687c50a5b166d8da4879e73b2236/" />
+  <meta name="manubot_pdf_url_versioned" content="https://biocypher.github.io/biocypher-paper/v/39f37d02b78a687c50a5b166d8da4879e73b2236/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -170,9 +170,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://biocypher.github.io/biocypher-paper/v/a6a47d7e6a2ee001602befc6a3780b30b2aed837/))
+([permalink](https://biocypher.github.io/biocypher-paper/v/39f37d02b78a687c50a5b166d8da4879e73b2236/))
 was automatically generated
-from [biocypher/biocypher-paper@a6a47d7](https://github.com/biocypher/biocypher-paper/tree/a6a47d7e6a2ee001602befc6a3780b30b2aed837)
+from [biocypher/biocypher-paper@39f37d0](https://github.com/biocypher/biocypher-paper/tree/39f37d02b78a687c50a5b166d8da4879e73b2236)
 on December 9, 2023.
 </em></small>
 
@@ -620,7 +620,7 @@ In addition, some features may be incompatible, and thus, one centrally maintain
 With BioCypher, each of the above languages can be adopted as the basis for a particular knowledge graph; in fact, we use the Biolink model as a basic ontology.
 Inside our framework, these languages can be freely and transparently exchanged, modified, extended, and hybridised, as we show in several of our case studies (e.g., “Tumour board” extends Biolink with Sequence Ontology and Disease Ontology).
 
-3) KG frameworks provide a means to build KGs, similar to the idea of BioCypher 14;[@doi:10.1101/631812];[@doi:10.1101/2020.08.17.254839];[@doi:10.1186/s12859-022-04932-3].
+3) KG frameworks provide a means to build KGs, similar to the idea of BioCypher 14;[@doi:10.1101/631812;@doi:10.1101/2020.08.17.254839;@doi:10.1186/s12859-022-04932-3].
 However, most tie themselves tightly to a particular standard format or modelling language ecosystem, thereby inheriting many of the limitations described above.
 The Knowledge Graph Hub provides a data loader pipeline, KGX allows conversion of KGs between different technical formats, and RTX-KG2 builds a fixed semantically standardised KG; all three adhere to the Biolink model [@doi:10.1101/2020.08.17.254839;@doi:10.1186/s12859-022-04932-3].
 Bio2BEL is an extensive framework to transform primary databases into BEL [@doi:10.1101/631812].
@@ -628,7 +628,7 @@ PheKnowLator is the only tool that is conceptually similar to BioCypher in that 
 However, it appears to be aimed at knowledge representation experts, requiring considerable bioinformatics and ontology expertise.
 While being fully customisable, it does not feature flexible recombination of modular components.
 
-The strategy of subgraph extraction to yield smaller, user-specific KGs has been implemented previously, for instance by CROssBAR (v1), ROBOKOP, and the BioThings Explorer [@doi:10.1093/nar/gkab543];[@doi:10.1093/bioinformatics/btz604];[@doi:10.1186/s12859-018-2041-5].
+The strategy of subgraph extraction to yield smaller, user-specific KGs has been implemented previously, for instance by CROssBAR (v1), ROBOKOP, and the BioThings Explorer [@doi:10.1093/nar/gkab543;@doi:10.1093/bioinformatics/btz604;@doi:10.1186/s12859-018-2041-5].
 However, these rely on single (and thus enormous) harmonised KGs for extracting the subgraphs as opposed to BioCypher’s modular approach [@doi:10.1111/cts.12592].
 While the “top-down” approach of first building a massive KG and then extracting subgraphs from it is a valid means to arrive at a particular knowledge representation, the effort involved is detrimental to efficiency and democratisation of the process.
 A secondary consequence of this large primary effort is that alternative representations of the initial KG will probably not be attempted, hindering flexible knowledge representation.
@@ -640,7 +640,7 @@ We aim to close this gap by providing an agile and modular framework that facili
 
 There exist alternatives to workflows that involve KGs.
 While the premise of our manuscript is that KGs are an important part of sustainable and trustworthy machine learning in the biomedical sciences, “zero domain knowledge” approaches such as UniHPF [@doi:10.48550/arXiv.2211.08082] can do without prior knowledge in their inference process.
-Whether methods that forego knowledge representation entirely can be as good or better than methods that use knowledge representation is still a matter of discussion [@doi:10.1038/s41551-022-00942-x];[@doi:10.1101/2022.05.01.489928];[@doi:10.1101/2022.12.07.22283238];[@doi:10.48550/arxiv.2210.09338];[@doi:10.1016/j.artint.2021.103627];[@doi:10.48550/arXiv.2205.15952];[@doi:10.1093/bioinformatics/btac001].
+Whether methods that forego knowledge representation entirely can be as good or better than methods that use knowledge representation is still a matter of discussion [@doi:10.1038/s41551-022-00942-x;@doi:10.1101/2022.05.01.489928;@doi:10.1101/2022.12.07.22283238;@doi:10.48550/arxiv.2210.09338;@doi:10.1016/j.artint.2021.103627;@doi:10.48550/arXiv.2205.15952;@doi:10.1093/bioinformatics/btac001].
 One aspect that is apparent from modern developments in large language models is that prior knowledge-free models appear to be very data hungry; while billion parameter models are very impressive in their text and image processing capabilities, we do not nearly have enough data in molecular biomedicine to train a GPT-like model, even if we had the funds to train it.
 In addition, even in prior knowledge-free deep models, a semantically enriched knowledge graph can still play a role and be useful as an in-process component [@doi:10.1609/aaai.v36i10.21286].
 To address these and other performance-related questions, we want to facilitate the creation of benchmarks and standard datasets through the modular nature of our framework.

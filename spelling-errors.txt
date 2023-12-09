@@ -20,7 +20,7 @@ Bioconductor
 BioCypher
 BioCypher’s
 BioGRID
-bioinformatics
+Bioinformatics
 Biolink
 biomarkers
 Biomedicine
@@ -50,7 +50,7 @@ CogEx
 comorbidities
 corpuses
 COVID
-Covidgraph
+CovidGraph
 CSV
 curation
 curations
@@ -74,7 +74,7 @@ Dunham
 DZD
 Earlham
 EBI
-Embeddings
+embeddings
 EMBL
 ENSEMBL
 Enum
@@ -115,7 +115,7 @@ Im
 Institució
 Institut
 Interactomics
-interoperable
+Interoperable
 IQR
 IRB
 iteratively
@@ -144,7 +144,7 @@ MII
 MIRACOLIX
 MIRACUM
 misannotation
-Modularity
+modularity
 MONDO
 MSCoreSys
 namespace
@@ -180,13 +180,13 @@ programmatically
 programme
 proteome
 Proteomics
-PyPath
+pypath
 PyPI
 PySpark
 Quadram
-REACTOME
+Reactome
 Recerca
-reproducibility
+Reproducibility
 reproducibly
 repurposing
 reusability
