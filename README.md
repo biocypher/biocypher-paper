@@ -12,7 +12,7 @@
 <!-- usage note: edit this section. -->
 
 This repository contains the code to generate the self-archived version of the
-BioCypher paper (on Zenodo).
+BioCypher paper (on [Zenodo](https://zenodo.org/records/10320714)).
 
 ## Manubot
 
