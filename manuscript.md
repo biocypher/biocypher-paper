@@ -53,8 +53,8 @@ header-includes: |
   <meta name="dc.date" content="2023-12-09" />
   <meta name="citation_publication_date" content="2023-12-09" />
   <meta property="article:published_time" content="2023-12-09" />
-  <meta name="dc.modified" content="2023-12-09T17:07:20+00:00" />
-  <meta property="article:modified_time" content="2023-12-09T17:07:20+00:00" />
+  <meta name="dc.modified" content="2023-12-09T17:08:28+00:00" />
+  <meta property="article:modified_time" content="2023-12-09T17:08:28+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -146,9 +146,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://biocypher.github.io/biocypher-paper/" />
   <meta name="citation_pdf_url" content="https://biocypher.github.io/biocypher-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://biocypher.github.io/biocypher-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://biocypher.github.io/biocypher-paper/v/496d9538d0c164bf51be0a5e496119af31617763/" />
-  <meta name="manubot_html_url_versioned" content="https://biocypher.github.io/biocypher-paper/v/496d9538d0c164bf51be0a5e496119af31617763/" />
-  <meta name="manubot_pdf_url_versioned" content="https://biocypher.github.io/biocypher-paper/v/496d9538d0c164bf51be0a5e496119af31617763/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://biocypher.github.io/biocypher-paper/v/b2d3a3a344158bf43083e46325c2176ade3f7c92/" />
+  <meta name="manubot_html_url_versioned" content="https://biocypher.github.io/biocypher-paper/v/b2d3a3a344158bf43083e46325c2176ade3f7c92/" />
+  <meta name="manubot_pdf_url_versioned" content="https://biocypher.github.io/biocypher-paper/v/b2d3a3a344158bf43083e46325c2176ade3f7c92/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -170,9 +170,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://biocypher.github.io/biocypher-paper/v/496d9538d0c164bf51be0a5e496119af31617763/))
+([permalink](https://biocypher.github.io/biocypher-paper/v/b2d3a3a344158bf43083e46325c2176ade3f7c92/))
 was automatically generated
-from [biocypher/biocypher-paper@496d953](https://github.com/biocypher/biocypher-paper/tree/496d9538d0c164bf51be0a5e496119af31617763)
+from [biocypher/biocypher-paper@b2d3a3a](https://github.com/biocypher/biocypher-paper/tree/b2d3a3a344158bf43083e46325c2176ade3f7c92)
 on December 9, 2023.
 </em></small>
 
@@ -624,7 +624,7 @@ Inside our framework, these languages can be freely and transparently exchanged,
 However, most tie themselves tightly to a particular standard format or modelling language ecosystem, thereby inheriting many of the limitations described above.
 The Knowledge Graph Hub provides a data loader pipeline, KGX allows conversion of KGs between different technical formats, and RTX-KG2 builds a fixed semantically standardised KG; all three adhere to the Biolink model [@doi:10.1101/2020.08.17.254839;@doi:10.1186/s12859-022-04932-3].
 Bio2BEL is an extensive framework to transform primary databases into BEL [@doi:10.1101/631812].
-PheKnowLator is the only tool that is conceptually similar to BioCypher in that it allows the creation of knowledge graphs under different data models 14.
+PheKnowLator is the only tool that is conceptually similar to BioCypher in that it allows the creation of knowledge graphs under different data models [@doi:10.1101/2020.04.30.071407].
 However, it appears to be aimed at knowledge representation experts, requiring considerable bioinformatics and ontology expertise.
 While being fully customisable, it does not feature flexible recombination of modular components.
 

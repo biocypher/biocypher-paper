@@ -23,7 +23,7 @@ BioGRID
 Bioinformatics
 Biolink
 biomarkers
-Biomedicine
+biomedicine
 BioPAX
 Bioquant
 Bioregistry
@@ -50,7 +50,7 @@ CogEx
 comorbidities
 corpuses
 COVID
-CovidGraph
+Covidgraph
 CSV
 curation
 curations
@@ -74,7 +74,7 @@ Dunham
 DZD
 Earlham
 EBI
-embeddings
+Embeddings
 EMBL
 ENSEMBL
 Enum
@@ -184,9 +184,9 @@ PyPath
 PyPI
 PySpark
 Quadram
-Reactome
+REACTOME
 Recerca
-reproducibility
+Reproducibility
 reproducibly
 repurposing
 reusability
