@@ -23,7 +23,7 @@ BioGRID
 Bioinformatics
 Biolink
 biomarkers
-Biomedicine
+biomedicine
 BioPAX
 Bioquant
 Bioregistry
@@ -50,7 +50,7 @@ CogEx
 comorbidities
 corpuses
 COVID
-CovidGraph
+Covidgraph
 CSV
 curation
 curations
@@ -144,7 +144,7 @@ MII
 MIRACOLIX
 MIRACUM
 misannotation
-modularity
+Modularity
 MONDO
 MSCoreSys
 namespace
@@ -180,13 +180,13 @@ programmatically
 programme
 proteome
 Proteomics
-pypath
+PyPath
 PyPI
 PySpark
 Quadram
-Reactome
+REACTOME
 Recerca
-Reproducibility
+reproducibility
 reproducibly
 repurposing
 reusability
