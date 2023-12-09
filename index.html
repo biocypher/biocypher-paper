@@ -84,8 +84,8 @@
   <meta name="dc.date" content="2023-12-09" />
   <meta name="citation_publication_date" content="2023-12-09" />
   <meta property="article:published_time" content="2023-12-09" />
-  <meta name="dc.modified" content="2023-12-09T16:15:05+00:00" />
-  <meta property="article:modified_time" content="2023-12-09T16:15:05+00:00" />
+  <meta name="dc.modified" content="2023-12-09T16:18:28+00:00" />
+  <meta property="article:modified_time" content="2023-12-09T16:18:28+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -177,9 +177,9 @@
   <meta name="citation_fulltext_html_url" content="https://biocypher.github.io/biocypher-paper/" />
   <meta name="citation_pdf_url" content="https://biocypher.github.io/biocypher-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://biocypher.github.io/biocypher-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://biocypher.github.io/biocypher-paper/v/39f37d02b78a687c50a5b166d8da4879e73b2236/" />
-  <meta name="manubot_html_url_versioned" content="https://biocypher.github.io/biocypher-paper/v/39f37d02b78a687c50a5b166d8da4879e73b2236/" />
-  <meta name="manubot_pdf_url_versioned" content="https://biocypher.github.io/biocypher-paper/v/39f37d02b78a687c50a5b166d8da4879e73b2236/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://biocypher.github.io/biocypher-paper/v/e40a83347b4fe20e0488f4ad00de0dc461756966/" />
+  <meta name="manubot_html_url_versioned" content="https://biocypher.github.io/biocypher-paper/v/e40a83347b4fe20e0488f4ad00de0dc461756966/" />
+  <meta name="manubot_pdf_url_versioned" content="https://biocypher.github.io/biocypher-paper/v/e40a83347b4fe20e0488f4ad00de0dc461756966/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -196,9 +196,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://biocypher.github.io/biocypher-paper/v/39f37d02b78a687c50a5b166d8da4879e73b2236/">permalink</a>)
+(<a href="https://biocypher.github.io/biocypher-paper/v/e40a83347b4fe20e0488f4ad00de0dc461756966/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/biocypher/biocypher-paper/tree/39f37d02b78a687c50a5b166d8da4879e73b2236">biocypher/biocypher-paper@39f37d0</a>
+from <a href="https://github.com/biocypher/biocypher-paper/tree/e40a83347b4fe20e0488f4ad00de0dc461756966">biocypher/biocypher-paper@e40a833</a>
 on December 9, 2023.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -588,7 +588,7 @@ We and several of our close collaborators make use of this resource, for instanc
 We have created an example on how to share a UniProt adapter between resources and how to use BioCypher to combine pre-existing databases based on ontology.</p>
 <p>We have written such an adapter for UniProt data, using software infrastructure provided by the OmniPath backend PyPath (for downloading and locally caching the data).
 The adapter provides the data as well as convenient access points and an overview of the available property fields using Python Enum classes, offering automatic suggestion and autocomplete functionality.
-Using these methods, selecting specific content from the entirety of UniProt data and integrating this content with other resources is greatly facilitated (Figure S1), since the alternative would be, in many cases, to use a manual script to access the UniProt API and rely on manual harmonisation with other datasets.</p>
+Using these methods, selecting specific content from the entirety of UniProt data and integrating this content with other resources is greatly facilitated (Figure <a href="#fig:S1">2</a>), since the alternative would be, in many cases, to use a manual script to access the UniProt API and rely on manual harmonisation with other datasets.</p>
 <p>Similarly, we have added adapters for protein-protein interactions from the popular sources IntAct 7, BioGRID <span class="citation" data-cites="nTlj6VKs">[<a href="#ref-nTlj6VKs" role="doc-biblioref">47</a>]</span>, and STRING <span class="citation" data-cites="1663S4mH8">[<a href="#ref-1663S4mH8" role="doc-biblioref">48</a>]</span>, as well as other resources.
 For an up-to-date overview of the BioCypher pipelines and adapters, please visit the <a href="https://github.com/orgs/biocypher/projects/3">Components board</a> and the <a href="https://meta.biocypher.org">meta-graph</a>.
 By using the UniProt accession of proteins in the KG and BioCypher functionality, the sources are seamlessly integrated into the final KG despite their differences in original data representation.
@@ -619,9 +619,9 @@ As a second step, datasets that are not yet available from pre-existing BioCyphe
 The code for this project can be found at https://github.com/oncodash/oncodashkb.</p>
 <p>We make use of the ontology manipulation facilities provided by BioCypher to extend the broad but basic Biolink ontology in certain branches where it is useful to have more granular information about the data that enters the KG.
 For example, the exact type of genetic variants are of high importance in the molecular tumour board process, but Biolink only provides a generic “sequence variant” class in its schema.
-Therefore, we extended the ontology tree at this node with the very granular corresponding subtree of the Sequence Ontology (SO, <span class="citation" data-cites="xiGrNkR1">[<a href="#ref-xiGrNkR1" role="doc-biblioref">52</a>]</span>), yielding a hybrid ontology with the generality of Biolink and the accuracy of a specialised ontology of sequence variants (Figure S2).
+Therefore, we extended the ontology tree at this node with the very granular corresponding subtree of the Sequence Ontology (SO, <span class="citation" data-cites="xiGrNkR1">[<a href="#ref-xiGrNkR1" role="doc-biblioref">52</a>]</span>), yielding a hybrid ontology with the generality of Biolink and the accuracy of a specialised ontology of sequence variants (Figure <a href="#fig:S2">3</a>).
 Building on the mechanism provided by BioCypher, this hybridisation can be performed by providing only the minimal input of the sequence ontology URL and the nodes that should be the point of merging (“sequence variant” in Biolink and “sequence_variant” in SO).
-The same process is used with the Disease Ontology <span class="citation" data-cites="ez55Zlmu">[<a href="#ref-ez55Zlmu" role="doc-biblioref">53</a>]</span> and OncoTree <span class="citation" data-cites="nDiR3rcY">[<a href="#ref-nDiR3rcY" role="doc-biblioref">54</a>]</span> (see Figure S2).
+The same process is used with the Disease Ontology <span class="citation" data-cites="ez55Zlmu">[<a href="#ref-ez55Zlmu" role="doc-biblioref">53</a>]</span> and OncoTree <span class="citation" data-cites="nDiR3rcY">[<a href="#ref-nDiR3rcY" role="doc-biblioref">54</a>]</span> (see Figure <a href="#fig:S2">3</a>).
 We use Biolink v3.2.1 and the most recent version of Disease Ontology (as provided by the OBO Foundry at http://purl.obolibrary.org/obo/so.owl).</p>
 <div id="fig:S2" class="fignos">
 <figure>
@@ -656,7 +656,7 @@ Still, this extensive query only covers 11 of the 37 source labels, 10 of the 43
 This lossless reduction is possible due to 1) the semantic abstraction and 2) the removal of information in the original graph that is not relevant to the task.
 Compared to the original file of the database dump (zipped, 1.1 GB), the BioCypher output is ~20-fold smaller (zipped, 63 MB), which greatly facilitates sharing and accessibility (e.g.
 by simplifying online access via Jupyter notebooks).
-The Cypher query for an interaction has been reduced from 13 query lines, 15 nodes, and 25 edges to 2 query lines, 3 nodes, and 2 edges (Figure S3).
+The Cypher query for an interaction has been reduced from 13 query lines, 15 nodes, and 25 edges to 2 query lines, 3 nodes, and 2 edges (Figure <a href="#fig:S3">4</a>).
 This change comes with a reduction in complexity, which may be beneficial for the experience of interacting with the KG.
 If the Cypher query is programmatically generated, this does not play a role for the user.
 However, in that case, the complexity is shifted upstream to the code that generates the query.</p>
@@ -725,7 +725,7 @@ For instance, we extended the metapath to connect the subjects’ protein readou
 Importantly, due to the gigantic size of the CKG, it was fundamental to use a CKG BioCypher adapter to extract the pertinent subgraphs containing only the required knowledge (e.g., patient-protein data and pathways).
 Indeed, selecting the desired KG entities from the complete adapter required negligible time (demonstrated at https://github.com/biocypher/clinical-knowledge-graph).
 Finally, the protein- and pathway-based patient descriptors were obtained by running the Bioteque embedding pipeline (https://gitlabsbnb.irbbarcelona.org/bioteque/).
-The two resulting patient embedding spaces and their corresponding cluster similarity are provided in Figure S4.</p>
+The two resulting patient embedding spaces and their corresponding cluster similarity are provided in Figure <a href="#fig:S4">5</a>.</p>
 <div id="fig:S4" class="fignos">
 <figure>
 <img src="images/figure_s_bioteque.png" style="width:100.0%" alt="Figure 5: Bioteque-based patient embeddings. Two embedding spaces were obtained to describe patients (‘Subjects’ nodes in the CKG) based on protein (left) and protein-pathway (right) similarities. a, d: 2D projection (t-SNE) of the subjects according to the protein similarity (a) and pathway similarity (d). Subject nodes are coloured by disease type (see legend at the bottom) while proteins (a) and pathways (d) are coloured in grey. b, e: Assessment of the quality of the embeddings by quantifying their ability to reassemble the original network. For each edge in the original network, we compute the cosine distance between its constituent nodes using the node embeddings. We then generate 100 random permutations for each edge in the network, preserving the degree of each node, and calculate the cosine distances between them. Finally, for each permutation we sorted all the distances and computed the ROC and PR curves using the original network edges and the corresponding random permutation as the positive and negative sets, respectively. c, f: Heatmap showing the cosine similarity of the subject embeddings. To make similarities comparable between heatmaps, cosine similarities were transformed into z-scores by subtracting the median and dividing by the IQR of their corresponding background distribution. Thus, the higher/redder the z-score the higher the similarity. An agglomerative hierarchical clustering based on the protein-driven similarities (c) was used to sort the rows and columns in both heatmaps (c, f). Rows (columns) are coloured based on the subject’s disease (see legend at the bottom). Notice how, while both spaces are unsurprisingly similar (i.e., both are based on protein readouts), the pathway-driven similarities reveal sub-clusters within disease types that were not evident based on purely protein-driven similarities." />
@@ -784,7 +784,7 @@ All of the above poses great challenges in data integration in the clinical sett
 Embedded in the Medical Informatics Initiative (MII) Germany, MeDaX builds on the federated storage structure for biomedical health care and research data established in all Data Integration Centres (DICs) at German university hospitals.
 We envision extending the existing MIRACOLIX toolbox <span class="citation" data-cites="yKZ8alU5">[<a href="#ref-yKZ8alU5" role="doc-biblioref">65</a>]</span> with the MeDaX pipeline to set up local KGs, combining complex heterogeneous data from multiple resources: in addition to biomedical data available only at the DICs due to patient privacy, we include the MII core data set <span class="citation" data-cites="eFQyj5Wh">[<a href="#ref-eFQyj5Wh" role="doc-biblioref">66</a>]</span>, local population studies <span class="citation" data-cites="lrjMS8FK u1j8EALG">[<a href="#ref-lrjMS8FK" role="doc-biblioref">67</a>,<a href="#ref-u1j8EALG" role="doc-biblioref">68</a>]</span>, biomedical ontologies <span class="citation" data-cites="18dC6FMrj">[<a href="#ref-18dC6FMrj" role="doc-biblioref">69</a>]</span>, and public information portals <span class="citation" data-cites="nC3lHM8C">[<a href="#ref-nC3lHM8C" role="doc-biblioref">70</a>]</span>.
 BioCypher’s ontology mapping process facilitates future integration of additional data sources (see also the case study “Data integration”).</p>
-<p>We enable federated learning pipelines by supplying build instructions for each local database in the form of the schema configuration that can be publicly and centrally maintained, since it contains no sensitive data (Figure S5).
+<p>We enable federated learning pipelines by supplying build instructions for each local database in the form of the schema configuration that can be publicly and centrally maintained, since it contains no sensitive data (Figure <a href="#fig:S5">6</a>).
 At each training location, a task-specific KG is created from public data (e.g., with the Clinical Knowledge Graph as baseline), using the subsetting facilities described in the case study “Subgraph extraction”.
 Afterwards, the sensitive patient data (e.g., germ-line genetic variants) are integrated into this KG at each location, using the BioCypher schema configuration to specify the type of data involved (e.g., clinical measurements, genetic profiling).
 This ensures that, regardless of how the sensitive data are represented at each location, the machine learning algorithm works with the exact same structure of KG, preventing accidental or malicious data leakage in the federated learning step.</p>
