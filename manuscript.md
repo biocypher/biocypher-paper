@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2023-11-22'
+date-meta: '2023-12-09'
 author-meta:
 - Sebastian Lobentanzer
 - Patrick Aloy
@@ -50,11 +50,11 @@ header-includes: |
   <meta name="citation_title" content="Democratizing knowledge representation with BioCypher" />
   <meta property="og:title" content="Democratizing knowledge representation with BioCypher" />
   <meta property="twitter:title" content="Democratizing knowledge representation with BioCypher" />
-  <meta name="dc.date" content="2023-11-22" />
-  <meta name="citation_publication_date" content="2023-11-22" />
-  <meta property="article:published_time" content="2023-11-22" />
-  <meta name="dc.modified" content="2023-11-22T20:16:19+00:00" />
-  <meta property="article:modified_time" content="2023-11-22T20:16:19+00:00" />
+  <meta name="dc.date" content="2023-12-09" />
+  <meta name="citation_publication_date" content="2023-12-09" />
+  <meta property="article:published_time" content="2023-12-09" />
+  <meta name="dc.modified" content="2023-12-09T15:49:55+00:00" />
+  <meta property="article:modified_time" content="2023-12-09T15:49:55+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -117,7 +117,7 @@ header-includes: |
   <meta name="citation_author" content="Ferdinand Popp" />
   <meta name="citation_author_institution" content="Applied Tumour Immunity Clinical Cooperation Unit, National Centre for Tumour Diseases (NCT), German Cancer Research Centre (DKFZ), Im Neuenheimer Feld 460, 69120, Heidelberg, Germany" />
   <meta name="citation_author" content="Martin Preusse" />
-  <meta name="citation_author_institution" content="Centre for Quantitative Analysis of Molecular and Cellular Biosystems (Bioquant), Heidelberg University, Im Neuenheimer Feld 267, 69120, Heidelberg, Germany" />
+  <meta name="citation_author_institution" content="German Centre for Diabetes Research (DZD), Neuherberg, Germany" />
   <meta name="citation_author" content="Niklas Probul" />
   <meta name="citation_author_institution" content="Institute for Computational Systems Biology, University of Hamburg, Germany" />
   <meta name="citation_author" content="Benno Schwikowski" />
@@ -146,9 +146,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://biocypher.github.io/biocypher-paper/" />
   <meta name="citation_pdf_url" content="https://biocypher.github.io/biocypher-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://biocypher.github.io/biocypher-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://biocypher.github.io/biocypher-paper/v/1363110906f7decb091dfbb1bf3ce6133685e928/" />
-  <meta name="manubot_html_url_versioned" content="https://biocypher.github.io/biocypher-paper/v/1363110906f7decb091dfbb1bf3ce6133685e928/" />
-  <meta name="manubot_pdf_url_versioned" content="https://biocypher.github.io/biocypher-paper/v/1363110906f7decb091dfbb1bf3ce6133685e928/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://biocypher.github.io/biocypher-paper/v/a6a47d7e6a2ee001602befc6a3780b30b2aed837/" />
+  <meta name="manubot_html_url_versioned" content="https://biocypher.github.io/biocypher-paper/v/a6a47d7e6a2ee001602befc6a3780b30b2aed837/" />
+  <meta name="manubot_pdf_url_versioned" content="https://biocypher.github.io/biocypher-paper/v/a6a47d7e6a2ee001602befc6a3780b30b2aed837/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -170,10 +170,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://biocypher.github.io/biocypher-paper/v/1363110906f7decb091dfbb1bf3ce6133685e928/))
+([permalink](https://biocypher.github.io/biocypher-paper/v/a6a47d7e6a2ee001602befc6a3780b30b2aed837/))
 was automatically generated
-from [biocypher/biocypher-paper@1363110](https://github.com/biocypher/biocypher-paper/tree/1363110906f7decb091dfbb1bf3ce6133685e928)
-on November 22, 2023.
+from [biocypher/biocypher-paper@a6a47d7](https://github.com/biocypher/biocypher-paper/tree/a6a47d7e6a2ee001602befc6a3780b30b2aed837)
+on December 9, 2023.
 </em></small>
 
 
@@ -324,7 +324,7 @@ on November 22, 2023.
 + **Martin Preusse**
   <br>
   <small>
-     Centre for Quantitative Analysis of Molecular and Cellular Biosystems (Bioquant), Heidelberg University, Im Neuenheimer Feld 267, 69120, Heidelberg, Germany
+     German Centre for Diabetes Research (DZD), Neuherberg, Germany
   </small>
 
 + **Niklas Probul**
@@ -444,7 +444,7 @@ Using the GitHub API and a BioCypher pipeline, we build a “meta-graph” for t
 To inform the contents of this meta-graph, we have reactivated and now maintain the Biomedical Resource Ontology (BRO [@doi:10.1016/j.jbi.2010.10.003]), which helps to categorise pipelines and adapters into research areas, data types, and purposes ([Supplementary Note 2][Supplementary Note 2 - Approach]).
 
 ![
-**Figure 1: The BioCypher framework.**
+**The BioCypher framework.**
 A) Threefold modularity: Resources (left) and ontologies (bottom left) are combined to yield a knowledge graph (right). The mapping of entities to ontology concepts is realised by shareable configuration, which can be iteratively optimised. B) Initially, we transform commonly used, curated “secondary” resources into configurable, task-specific knowledge graphs in various output formats. Incrementally, these secondary adapters will be replaced by primary resource adapters (see Figure S1). Coloured panels in A and B indicate parts of the BioCypher ecosystem. C) Agreeing on a common representational framework allows harmonisation of task-specific data sources to answer complex queries across biomedical domains. For instance, starting at mass spectrometry measurements of a patient’s tumour (left), one could go through clinical annotations to genetic dependencies from the Dependency Map project to identify potential drug targets, or through pathway / process annotations in Reactome and IntAct, identify relevant ligand-receptor pairs using OmniPath, and use CROssBAR to perform drug discovery or repurposing for these receptors. Panels correspond to resources; although we work on most of the displayed resources, the figure is used for illustrative purposes and does not depict an existing pipeline.
 ](https://biocypher.org/_images/graphical_abstract.png){#fig:1 width=100%}
 
@@ -671,11 +671,13 @@ As with UniProt data, access to interaction data is facilitated by provision of 
 The adapters and a script demonstrating their usage are available [on GitHub](https://github.com/HUBioDataLab/CROssBAR-BioCypher-Migration).
 The project uses Biolink version 3.2.1.
 
-Figure S1: Modularity of knowledge input.
+![
+**Modularity of knowledge input.**
 Individual primary source adapters can be used to build secondary knowledge curations such as OmniPath (compare to Figure 1A).
 This shifts maintenance towards the primary source and thus reduces maintenance effort: instead of maintaining each primary resource at the integrated KG level, only one reusable adapter for each resource is necessary.
 The primary adapters provide an additional level of flexibility to the user by providing accessible insight into the contents of each primary resource, which can be extensive.
 For instance, in the adapter for the UniProt knowledge base, the user can select their favourite species, fields of protein information such as the length or mass of the protein, and relationships to import, such as the host organism or the coding gene of each protein.
+](images/figure_s_modularity.png){#fig:S1 width=100%}
 
 ### Tumour board
 
@@ -699,14 +701,15 @@ Building on the mechanism provided by BioCypher, this hybridisation can be perfo
 The same process is used with the Disease Ontology [@doi:10.1093/nar/gkab1063] and OncoTree [@doi:10.1200/CCI.20.00108] (see Figure S2).
 We use Biolink v3.2.1 and the most recent version of Disease Ontology (as provided by the OBO Foundry at http://purl.obolibrary.org/obo/so.owl).
 
-
-Figure S2: Modular ontology.
+![
+**Modular ontology.**
 BioCypher combines modular inputs from biomedical resources (left) with a flexible scaffold based on ontology (bottom) to build task-specific knowledge graphs (KGs) with variable format (middle).
 Users can configure the use of individual resources as well as the contents taken from these resources in a community-curated collection of adapters.
 The data are then harmonised on the basis of user-specified ontologies that are tailored to the specific purpose of the desired KG, using BioCypher’s mapping, extension, and hybridisation facilities.
 Finally, the KG is provided to the user through an output adapter in the desired format.
 Since Biolink has a broad but general representation of biomedical classes, we extend the “sequence variant” with the corresponding granular information from the specialised Sequence Ontology (right side).
 Similarly, information about cancer and specific tumour types are added from Disease Ontology and OncoTree.
+](images/figure_s_tumour_board.png){#fig:S2 width=100%}
 
 Once the database has been created through BioCypher, the process of querying for an actionable variant and its associated treatment options for a given patient is greatly simplified.
 This approach also improves the concordance of knowledge base sources, the ability to incorporate external clinical resources, and the recovery of evidence only represented in a single resource [@doi:10.1038/s41467-022-28348-y].
@@ -739,13 +742,14 @@ This change comes with a reduction in complexity, which may be beneficial for th
 If the Cypher query is programmatically generated, this does not play a role for the user.
 However, in that case, the complexity is shifted upstream to the code that generates the query.
 
-
-Figure S3: Semantic abstraction.
+![
+**Semantic abstraction.**
 A) The original, “storage-oriented” format used by the OTAR KG, displaying one interaction with additional data.
 B) The Cypher query to receive one interaction from the OTAR graph.
 C) The migrated, “task-oriented” format produced by the BioCypher adapter, displaying one interaction.
 The “additional data” from (A) about experiment and evidence type can be added to the interaction node as a property or encoded in additional nodes connected to the interaction node.
 D) The Cypher query to receive one interaction from the migrated graph.
+](images/figure_s_network_expansion.png){#fig:S3 width=100%}
 
 Most of this reduction is due to removal of information that is not relevant to the task at hand and semantic abstraction; for instance, the original chain of `(“hgnc”)-[:database]-(“SNAI1”)-[:preferredIdentifier]-(:Interactor)-[:interactorB]-(:Interaction)-[:interactorA]-(:Interactor)-[:preferredIdentifier]-(“EP300”)-[:database]-(“hgnc”)` to qualify one protein-protein-interaction can be reduced to `(“EP300”)-[:enzyme]-(“phosphorylation”)-[:enzyme target]-(“SNAI1”)`.
 Arguably, the shorter BioCypher query is also more informative, since it details the type of interaction as well as the roles of the participants.
@@ -814,9 +818,8 @@ Indeed, selecting the desired KG entities from the complete adapter required neg
 Finally, the protein- and pathway-based patient descriptors were obtained by running the Bioteque embedding pipeline (https://gitlabsbnb.irbbarcelona.org/bioteque/).
 The two resulting patient embedding spaces and their corresponding cluster similarity are provided in Figure S4.
 
-
-Figure S4.
-Bioteque-based patient embeddings.
+![
+**Bioteque-based patient embeddings.**
 Two embedding spaces were obtained to describe patients (‘Subjects’ nodes in the CKG) based on protein (left) and protein-pathway (right) similarities.
 a, d: 2D projection (t-SNE) of the subjects according to the protein similarity (a) and pathway similarity (d).
 Subject nodes are coloured by disease type (see legend at the bottom) while proteins (a) and pathways (d) are coloured in grey.
@@ -830,6 +833,7 @@ Thus, the higher/redder the z-score the higher the similarity.
 An agglomerative hierarchical clustering based on the protein-driven similarities (c) was used to sort the rows and columns in both heatmaps (c, f).
 Rows (columns) are coloured based on the subject's disease (see legend at the bottom).
 Notice how, while both spaces are unsurprisingly similar (i.e., both are based on protein readouts), the pathway-driven similarities reveal sub-clusters within disease types that were not evident based on purely protein-driven similarities.
+](images/figure_s_bioteque.png){#fig:S4 width=100%}
 
 Note that, thanks to the modular nature of the Bioteque pipeline, it is possible to generate embeddings from any network (even beyond the ones used in the Bioteque KG) by just extracting the connections forming the metapath.
 In this regard, BioCypher offers a handy means to query the pertinent input files for the Bioteque pipeline, paving the way for an efficient exploration, identification, and extraction of task-specific KG contexts (e.g., generation of KG embeddings for patient similarity exploration).
@@ -886,11 +890,12 @@ At each training location, a task-specific KG is created from public data (e.g.,
 Afterwards, the sensitive patient data (e.g., germ-line genetic variants) are integrated into this KG at each location, using the BioCypher schema configuration to specify the type of data involved (e.g., clinical measurements, genetic profiling).
 This ensures that, regardless of how the sensitive data are represented at each location, the machine learning algorithm works with the exact same structure of KG, preventing accidental or malicious data leakage in the federated learning step.
 
-
-Figure S5: User interface.
+![
+**User interface.**
 BioCypher provides high-level users with an abstracted pipeline interface that is used to aggregate data from primary adapters while collecting and unifying the individual data inputs.
 Configuration needs to take place only globally when combining adapters that provide overlapping identifier systems, which can be assessed through the pipeline interface.
 This is useful to synchronise proprietary or sensitive data between single locations in a federated learning pipeline, since the adapters that contain non-public data only need to provide non-sensitive, summary level information about the data they supply.
+](images/figure_s_pipeline.png){#fig:S5 width=100%}
 
 ### Data integration
 
@@ -926,7 +931,7 @@ To achieve this, we are using the BioCypher framework to create a biomedical KG 
 The KG will be expanded over time through experimental results as well as clinical annotation and will provide an interface for different roles in the cancer research process.
 The maintenance and integration of the biomedical knowledge graph with patient data offers new opportunities for analysis that may enhance the accuracy and effectiveness of precision medicine approaches.
 
-Upscaling
+### Upscaling
 
 As biomedical data become larger, integrated analysis pipelines become more expansive and, thus, expensive.
 For numerous projects in systems biomedicine to succeed, a flexible way of maintaining and analysing large sets of knowledge is necessary.

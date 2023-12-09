@@ -74,7 +74,7 @@ Dunham
 DZD
 Earlham
 EBI
-embeddings
+Embeddings
 EMBL
 ENSEMBL
 Enum
@@ -144,7 +144,7 @@ MII
 MIRACOLIX
 MIRACUM
 misannotation
-modularity
+Modularity
 MONDO
 MSCoreSys
 namespace
@@ -152,6 +152,7 @@ namespaces
 NCT
 NetworkX
 Neuenheimer
+Neuherberg
 Niklas
 Nordisk
 Novo
@@ -179,13 +180,13 @@ programmatically
 programme
 proteome
 Proteomics
-pypath
+PyPath
 PyPI
 PySpark
 Quadram
 REACTOME
 Recerca
-Reproducibility
+reproducibility
 reproducibly
 repurposing
 reusability
