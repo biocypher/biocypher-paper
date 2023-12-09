@@ -20,10 +20,10 @@ Bioconductor
 BioCypher
 BioCypher’s
 BioGRID
-Bioinformatics
+bioinformatics
 Biolink
 biomarkers
-biomedicine
+Biomedicine
 BioPAX
 Bioquant
 Bioregistry
@@ -74,7 +74,7 @@ Dunham
 DZD
 Earlham
 EBI
-Embeddings
+embeddings
 EMBL
 ENSEMBL
 Enum
@@ -115,7 +115,7 @@ Im
 Institució
 Institut
 Interactomics
-interoperable
+Interoperable
 IQR
 IRB
 iteratively
@@ -179,14 +179,14 @@ Probul
 programmatically
 programme
 proteome
-Proteomics
+proteomics
 pypath
 PyPI
 PySpark
 Quadram
-REACTOME
+Reactome
 Recerca
-reproducibility
+Reproducibility
 reproducibly
 repurposing
 reusability
@@ -206,7 +206,7 @@ SNE
 SNOMED
 spectrometry
 subfield
-subgraph
+Subgraph
 subgraphs
 subsetting
 subtree
