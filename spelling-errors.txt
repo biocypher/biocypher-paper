@@ -20,7 +20,7 @@ Bioconductor
 BioCypher
 BioCypher’s
 BioGRID
-bioinformatics
+Bioinformatics
 Biolink
 biomarkers
 Biomedicine
@@ -179,14 +179,14 @@ Probul
 programmatically
 programme
 proteome
-proteomics
-pypath
+Proteomics
+PyPath
 PyPI
 PySpark
 Quadram
 Reactome
 Recerca
-Reproducibility
+reproducibility
 reproducibly
 repurposing
 reusability

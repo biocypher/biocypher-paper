@@ -53,8 +53,8 @@ header-includes: |
   <meta name="dc.date" content="2023-12-09" />
   <meta name="citation_publication_date" content="2023-12-09" />
   <meta property="article:published_time" content="2023-12-09" />
-  <meta name="dc.modified" content="2023-12-09T16:55:11+00:00" />
-  <meta property="article:modified_time" content="2023-12-09T16:55:11+00:00" />
+  <meta name="dc.modified" content="2023-12-09T17:07:20+00:00" />
+  <meta property="article:modified_time" content="2023-12-09T17:07:20+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -146,9 +146,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://biocypher.github.io/biocypher-paper/" />
   <meta name="citation_pdf_url" content="https://biocypher.github.io/biocypher-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://biocypher.github.io/biocypher-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://biocypher.github.io/biocypher-paper/v/13348e9e1b2015ccf9ac5e87dc8999209a37735b/" />
-  <meta name="manubot_html_url_versioned" content="https://biocypher.github.io/biocypher-paper/v/13348e9e1b2015ccf9ac5e87dc8999209a37735b/" />
-  <meta name="manubot_pdf_url_versioned" content="https://biocypher.github.io/biocypher-paper/v/13348e9e1b2015ccf9ac5e87dc8999209a37735b/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://biocypher.github.io/biocypher-paper/v/496d9538d0c164bf51be0a5e496119af31617763/" />
+  <meta name="manubot_html_url_versioned" content="https://biocypher.github.io/biocypher-paper/v/496d9538d0c164bf51be0a5e496119af31617763/" />
+  <meta name="manubot_pdf_url_versioned" content="https://biocypher.github.io/biocypher-paper/v/496d9538d0c164bf51be0a5e496119af31617763/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -170,9 +170,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://biocypher.github.io/biocypher-paper/v/13348e9e1b2015ccf9ac5e87dc8999209a37735b/))
+([permalink](https://biocypher.github.io/biocypher-paper/v/496d9538d0c164bf51be0a5e496119af31617763/))
 was automatically generated
-from [biocypher/biocypher-paper@13348e9](https://github.com/biocypher/biocypher-paper/tree/13348e9e1b2015ccf9ac5e87dc8999209a37735b)
+from [biocypher/biocypher-paper@496d953](https://github.com/biocypher/biocypher-paper/tree/496d9538d0c164bf51be0a5e496119af31617763)
 on December 9, 2023.
 </em></small>
 
@@ -606,13 +606,13 @@ Despite its speed, automated testing of millions of entities and relationships p
 There have been numerous attempts at standardising knowledge graphs and making biomedical data stores more interoperable [@doi:10.1093/bib/bbac404;@doi:10.1146/annurev-biodatasci-010820-091627].
 They can be divided into three broad classes representing increasing levels of abstraction of the KG build process: 
 
-1) Centrally maintained databases include task-oriented data collections such as OmniPath 4 or the CKG [@doi:10.1038/s41587-021-01145-6].
+1) Centrally maintained databases include task-oriented data collections such as OmniPath [@doi:10.1038/nmeth.4077] or the CKG [@doi:10.1038/s41587-021-01145-6].
 They are the least flexible form of knowledge representation, usually bound to a specific research purpose, and are highly dependent on their primary maintainers for continuous functioning.
 BioCypher reduces the development and maintenance overhead that usually goes along with such a resource, making a task-specific KG feasible for smaller and less bioinformatics-focused groups.
 These databases usually do not conform to any standard in their knowledge representation, hindering their integration.
 In contrast, with BioCypher, we migrate OmniPath, CKG, and other popular databases onto an interoperable KG framework.
 
-2) Explicit standard formats or modelling languages include the Biolink model 1, BEL [@doi:10.1016/j.drudis.2013.12.011], GO-CAM [@doi:10.1038/s41588-019-0500-1], SBML [@doi:10.15252/msb.20199110], BioPAX [@doi:10.1038/nbt.1666], and PSI-MI [@doi:10.1038/nbt926].
+2) Explicit standard formats or modelling languages include the Biolink model [@doi:10.1111/cts.13302], BEL [@doi:10.1016/j.drudis.2013.12.011], GO-CAM [@doi:10.1038/s41588-019-0500-1], SBML [@doi:10.15252/msb.20199110], BioPAX [@doi:10.1038/nbt.1666], and PSI-MI [@doi:10.1038/nbt926].
 There are many more, each a solution to a very specific problem, as reviewed elsewhere [@doi:10.1016/j.drudis.2013.12.011;@doi:10.1093/bioinformatics/bti718]; some are part of the COMBINE standard ecosystem [@doi:10.3389/fbioe.2015.00019].
 Their main shortcoming is the rigidity that follows from their data model definitions: to represent data in one of these languages, the user needs to fully adopt it.
 If the task exceeds the scope of the language, the user needs to either look for alternatives, or introduce new features into the language, which can be a lengthy process.
@@ -620,7 +620,7 @@ In addition, some features may be incompatible, and thus, one centrally maintain
 With BioCypher, each of the above languages can be adopted as the basis for a particular knowledge graph; in fact, we use the Biolink model as a basic ontology.
 Inside our framework, these languages can be freely and transparently exchanged, modified, extended, and hybridised, as we show in several of our case studies (e.g., “Tumour board” extends Biolink with Sequence Ontology and Disease Ontology).
 
-3) KG frameworks provide a means to build KGs, similar to the idea of BioCypher 14;[@doi:10.1101/631812;@doi:10.1101/2020.08.17.254839;@doi:10.1186/s12859-022-04932-3].
+3) KG frameworks provide a means to build KGs, similar to the idea of BioCypher [@doi:10.1101/2020.04.30.071407;@doi:10.1101/631812;@doi:10.1101/2020.08.17.254839;@doi:10.1186/s12859-022-04932-3].
 However, most tie themselves tightly to a particular standard format or modelling language ecosystem, thereby inheriting many of the limitations described above.
 The Knowledge Graph Hub provides a data loader pipeline, KGX allows conversion of KGs between different technical formats, and RTX-KG2 builds a fixed semantically standardised KG; all three adhere to the Biolink model [@doi:10.1101/2020.08.17.254839;@doi:10.1186/s12859-022-04932-3].
 Bio2BEL is an extensive framework to transform primary databases into BEL [@doi:10.1101/631812].
