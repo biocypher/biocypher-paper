@@ -50,7 +50,7 @@ CogEx
 comorbidities
 corpuses
 COVID
-CovidGraph
+Covidgraph
 CSV
 curation
 curations
@@ -115,7 +115,7 @@ Im
 Institució
 Institut
 Interactomics
-interoperable
+Interoperable
 IQR
 IRB
 iteratively
@@ -180,11 +180,11 @@ programmatically
 programme
 proteome
 Proteomics
-PyPath
+pypath
 PyPI
 PySpark
 Quadram
-REACTOME
+Reactome
 Recerca
 Reproducibility
 reproducibly
