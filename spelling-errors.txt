@@ -20,7 +20,7 @@ Bioconductor
 BioCypher
 BioCypher’s
 BioGRID
-Bioinformatics
+bioinformatics
 Biolink
 biomarkers
 Biomedicine
@@ -115,7 +115,7 @@ Im
 Institució
 Institut
 Interactomics
-Interoperable
+interoperable
 IQR
 IRB
 iteratively
@@ -144,7 +144,7 @@ MII
 MIRACOLIX
 MIRACUM
 misannotation
-Modularity
+modularity
 MONDO
 MSCoreSys
 namespace
@@ -179,8 +179,8 @@ Probul
 programmatically
 programme
 proteome
-Proteomics
-PyPath
+proteomics
+pypath
 PyPI
 PySpark
 Quadram
