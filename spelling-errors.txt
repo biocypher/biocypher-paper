@@ -5,6 +5,7 @@ Aloy
 Andreas
 APIs
 ArangoDB
+ARDEB
 Assis
 Astex
 autocomplete
@@ -20,7 +21,7 @@ Bioconductor
 BioCypher
 BioCypher’s
 BioGRID
-bioinformatics
+Bioinformatics
 Biolink
 biomarkers
 Biomedicine
@@ -74,7 +75,7 @@ Dunham
 DZD
 Earlham
 EBI
-Embeddings
+embeddings
 EMBL
 ENSEMBL
 Enum
@@ -115,7 +116,7 @@ Im
 Institució
 Institut
 Interactomics
-interoperable
+Interoperable
 IQR
 IRB
 iteratively
@@ -144,7 +145,7 @@ MII
 MIRACOLIX
 MIRACUM
 misannotation
-modularity
+Modularity
 MONDO
 MSCoreSys
 namespace
@@ -180,16 +181,16 @@ programmatically
 programme
 proteome
 proteomics
-pypath
+PyPath
 PyPI
 PySpark
 Quadram
-REACTOME
+Reactome
 Recerca
-reproducibility
+Reproducibility
 reproducibly
 repurposing
-reusability
+Reusability
 ROBOKOP
 ROC
 RTX
@@ -219,6 +220,7 @@ transcriptomics
 translational
 TransQST
 Travere
+TUBITAK
 Tunca
 Turei
 TypeDB

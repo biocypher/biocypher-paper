@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2024-03-04'
+date-meta: '2024-11-27'
 author-meta:
 - Sebastian Lobentanzer
 - Patrick Aloy
@@ -50,11 +50,11 @@ header-includes: |
   <meta name="citation_title" content="Democratizing knowledge representation with BioCypher" />
   <meta property="og:title" content="Democratizing knowledge representation with BioCypher" />
   <meta property="twitter:title" content="Democratizing knowledge representation with BioCypher" />
-  <meta name="dc.date" content="2024-03-04" />
-  <meta name="citation_publication_date" content="2024-03-04" />
-  <meta property="article:published_time" content="2024-03-04" />
-  <meta name="dc.modified" content="2024-03-04T19:10:59+00:00" />
-  <meta property="article:modified_time" content="2024-03-04T19:10:59+00:00" />
+  <meta name="dc.date" content="2024-11-27" />
+  <meta name="citation_publication_date" content="2024-11-27" />
+  <meta property="article:published_time" content="2024-11-27" />
+  <meta name="dc.modified" content="2024-11-27T09:58:16+00:00" />
+  <meta property="article:modified_time" content="2024-11-27T09:58:16+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -146,9 +146,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://biocypher.github.io/biocypher-paper/" />
   <meta name="citation_pdf_url" content="https://biocypher.github.io/biocypher-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://biocypher.github.io/biocypher-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://biocypher.github.io/biocypher-paper/v/68e8a49dba1dbde91963df97d920013a9d35befa/" />
-  <meta name="manubot_html_url_versioned" content="https://biocypher.github.io/biocypher-paper/v/68e8a49dba1dbde91963df97d920013a9d35befa/" />
-  <meta name="manubot_pdf_url_versioned" content="https://biocypher.github.io/biocypher-paper/v/68e8a49dba1dbde91963df97d920013a9d35befa/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://biocypher.github.io/biocypher-paper/v/f6d30ef0b0e33c5bb2b413df5a699c62af8f8a46/" />
+  <meta name="manubot_html_url_versioned" content="https://biocypher.github.io/biocypher-paper/v/f6d30ef0b0e33c5bb2b413df5a699c62af8f8a46/" />
+  <meta name="manubot_pdf_url_versioned" content="https://biocypher.github.io/biocypher-paper/v/f6d30ef0b0e33c5bb2b413df5a699c62af8f8a46/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -170,10 +170,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://biocypher.github.io/biocypher-paper/v/68e8a49dba1dbde91963df97d920013a9d35befa/))
+([permalink](https://biocypher.github.io/biocypher-paper/v/f6d30ef0b0e33c5bb2b413df5a699c62af8f8a46/))
 was automatically generated
-from [biocypher/biocypher-paper@68e8a49](https://github.com/biocypher/biocypher-paper/tree/68e8a49dba1dbde91963df97d920013a9d35befa)
-on March 4, 2024.
+from [biocypher/biocypher-paper@f6d30ef](https://github.com/biocypher/biocypher-paper/tree/f6d30ef0b0e33c5bb2b413df5a699c62af8f8a46)
+on November 27, 2024.
 </em></small>
 
 
@@ -483,7 +483,7 @@ We will provide hands-on training for all interested researchers, and we invite 
 
 ## Acknowledgements
 
-This project has received funding from the European Union’s Horizon 2020 research and innovation programme (grant agreement No 965193 [DECIDER] and 116030 [TransQST]), the German Federal Ministry of Education and Research (BMBF, Computational Life Sciences grant No 031L0181B and MSCoreSys research initiative research core SMART-CARE 031L0212A), the Defense Advanced Research Projects Agency (DARPA) Young Faculty Award [W911NF-20-1-0255], and the Medical Informatics Initiative Germany, MIRACUM consortium, FKZ: 01ZZ2019.
+This project has received funding from the European Union’s Horizon 2020 research and innovation programme (grant agreement No 965193 [DECIDER] and 116030 [TransQST]), the German Federal Ministry of Education and Research (BMBF, Computational Life Sciences grant No 031L0181B and MSCoreSys research initiative research core SMART-CARE 031L0212A), the Defense Advanced Research Projects Agency (DARPA) Young Faculty Award [W911NF-20-1-0255], the Medical Informatics Initiative Germany, MIRACUM consortium, FKZ: 01ZZ2019, and the TUBITAK ARDEB 3501 Career Development Program (Project No: 120E531).
 
 We thank Henning Hermjakob, Benjamin Haibe-Kains, Pablo Rodriguez-Mier, Daniel Dimitrov, and Olga Ivanova for feedback on the manuscript, and Ben Hitz and Pedro Assis for feedback on their use of BioCypher.
 

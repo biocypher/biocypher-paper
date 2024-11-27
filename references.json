@@ -1048,11 +1048,11 @@
     "title": "The OBO Foundry: coordinated evolution of ontologies to support biomedical data integration",
     "volume": "25",
     "author": [
+      {},
       {
         "given": "Barry",
         "family": "Smith"
       },
-      {},
       {
         "given": "Michael",
         "family": "Ashburner"
@@ -2217,6 +2217,7 @@
         "given": "Elena",
         "family": "Chavarria"
       },
+      {},
       {
         "given": "Shubha",
         "family": "Anand"
@@ -2452,8 +2453,7 @@
       {
         "given": "Janne",
         "family": "Lehtiö"
-      },
-      {}
+      }
     ],
     "container-title": "Nature Medicine",
     "language": "en",
@@ -4708,7 +4708,7 @@
   },
   {
     "publisher": "Cold Spring Harbor Laboratory",
-    "abstract": "<jats:title>ABSTRACT</jats:title><jats:sec><jats:title>Motivation</jats:title><jats:p>Although knowledge graphs (KGs) are used extensively in biomedical research to model complex phenomena, many KG construction methods remain largely unable to account for the use of different standardized terminologies or vocabularies, are often difficult to use, and perform poorly as the size of the KG increases in scale. We introduce PheKnowLator (Phenotype Knowledge Translator), a novel KG framework and fully automated Python 3 library explicitly designed for optimized construction of semantically-rich, large-scale biomedical KGs. To demonstrate the functionality of the framework, we built and evaluated eight different parameterizations of a large semantic KG of human disease mechanisms. PheKnowLator is available at: <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/callahantiff/PheKnowLator\">https://github.com/callahantiff/PheKnowLator</jats:ext-link>.</jats:p></jats:sec>",
+    "abstract": "<jats:title>ABSTRACT</jats:title><jats:sec><jats:title>Motivation</jats:title><jats:p>Although knowledge graphs (KGs) are used extensively in biomedical research to model complex phenomena, many KG construction methods remain largely unable to account for the use of different standardized terminologies or vocabularies, are often difficult to use, and perform poorly as the size of the KG increases in scale. We introduce PheKnowLator (Phenotype Knowledge Translator), a novel KG framework and fully automated Python 3 library explicitly designed for optimized construction of semantically-rich, large-scale biomedical KGs. To demonstrate the functionality of the framework, we built and evaluated eight different parameterizations of a large semantic KG of human disease mechanisms. PheKnowLator is available at:<jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/callahantiff/PheKnowLator\">https://github.com/callahantiff/PheKnowLator</jats:ext-link>.</jats:p></jats:sec>",
     "DOI": "10.1101/2020.04.30.071407",
     "type": "manuscript",
     "source": "Crossref",
@@ -5143,11 +5143,11 @@
   },
   {
     "publisher": "Cold Spring Harbor Laboratory",
-    "abstract": "<jats:p>There are more than 7,000 rare diseases, some of which affect 3,500 or fewer patients in the US. Due to clinicians’ limited experience with such diseases and the considerable heterogeneity of their clinical presentations, many patients with rare genetic diseases remain undiagnosed. While artificial intelligence has demonstrated success in assisting diagnosis, its success is usually contingent on the availability of large labeled datasets. Here, we present<jats:sc>shepherd</jats:sc>, a deep learning approach for multi-faceted rare disease diagnosis.<jats:sc>shepherd</jats:sc>is guided by existing knowledge of diseases, phenotypes, and genes to learn novel connections between a patient’s clinico-genetic information and phenotype and gene relationships. We train<jats:sc>shepherd</jats:sc>exclusively on simulated patients and evaluate on a cohort of 465 patients representing 299 diseases (79% of genes and 83% of diseases are represented in only a single patient) in the Undiagnosed Diseases Network.<jats:sc>shepherd</jats:sc>excels at several diagnostic facets: performing causal gene discovery (causal genes are predicted at rank = 3.52 on average), retrieving “patients-like-me” with the same gene or disease, and providing interpretable characterizations of novel disease presentations.<jats:sc>shepherd</jats:sc>demonstrates the potential of artificial intelligence to accelerate the diagnosis of rare disease patients and has implications for the use of deep learning on medical datasets with very few labels.</jats:p>",
+    "abstract": "<jats:p>There are more than 7,000 rare diseases, some affecting 3,500 or fewer patients in the US. Due to clinicians’ limited experience with such diseases and the heterogeneity of clinical presentations, approximately 70% of individuals seeking a diagnosis today remain undiagnosed. Deep learning has demonstrated success in aiding the diagnosis of common diseases. However, existing approaches require labeled datasets with thousands of diagnosed patients per disease. Here, we present SHEPHERD, a few shot learning approach for multi-faceted rare disease diagnosis. SHEPHERD performs deep learning over a biomedical knowledge graph enriched with rare disease information to perform phenotype-driven diagnosis. Once trained, we show that SHEPHERD can provide clinical insights about real-world patients. We evaluate SHEPHERD on a cohort of N = 465 patients representing 299 diseases (79% of genes and 83% of diseases are represented in only a single patient) in the Undiagnosed Diseases Network. SHEPHERD excels at several diagnostic facets: performing causal gene discovery (causal genes are predicted at rank = 3.56 on average), retrieving “patients-like-me” with the same causal gene or disease, and providing interpretable characterizations of novel disease presentations. We additionally examine SHEPHERD on two other real-world cohorts, MyGene2 (N = 146) and Deciphering Developmental Disorders Study (N = 1,431). SHEPHERD demonstrates the potential of deep learning to accelerate rare disease diagnosis and has implications for using deep learning on medical datasets with very few labels.</jats:p>",
     "DOI": "10.1101/2022.12.07.22283238",
     "type": "manuscript",
     "source": "Crossref",
-    "title": "Deep learning for diagnosing patients with rare genetic diseases",
+    "title": "Few shot learning for phenotype-driven diagnosis of patients with rare genetic diseases",
     "author": [
       {
         "given": "Emily",
@@ -5162,14 +5162,18 @@
         "family": "Kobren"
       },
       {
+        "given": "Ayush",
+        "family": "Noori"
+      },
+      {},
+      {
         "given": "Isaac S.",
         "family": "Kohane"
       },
       {
         "given": "Marinka",
         "family": "Zitnik"
-      },
-      {}
+      }
     ],
     "issued": {
       "date-parts": [
@@ -5791,6 +5795,7 @@
     "publisher": "ACM",
     "DOI": "10.1145/3404835.3462996",
     "type": "paper-conference",
+    "page": "1975-1979",
     "source": "Crossref",
     "title": "On the Privacy of Federated Pipelines",
     "author": [
@@ -6113,7 +6118,7 @@
       ]
     },
     "URL": "https://doi.org/gpf2mh",
-    "container-title-short": "Journal of Translational Medicine",
+    "container-title-short": "J Transl Med",
     "PMCID": "PMC4040487",
     "PMID": "24886498",
     "id": "u1j8EALG",
@@ -6148,7 +6153,7 @@
       ]
     },
     "URL": "https://doi.org/gs52mz",
-    "container-title-short": "Orphanet Journal of Rare Diseases",
+    "container-title-short": "Orphanet J Rare Dis",
     "PMCID": "PMC4249588",
     "id": "nELyJbhp",
     "note": "This CSL Item was generated by Manubot v0.5.6 from its persistent identifier (standard_id).\nstandard_id: doi:10.1186/1750-1172-9-s1-o10"
@@ -6156,6 +6161,7 @@
   {
     "publisher": "Springer Science and Business Media LLC",
     "issue": "5",
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>The Sequence Ontology (SO) is a structured controlled vocabulary for the parts of a genomic annotation. SO provides a common set of terms and definitions that will facilitate the exchange, analysis and management of genomic data. Because SO treats part-whole relationships rigorously, data described with it can become substrates for automated reasoning, and instances of sequence features described by the SO can be subjected to a group of logical operations termed extensional mereology operators.</jats:p>",
     "DOI": "10.1186/gb-2005-6-5-r44",
     "type": "article-journal",
     "source": "Crossref",
@@ -6979,7 +6985,7 @@
     "DOI": "10.15252/msb.20199110",
     "type": "article-journal",
     "source": "Crossref",
-    "title": "<scp>SBML</scp>\n            Level 3: an extensible format for the exchange and reuse of biological models",
+    "title": "<scp>SBML</scp>Level 3: an extensible format for the exchange and reuse of biological models",
     "volume": "16",
     "author": [
       {
@@ -7190,6 +7196,7 @@
         "given": "Michael",
         "family": "Hucka"
       },
+      {},
       {
         "given": "Richard R",
         "family": "Adams"
@@ -7545,8 +7552,7 @@
       {
         "given": "Jeremy",
         "family": "Zucker"
-      },
-      {}
+      }
     ],
     "container-title": "Molecular Systems Biology",
     "language": "en",
@@ -7835,15 +7841,15 @@
         "family": "Pham"
       },
       {
-        "given": "Ruben",
+        "given": "Ruben G. A.",
         "family": "van Heck"
       },
       {
-        "given": "Jesse",
+        "given": "Jesse C. J.",
         "family": "van Dam"
       },
       {
-        "given": "Peter",
+        "given": "Peter J.",
         "family": "Schaap"
       },
       {
@@ -8389,7 +8395,7 @@
     "publisher": "arXiv",
     "title": "UniHPF : Universal Healthcare Predictive Framework with Zero Domain Knowledge",
     "URL": "https://doi.org/gs52nd",
-    "version": "1",
+    "version": "2",
     "note": "This CSL Item was generated by Manubot v0.5.6 from its persistent identifier (standard_id).\nstandard_id: doi:10.48550/arxiv.2211.08082"
   },
   {
